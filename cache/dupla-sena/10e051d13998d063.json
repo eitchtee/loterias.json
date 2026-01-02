@@ -1,0 +1,178 @@
+{
+  "cookies": {
+    "__uzmc": "71984142683159",
+    "__uzmd": "1767319735"
+  },
+  "created_at": "2026-01-02T02:08:40.415298+00:00",
+  "elapsed": 0.084986,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:08:40.415274+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:08:55 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=71984142683159; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319735; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "f550a7c64dc4f64185232ff49885934a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "3f6f15d6-67db-4478-803d-5be5174582d7",
+      "__uzmb": "1767319693",
+      "__uzme": "7503",
+      "__uzmc": "88974142359332",
+      "__uzmd": "1767319735"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3f6f15d6-67db-4478-803d-5be5174582d7; __uzmb=1767319693; __uzme=7503; __uzmc=88974142359332; __uzmd=1767319735",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1797"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1797",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "08/06/2018",
+    "dataProximoConcurso": "09/06/2018",
+    "dezenasSorteadasOrdemSorteio": [
+      "24",
+      "08",
+      "09",
+      "44",
+      "05",
+      "48",
+      "03",
+      "30",
+      "31",
+      "36",
+      "05",
+      "08"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "08",
+      "09",
+      "24",
+      "44",
+      "48"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "03",
+      "05",
+      "08",
+      "30",
+      "31",
+      "36"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BETIM",
+        "nomeFatansiaUL": "",
+        "posicao": 2,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "DORES DO INDAI\u00c1",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 899434.55
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 3480.99
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 804,
+        "valorPremio": 64.32
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 14988,
+        "valorPremio": 1.72
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 49778.09
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 18,
+        "valorPremio": 2262.64
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 691,
+        "valorPremio": 74.84
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 8,
+        "numeroDeGanhadores": 13276,
+        "valorPremio": 1.94
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "GOI\u00c1S, GO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1797,
+    "numeroConcursoAnterior": 1796,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1798,
+    "numeroJogo": 18,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 1491302.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 2439762.48,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 120000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

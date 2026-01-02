@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "75781335245992",
+    "__uzmd": "1767320496"
+  },
+  "created_at": "2026-01-02T02:21:21.655250+00:00",
+  "elapsed": 0.087761,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:21:21.655233+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:21:36 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=75781335245992; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:36 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320496; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:36 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c801e519ca4def0885876cd6c2118060",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "93494334983162",
+      "__uzmd": "1767320496"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=93494334983162; __uzmd=1767320496",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1114"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1114",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "03/10/2014",
+    "dataProximoConcurso": "06/10/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "20",
+      "05",
+      "08",
+      "18",
+      "12",
+      "06",
+      "22",
+      "04",
+      "11",
+      "10",
+      "19",
+      "01",
+      "15",
+      "02",
+      "03"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "08",
+      "10",
+      "11",
+      "12",
+      "15",
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CAMA\u00c7ARI",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "ITABERABA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "COSTA RICA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "S\u00c3O PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 501959.52
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 475,
+        "valorPremio": 1300.63
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18773,
+        "valorPremio": 15.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 225065,
+        "valorPremio": 6.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1357920,
+        "valorPremio": 3.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "EST\u00daDIO DE TV",
+    "nomeMunicipioUFSorteio": "OSASCO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1114,
+    "numeroConcursoAnterior": 1113,
+    "numeroConcursoFinal_0_5": 1120,
+    "numeroConcursoProximo": 1115,
+    "numeroJogo": 8,
+    "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 22986765.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 5290458.87,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

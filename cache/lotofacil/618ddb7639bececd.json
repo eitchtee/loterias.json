@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "42783628644567",
+    "__uzmd": "1767320577"
+  },
+  "created_at": "2026-01-02T02:22:43.268302+00:00",
+  "elapsed": 0.103741,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:22:43.268284+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:22:58 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=42783628644567; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:57 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320577; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:57 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6475f5bb30e67361bf158a1a6a7e70e6",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "99227628395876",
+      "__uzmd": "1767320577"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=99227628395876; __uzmd=1767320577",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/2092"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/2092",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "26/11/2020",
+    "dataProximoConcurso": "27/11/2020",
+    "dezenasSorteadasOrdemSorteio": [
+      "19",
+      "25",
+      "17",
+      "11",
+      "05",
+      "01",
+      "20",
+      "07",
+      "15",
+      "03",
+      "09",
+      "13",
+      "02",
+      "18",
+      "22"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "03",
+      "05",
+      "07",
+      "09",
+      "11",
+      "13",
+      "15",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "PAPAGAIOS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "MACAE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "PORTO ALEGRE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTO ANTONIO DA PATRULHA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 683726.57
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 749,
+        "valorPremio": 446.14
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 21396,
+        "valorPremio": 25.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 196339,
+        "valorPremio": 10.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 821513,
+        "valorPremio": 5.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O LOTERIAS CAIXA",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 2092,
+    "numeroConcursoAnterior": 2091,
+    "numeroConcursoFinal_0_5": 2100,
+    "numeroConcursoProximo": 2093,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21167992.5,
+    "valorAcumuladoConcurso_0_5": 441113.92,
+    "valorAcumuladoConcursoEspecial": 21559991.27,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

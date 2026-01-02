@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "65609159112353",
+    "__uzmd": "1767319618"
+  },
+  "created_at": "2026-01-02T02:06:43.600209+00:00",
+  "elapsed": 0.075141,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:43.600191+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:58 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=65609159112353; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:58 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319618; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:58 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "1a413aeb73a762b173b66e0c82147496",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "83962158895894",
+      "__uzmd": "1767319618"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=83962158895894; __uzmd=1767319618",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/527"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/527",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "30/01/2007",
+    "dataProximoConcurso": "02/02/2007",
+    "dezenasSorteadasOrdemSorteio": [
+      "23",
+      "37",
+      "07",
+      "18",
+      "06",
+      "13",
+      "25",
+      "29",
+      "12",
+      "23",
+      "05",
+      "28"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "07",
+      "13",
+      "18",
+      "23",
+      "37"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "05",
+      "12",
+      "23",
+      "25",
+      "28",
+      "29"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 33,
+        "valorPremio": 3082.22
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1953,
+        "valorPremio": 51.89
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "GUARATUBA, PR",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 527,
+    "numeroConcursoAnterior": 526,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 528,
+    "numeroJogo": 18,
+    "observacao": "ACUMULOU! Estimativa de pr\u00eamio (sena 1\u00ba sorteio) para o pr\u00f3ximo concurso, a ser realizado em 02/02/2007: R$3.000.00,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2795591.31,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

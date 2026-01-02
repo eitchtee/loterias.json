@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "33666505678177",
+    "__uzmd": "1767320544"
+  },
+  "created_at": "2026-01-02T02:22:09.284662+00:00",
+  "elapsed": 0.103907,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:22:09.284645+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:22:24 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=33666505678177; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:24 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320544; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:24 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "336cf773f653dc5e2b06102fad875248",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "41322505385488",
+      "__uzmd": "1767320543"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=41322505385488; __uzmd=1767320543",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1682"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1682",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "29/06/2018",
+    "dataProximoConcurso": "02/07/2018",
+    "dezenasSorteadasOrdemSorteio": [
+      "20",
+      "15",
+      "01",
+      "07",
+      "13",
+      "25",
+      "17",
+      "09",
+      "19",
+      "21",
+      "18",
+      "12",
+      "04",
+      "06",
+      "05"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "04",
+      "05",
+      "06",
+      "07",
+      "09",
+      "12",
+      "13",
+      "15",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "INHUMAS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "GO"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "FORMIGA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "PINHAIS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 588976.22
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 655,
+        "valorPremio": 1185.75
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18768,
+        "valorPremio": 20.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 199683,
+        "valorPremio": 8.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1044807,
+        "valorPremio": 4.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "CAMPINA GRANDE, PB",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1682,
+    "numeroConcursoAnterior": 1681,
+    "numeroConcursoFinal_0_5": 1690,
+    "numeroConcursoProximo": 1683,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 23150122.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 57790497.73,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

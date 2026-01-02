@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "664512238774",
+    "__uzmd": "1767319544"
+  },
+  "created_at": "2026-01-02T02:05:29.271066+00:00",
+  "elapsed": 0.095265,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:05:29.271050+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:05:44 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=664512238774; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:05:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319544; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:05:44 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "7b95a22d7665ac9caa094adfdbea4111",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "406461914777",
+      "__uzmd": "1767319543"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=406461914777; __uzmd=1767319543",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/4"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/4",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "16/11/2001",
+    "dataProximoConcurso": "20/11/2001",
+    "dezenasSorteadasOrdemSorteio": [
+      "38",
+      "44",
+      "50",
+      "46",
+      "43",
+      "29",
+      "44",
+      "46",
+      "02",
+      "07",
+      "49",
+      "11"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "29",
+      "38",
+      "43",
+      "44",
+      "46",
+      "50"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "02",
+      "07",
+      "11",
+      "44",
+      "46",
+      "49"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 8,
+        "valorPremio": 10668.17
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1042,
+        "valorPremio": 81.59
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Sobral, CE",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4,
+    "numeroConcursoAnterior": 3,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 5,
+    "numeroJogo": 18,
+    "observacao": "Estimativa pr\u00eamio (1\u00ba sorteio - sena) pr\u00f3ximo concurso: R$1.600.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1420727.93,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

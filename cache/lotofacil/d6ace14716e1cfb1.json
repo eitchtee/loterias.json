@@ -1,0 +1,148 @@
+{
+  "cookies": {
+    "__uzmc": "45511178610950",
+    "__uzmd": "1767320447"
+  },
+  "created_at": "2026-01-02T02:20:32.884463+00:00",
+  "elapsed": 0.087229,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:32.884447+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:47 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=45511178610950; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:47 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320447; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:47 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d302ada66b4e8ca73d7588b4312fe7f9",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "40113178334337",
+      "__uzmd": "1767320447"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=40113178334337; __uzmd=1767320447",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/592"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/592",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "16/12/2010",
+    "dataProximoConcurso": "20/12/2010",
+    "dezenasSorteadasOrdemSorteio": [
+      "19",
+      "16",
+      "18",
+      "22",
+      "20",
+      "05",
+      "08",
+      "17",
+      "01",
+      "09",
+      "03",
+      "14",
+      "15",
+      "06",
+      "10"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "05",
+      "06",
+      "08",
+      "09",
+      "10",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 315,
+        "valorPremio": 2567.78
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 14618,
+        "valorPremio": 12.5
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 190335,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1147118,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "COL\u00cdDER, MT",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 592,
+    "numeroConcursoAnterior": 591,
+    "numeroConcursoFinal_0_5": 600,
+    "numeroConcursoProximo": 593,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 17841922.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1887316.13,
+    "valorEstimadoProximoConcurso": 3900000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "cookies": {
+    "__uzmc": "16322259020312",
+    "__uzmd": "1767320473"
+  },
+  "created_at": "2026-01-02T02:20:58.910367+00:00",
+  "elapsed": 0.075739,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:58.910348+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:21:13 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=16322259020312; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320473; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:13 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "e195f383e53b79f61a832a0cda5d40da",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "86714258768047",
+      "__uzmd": "1767320473"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=86714258768047; __uzmd=1767320473",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/860"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/860",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "25/01/2013",
+    "dataProximoConcurso": "28/01/2013",
+    "dezenasSorteadasOrdemSorteio": [
+      "19",
+      "25",
+      "07",
+      "16",
+      "14",
+      "03",
+      "06",
+      "15",
+      "04",
+      "24",
+      "10",
+      "13",
+      "22",
+      "05",
+      "09"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "09",
+      "10",
+      "13",
+      "14",
+      "15",
+      "16",
+      "19",
+      "22",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BOA ESPERAN\u00c7A",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "FOZ DO IGUA\u00c7U",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 743148.03
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 604,
+        "valorPremio": 1081.65
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18789,
+        "valorPremio": 12.5
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 225126,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1233144,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 860,
+    "numeroConcursoAnterior": 859,
+    "numeroConcursoFinal_0_5": 870,
+    "numeroConcursoProximo": 861,
+    "numeroJogo": 8,
+    "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV. VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DA INDEPEND\u00caNCIA: R$ 20.657.509,23.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 17514966.25,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

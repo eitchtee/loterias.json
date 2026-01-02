@@ -1,0 +1,146 @@
+{
+  "cookies": {
+    "__uzmc": "3289521415228",
+    "__uzmd": "1767319579"
+  },
+  "created_at": "2026-01-02T02:06:04.843846+00:00",
+  "elapsed": 0.082972,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:04.843830+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:19 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=3289521415228; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:19 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319579; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:19 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "1a116888b4944121cd0152a21f90b190",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "9594021188937",
+      "__uzmd": "1767319579"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=9594021188937; __uzmd=1767319579",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/68"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/68",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "12/07/2002",
+    "dataProximoConcurso": "16/07/2002",
+    "dezenasSorteadasOrdemSorteio": [
+      "12",
+      "21",
+      "03",
+      "24",
+      "15",
+      "28",
+      "09",
+      "11",
+      "38",
+      "13",
+      "18",
+      "43"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "12",
+      "15",
+      "21",
+      "24",
+      "28"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "09",
+      "11",
+      "13",
+      "18",
+      "38",
+      "43"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 3112887.14
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 22,
+        "valorPremio": 5138.03
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 2042,
+        "valorPremio": 55.14
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Jaboticabal, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 68,
+    "numeroConcursoAnterior": 67,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 69,
+    "numeroJogo": 18,
+    "observacao": "Estimativa de pr\u00eamio (SENA-1\u00baSORTEIO) pr\u00f3ximo concurso: R$270.000,00. O ganhador da sena-1\u00basorteio \u00e9 de Gravata\u00ed/RS.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

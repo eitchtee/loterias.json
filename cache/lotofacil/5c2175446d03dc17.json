@@ -1,0 +1,165 @@
+{
+  "cookies": {
+    "__uzmc": "87035110576381",
+    "__uzmd": "1767320428"
+  },
+  "created_at": "2026-01-02T02:20:13.801128+00:00",
+  "elapsed": 0.078579,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:13.801109+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:28 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=87035110576381; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:28 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320428; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:28 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "addcaf6a835b1e937966a0b331d25b35",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "81685110297532",
+      "__uzmd": "1767320428"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=81685110297532; __uzmd=1767320428",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/365"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/365",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "09/10/2008",
+    "dataProximoConcurso": "13/10/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "11",
+      "12",
+      "04",
+      "08",
+      "19",
+      "05",
+      "15",
+      "20",
+      "23",
+      "16",
+      "03",
+      "24",
+      "25",
+      "18",
+      "10"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "04",
+      "05",
+      "08",
+      "10",
+      "11",
+      "12",
+      "15",
+      "16",
+      "18",
+      "19",
+      "20",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 651227.17
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 562,
+        "valorPremio": 993.23
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18388,
+        "valorPremio": 10.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 238729,
+        "valorPremio": 4.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1311049,
+        "valorPremio": 2.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "VENDA NOVA DO IMIGRANTE, ES",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 365,
+    "numeroConcursoAnterior": 364,
+    "numeroConcursoFinal_0_5": 370,
+    "numeroConcursoProximo": 366,
+    "numeroJogo": 8,
+    "observacao": "GANHADORES DE 15 ACERTOS: BRAS\u00cdLIA/DF E S\u00c3O JOS\u00c9 DO RIO PRETO/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

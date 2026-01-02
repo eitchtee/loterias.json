@@ -1,0 +1,141 @@
+{
+  "cookies": {
+    "__uzmc": "95530121649945",
+    "__uzmd": "1767319444"
+  },
+  "created_at": "2026-01-02T02:03:49.410718+00:00",
+  "elapsed": 0.081176,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:03:49.410698+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:04:04 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=95530121649945; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:04:04 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319444; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:04:04 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SDU",
+    "X-Azion-Request-Id": "1acafffacd92c5205483dd825325d9b2",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "bf50ba5c-08b3-4934-8aac-7930631166ab",
+      "__uzmb": "1767319381",
+      "__uzme": "9004",
+      "__uzmc": "53502121317700",
+      "__uzmd": "1767319444"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=bf50ba5c-08b3-4934-8aac-7930631166ab; __uzmb=1767319381; __uzme=9004; __uzmc=53502121317700; __uzmd=1767319444",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte/402"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte/402",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "05/01/2021",
+    "dataProximoConcurso": "07/01/2021",
+    "dezenasSorteadasOrdemSorteio": [
+      "05",
+      "01",
+      "20",
+      "22",
+      "07",
+      "29",
+      "03"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "05",
+      "07",
+      "20",
+      "22",
+      "29"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BRASILIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 432506.95
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 70,
+        "valorPremio": 1648.1
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 2452,
+        "valorPremio": 20.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 30799,
+        "valorPremio": 4.0
+      },
+      {
+        "descricaoFaixa": "M\u00eas da Sorte",
+        "faixa": 5,
+        "numeroDeGanhadores": 97619,
+        "valorPremio": 2.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O LOTERIAS CAIXA",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "Mar\u00e7o",
+    "numero": 402,
+    "numeroConcursoAnterior": 401,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 403,
+    "numeroJogo": 11,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DIA_DE_SORTE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2114970.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

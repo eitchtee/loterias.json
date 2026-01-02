@@ -1,0 +1,189 @@
+{
+  "cookies": {
+    "__uzmc": "96492317576029",
+    "__uzmd": "1767320491"
+  },
+  "created_at": "2026-01-02T02:21:16.489007+00:00",
+  "elapsed": 0.091053,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:21:16.488990+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:21:31 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=96492317576029; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:31 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320491; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:31 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6eb6c710760e681afe1d6f33480c5499",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "90046317278488",
+      "__uzmd": "1767320491"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=90046317278488; __uzmd=1767320491",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1055"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1055",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "14/05/2014",
+    "dataProximoConcurso": "16/05/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "12",
+      "07",
+      "01",
+      "24",
+      "10",
+      "02",
+      "08",
+      "09",
+      "25",
+      "22",
+      "14",
+      "18",
+      "13",
+      "03",
+      "23"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "03",
+      "07",
+      "08",
+      "09",
+      "10",
+      "12",
+      "13",
+      "14",
+      "18",
+      "22",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "SALVADOR",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RONDON\u00d3POLIS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MT"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "S\u00c3O JOS\u00c9 DOS PINHAIS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "CERQUILHO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "S\u00c3O PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 7,
+        "valorPremio": 543366.74
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 1816,
+        "valorPremio": 462.82
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 39337,
+        "valorPremio": 15.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 391609,
+        "valorPremio": 6.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1865541,
+        "valorPremio": 3.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "BIGUA\u00c7U, SC",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1055,
+    "numeroConcursoAnterior": 1054,
+    "numeroConcursoFinal_0_5": 1060,
+    "numeroConcursoProximo": 1056,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 28939281.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 38485371.54,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

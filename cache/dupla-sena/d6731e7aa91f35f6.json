@@ -1,0 +1,158 @@
+{
+  "cookies": {
+    "__uzmc": "2307146397226",
+    "__uzmd": "1767319707"
+  },
+  "created_at": "2026-01-02T02:08:12.434218+00:00",
+  "elapsed": 0.078902,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:08:12.434158+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:08:27 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=2307146397226; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:27 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319707; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:27 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6a35c1ab297845af4457be8e8b2de6de",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "3f6f15d6-67db-4478-803d-5be5174582d7",
+      "__uzmb": "1767319693",
+      "__uzme": "7503",
+      "__uzmc": "2681746065368",
+      "__uzmd": "1767319707"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3f6f15d6-67db-4478-803d-5be5174582d7; __uzmb=1767319693; __uzme=7503; __uzmc=2681746065368; __uzmd=1767319707",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1476"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1476",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "29/03/2016",
+    "dataProximoConcurso": "01/04/2016",
+    "dezenasSorteadasOrdemSorteio": [
+      "39",
+      "12",
+      "25",
+      "04",
+      "33",
+      "19",
+      "15",
+      "07",
+      "06",
+      "26",
+      "23",
+      "30"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "12",
+      "19",
+      "25",
+      "33",
+      "39"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "06",
+      "07",
+      "15",
+      "23",
+      "26",
+      "30"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 2938189.69
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 51,
+        "valorPremio": 3348.36
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 2479,
+        "valorPremio": 65.6
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 30,
+        "valorPremio": 5692.22
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1599,
+        "valorPremio": 101.71
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o Caixa Loterias",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1476,
+    "numeroConcursoAnterior": 1475,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1477,
+    "numeroJogo": 18,
+    "observacao": "O ACUMULADO DA SENA DO 2\u00ba SORTEIO (R$ 227.688,59) FICA ACUMULADO PARA A SENA DO 1\u00ba SORTEIO DO PR\u00d3XIMO CONCURSO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 3751728.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 227688.59,
+    "valorEstimadoProximoConcurso": 450000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

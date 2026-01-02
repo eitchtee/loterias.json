@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "6154737335412",
+    "__uzmd": "1767320407"
+  },
+  "created_at": "2026-01-02T02:19:53.205731+00:00",
+  "elapsed": 0.079815,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:19:53.205716+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:08 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=6154737335412; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:07 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320407; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:07 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "311836ee9157b889f8645f2afe559cc6",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "2412637034130",
+      "__uzmd": "1767320407"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=2412637034130; __uzmd=1767320407",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/121"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/121",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "16/01/2006",
+    "dataProximoConcurso": "23/01/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "17",
+      "24",
+      "25",
+      "23",
+      "07",
+      "02",
+      "04",
+      "05",
+      "11",
+      "10",
+      "09",
+      "01",
+      "18",
+      "16",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "04",
+      "05",
+      "07",
+      "09",
+      "10",
+      "11",
+      "12",
+      "16",
+      "17",
+      "18",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PI"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 492515.31
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 830,
+        "valorPremio": 760.04
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 27637,
+        "valorPremio": 10.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 298499,
+        "valorPremio": 4.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1491043,
+        "valorPremio": 2.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Campos dos Goitacazes, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 121,
+    "numeroConcursoAnterior": 120,
+    "numeroConcursoFinal_0_5": 130,
+    "numeroConcursoProximo": 122,
+    "numeroJogo": 8,
+    "observacao": "Estimativa de pr\u00eamio (15 acertos) para o pr\u00f3ximo concurso, a ser realizado em 23/01/2006: R$1.400.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

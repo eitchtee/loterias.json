@@ -1,0 +1,149 @@
+{
+  "cookies": {
+    "__uzmc": "10463285759766",
+    "__uzmd": "1767319654"
+  },
+  "created_at": "2026-01-02T02:07:20.247835+00:00",
+  "elapsed": 0.220484,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:07:20.247816+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:07:35 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=10463285759766; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:34 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319654; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:34 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "eefe0c56ceef318c0bb7ba416627217e",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "34443285460141",
+      "__uzmd": "1767319654"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=34443285460141; __uzmd=1767319654",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/949"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/949",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "11/03/2011",
+    "dataProximoConcurso": "15/03/2011",
+    "dezenasSorteadasOrdemSorteio": [
+      "17",
+      "24",
+      "28",
+      "08",
+      "36",
+      "14",
+      "14",
+      "22",
+      "35",
+      "29",
+      "24",
+      "16"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "08",
+      "14",
+      "17",
+      "24",
+      "28",
+      "36"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "14",
+      "16",
+      "22",
+      "24",
+      "29",
+      "35"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 26,
+        "valorPremio": 3429.28
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1973,
+        "valorPremio": 43.03
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 118881.66
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 53,
+        "valorPremio": 1682.29
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1722,
+        "valorPremio": 49.31
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "PORANGATU, GO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 949,
+    "numeroConcursoAnterior": 948,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 950,
+    "numeroJogo": 18,
+    "observacao": "A APOSTA GANHADORA DA SENA NO 2\u00ba SORTEIO FOI REALIZADA EM CAMPO GRANDE/MS.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 1929058.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 993870.58,
+    "valorEstimadoProximoConcurso": 1200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "cookies": {
+    "__uzmc": "377891672328235",
+    "__uzmd": "1767320345"
+  },
+  "created_at": "2026-01-02T02:18:51.229779+00:00",
+  "elapsed": 0.12568,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:18:51.229761+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:19:06 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=377891672328235; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:19:05 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320345; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:19:05 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "dc5b5e3e9b3e5f8785f148dbf3a5b787",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "860261672033641",
+      "__uzmd": "1767320345"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=860261672033641; __uzmd=1767320345",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/5571"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/5571",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "16/06/2021",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "025281",
+      "028979",
+      "067336",
+      "046309",
+      "051172"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "025281",
+      "028979",
+      "067336",
+      "046309",
+      "051172"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 0,
+        "municipio": "CURITIBA",
+        "nomeFatansiaUL": "A PREMIADA LOTERIAS",
+        "posicao": 1,
+        "serie": "A",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "JOINVILLE",
+        "nomeFatansiaUL": "UNIVERSO LOTERIAS LTDA",
+        "posicao": 4,
+        "serie": "A",
+        "uf": "SC"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "MOGI GUACU",
+        "nomeFatansiaUL": "LOTERICA LIDER",
+        "posicao": 3,
+        "serie": "A",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "SAO PAULO",
+        "nomeFatansiaUL": "SHOW DE METEOROS LOTERIAS",
+        "posicao": 2,
+        "serie": "A",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "SOROCABA",
+        "nomeFatansiaUL": "CASA DA SORTE SOROCABA LTDA",
+        "posicao": 5,
+        "serie": "A",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 500000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 27000.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 24000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 19000.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 18329.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o Loterias Caixa",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 5571,
+    "numeroConcursoAnterior": 5570,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 5572,
+    "numeroJogo": 10,
+    "observacao": null,
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

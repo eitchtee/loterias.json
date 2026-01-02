@@ -1,0 +1,341 @@
+{
+  "cookies": {
+    "__uzmc": "70711203884000",
+    "__uzmd": "1767320456"
+  },
+  "created_at": "2026-01-02T02:20:41.522451+00:00",
+  "elapsed": 0.106943,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:41.522434+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:56 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=70711203884000; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:56 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320456; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:56 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "efbb11ba927822da91996a4b6f54fbfa",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "18260203512497",
+      "__uzmd": "1767320456"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=18260203512497; __uzmd=1767320456",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/676"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/676",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "06/10/2011",
+    "dataProximoConcurso": "10/10/2011",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "15",
+      "19",
+      "24",
+      "06",
+      "12",
+      "21",
+      "16",
+      "05",
+      "08",
+      "13",
+      "04",
+      "10",
+      "02",
+      "20"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "02",
+      "04",
+      "05",
+      "06",
+      "08",
+      "10",
+      "12",
+      "13",
+      "15",
+      "16",
+      "19",
+      "20",
+      "21",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "JEQUI\u00c9",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTANA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "VIT\u00d3RIA DA CONQUISTA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "JAGUAR\u00c9",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "ES"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "GOI\u00c2NIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "GO"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CAMPO GRANDE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "GRAVAT\u00c1",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PE"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CLEVEL\u00c2NDIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "Curitiba",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "UMUARAMA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CABO FRIO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      },
+      {
+        "ganhadores": 2,
+        "municipio": "NATAL",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RN"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CACHOEIRINHA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "LAJEADO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "NOVO HAMBURGO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "PORTO ALEGRE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CRICI\u00daMA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "ALUM\u00cdNIO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "CAMPINAS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "COTIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "ITU",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "S\u00c3O JOS\u00c9 DO RIO PRETO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 3,
+        "municipio": "S\u00c3O PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 27,
+        "valorPremio": 152453.75
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 1898,
+        "valorPremio": 671.36
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 44001,
+        "valorPremio": 12.5
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 437502,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1926601,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "JARAGU\u00c1 DO SUL, SC",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 676,
+    "numeroConcursoAnterior": 675,
+    "numeroConcursoFinal_0_5": 680,
+    "numeroConcursoProximo": 677,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 26809987.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 2000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

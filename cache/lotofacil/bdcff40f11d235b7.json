@@ -1,0 +1,205 @@
+{
+  "cookies": {
+    "__uzmc": "21558231158598",
+    "__uzmd": "1767320465"
+  },
+  "created_at": "2026-01-02T02:20:50.673764+00:00",
+  "elapsed": 0.06841,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:50.673747+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:21:05 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=21558231158598; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:05 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320465; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:05 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4f50366084a2484325fb444647a2a468",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "38444230826058",
+      "__uzmd": "1767320465"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=38444230826058; __uzmd=1767320465",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/767"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/767",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "18/06/2012",
+    "dataProximoConcurso": "20/06/2012",
+    "dezenasSorteadasOrdemSorteio": [
+      "01",
+      "11",
+      "15",
+      "12",
+      "05",
+      "08",
+      "22",
+      "24",
+      "17",
+      "19",
+      "23",
+      "04",
+      "03",
+      "07",
+      "10"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "07",
+      "08",
+      "10",
+      "11",
+      "12",
+      "15",
+      "17",
+      "19",
+      "22",
+      "23",
+      "24"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 2,
+        "municipio": "GOI\u00c2NIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "GO"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RUBIM",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "BLUMENAU",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "AREALVA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CARAPICU\u00cdBA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "LEN\u00c7\u00d3IS PAULISTA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "S\u00c3O PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 8,
+        "valorPremio": 154679.17
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 1046,
+        "valorPremio": 520.0
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 26738,
+        "valorPremio": 12.5
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 270587,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1312314,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 767,
+    "numeroConcursoAnterior": 766,
+    "numeroConcursoFinal_0_5": 770,
+    "numeroConcursoProximo": 768,
+    "numeroJogo": 8,
+    "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV. VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DA INDEPEND\u00caNCIA - R$ 17.895.477,92.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 17464173.75,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

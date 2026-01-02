@@ -1,0 +1,146 @@
+{
+  "cookies": {
+    "__uzmc": "10774138448823",
+    "__uzmd": "1767319612"
+  },
+  "created_at": "2026-01-02T02:06:38.013972+00:00",
+  "elapsed": 0.078417,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:38.013954+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:52 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=10774138448823; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:52 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319612; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:52 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c7dac9959b74c6fa1204d11629ee78a5",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "42629138198740",
+      "__uzmd": "1767319612"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=42629138198740; __uzmd=1767319612",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/458"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/458",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "02/06/2006",
+    "dataProximoConcurso": "06/06/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "44",
+      "23",
+      "34",
+      "01",
+      "21",
+      "46",
+      "01",
+      "32",
+      "38",
+      "11",
+      "05",
+      "07"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "21",
+      "23",
+      "34",
+      "44",
+      "46"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "01",
+      "05",
+      "07",
+      "11",
+      "32",
+      "38"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 5131586.6
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 27,
+        "valorPremio": 6414.02
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 2241,
+        "valorPremio": 76.99
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Gama, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 458,
+    "numeroConcursoAnterior": 457,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 459,
+    "numeroJogo": 18,
+    "observacao": "Estimativa de pr\u00eamio (SENA 1\u00ba SORTEIO) pr\u00f3ximo concurso, a ser realizado em 06/06/2006: R$350.000,00. Acumulado do 2\u00ba para o 1\u00ba sorteio: R$259.767,83.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

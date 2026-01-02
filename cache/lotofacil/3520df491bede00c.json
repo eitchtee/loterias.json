@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "87375649913159",
+    "__uzmd": "1767320583"
+  },
+  "created_at": "2026-01-02T02:22:49.036585+00:00",
+  "elapsed": 0.075344,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:22:49.036556+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:23:03 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=87375649913159; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:23:03 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320583; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:23:03 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "1a22dc67689d99c098ae934b0b827314",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "46911649667806",
+      "__uzmd": "1767320583"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=46911649667806; __uzmd=1767320583",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/2163"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/2163",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "22/02/2021",
+    "dataProximoConcurso": "23/02/2021",
+    "dezenasSorteadasOrdemSorteio": [
+      "01",
+      "13",
+      "18",
+      "19",
+      "12",
+      "02",
+      "21",
+      "23",
+      "04",
+      "11",
+      "25",
+      "06",
+      "10",
+      "16",
+      "20"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "04",
+      "06",
+      "10",
+      "11",
+      "12",
+      "13",
+      "16",
+      "18",
+      "19",
+      "20",
+      "21",
+      "23",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 2,
+        "municipio": "BRASILIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "IBIRITE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SERRANOPOLIS DO IGUACU",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 327090.35
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 357,
+        "valorPremio": 1097.77
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 11151,
+        "valorPremio": 25.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 128438,
+        "valorPremio": 10.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 639925,
+        "valorPremio": 5.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O LOTERIAS CAIXA",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 2163,
+    "numeroConcursoAnterior": 2162,
+    "numeroConcursoFinal_0_5": 2170,
+    "numeroConcursoProximo": 2164,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 17941032.5,
+    "valorAcumuladoConcurso_0_5": 635342.1,
+    "valorAcumuladoConcursoEspecial": 47730672.62,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

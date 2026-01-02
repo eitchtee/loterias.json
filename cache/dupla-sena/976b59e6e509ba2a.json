@@ -1,0 +1,149 @@
+{
+  "cookies": {
+    "__uzmc": "1874122640244",
+    "__uzmd": "1767319700"
+  },
+  "created_at": "2026-01-02T02:08:05.377650+00:00",
+  "elapsed": 0.081604,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:08:05.377636+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:08:20 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=1874122640244; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:20 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319700; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:20 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "f3b9c432cdfa5a9cf0715383f5142cc1",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "3f6f15d6-67db-4478-803d-5be5174582d7",
+      "__uzmb": "1767319693",
+      "__uzme": "7503",
+      "__uzmc": "5854822361702",
+      "__uzmd": "1767319700"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3f6f15d6-67db-4478-803d-5be5174582d7; __uzmb=1767319693; __uzme=7503; __uzmc=5854822361702; __uzmd=1767319700",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1397"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1397",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "26/06/2015",
+    "dataProximoConcurso": "30/06/2015",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "02",
+      "03",
+      "06",
+      "30",
+      "44",
+      "16",
+      "17",
+      "42",
+      "45",
+      "13",
+      "39"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "02",
+      "03",
+      "06",
+      "25",
+      "30",
+      "44"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "13",
+      "16",
+      "17",
+      "39",
+      "42",
+      "45"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 86,
+        "valorPremio": 5963.69
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 4744,
+        "valorPremio": 102.96
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 128,
+        "valorPremio": 4006.85
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 6065,
+        "valorPremio": 80.53
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "EST\u00daDIO DE TV",
+    "nomeMunicipioUFSorteio": "OSASCO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1397,
+    "numeroConcursoAnterior": 1396,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1398,
+    "numeroJogo": 18,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 11096418.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 16281422.95,
+    "valorEstimadoProximoConcurso": 17500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

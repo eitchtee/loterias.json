@@ -1,0 +1,148 @@
+{
+  "cookies": {
+    "__uzmc": "34642211068472",
+    "__uzmd": "1767320458"
+  },
+  "created_at": "2026-01-02T02:20:44.000428+00:00",
+  "elapsed": 0.07259,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:44.000410+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:58 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=34642211068472; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:58 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320458; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:58 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "e4c27fb6bd7e689837a8549a14ac1645",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "41732210714528",
+      "__uzmd": "1767320458"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=41732210714528; __uzmd=1767320458",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/700"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/700",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "29/12/2011",
+    "dataProximoConcurso": "02/01/2012",
+    "dezenasSorteadasOrdemSorteio": [
+      "10",
+      "21",
+      "25",
+      "01",
+      "22",
+      "18",
+      "13",
+      "02",
+      "16",
+      "06",
+      "07",
+      "14",
+      "08",
+      "19",
+      "09"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "13",
+      "14",
+      "16",
+      "18",
+      "19",
+      "21",
+      "22",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 397,
+        "valorPremio": 2543.83
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 15486,
+        "valorPremio": 12.5
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 216236,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1356770,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "PIRAPORA, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 700,
+    "numeroConcursoAnterior": 699,
+    "numeroConcursoFinal_0_5": 710,
+    "numeroConcursoProximo": 701,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21526365.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2356429.8,
+    "valorEstimadoProximoConcurso": 4500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

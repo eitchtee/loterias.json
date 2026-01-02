@@ -1,0 +1,127 @@
+{
+  "cookies": {
+    "__uzma": "bf50ba5c-08b3-4934-8aac-7930631166ab",
+    "__uzmb": "1767319381",
+    "__uzme": "9004",
+    "__uzmc": "547421027193",
+    "__uzmd": "1767319381"
+  },
+  "created_at": "2026-01-02T02:02:47.033226+00:00",
+  "elapsed": 0.308874,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:02:47.033203+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:03:01 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzma=bf50ba5c-08b3-4934-8aac-7930631166ab; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmb=1767319381; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzme=9004; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmc=547421027193; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319381; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:01 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SDU",
+    "X-Azion-Request-Id": "ca0a633ece0b9683c1416debc3cd191c",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "30/12/2025",
+    "dataProximoConcurso": "03/01/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "15",
+      "26",
+      "06",
+      "09",
+      "30",
+      "14",
+      "27"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "09",
+      "14",
+      "15",
+      "26",
+      "27",
+      "30"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 42,
+        "valorPremio": 2101.75
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1365,
+        "valorPremio": 25.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 16467,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "M\u00eas da Sorte",
+        "faixa": 5,
+        "numeroDeGanhadores": 53089,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "Janeiro",
+    "numero": 1158,
+    "numeroConcursoAnterior": 1157,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1159,
+    "numeroJogo": 11,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DIA_DE_SORTE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 1528962.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 205971.58,
+    "valorEstimadoProximoConcurso": 450000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

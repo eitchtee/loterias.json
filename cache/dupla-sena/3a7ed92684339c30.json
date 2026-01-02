@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "30657140524812",
+    "__uzmd": "1767319613"
+  },
+  "created_at": "2026-01-02T02:06:38.566302+00:00",
+  "elapsed": 0.07504,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:38.566286+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:53 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=30657140524812; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:53 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319613; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:53 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "2dac874a9068593e08ac466e122ffbcf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "27874140229169",
+      "__uzmd": "1767319613"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=27874140229169; __uzmd=1767319613",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/465"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/465",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "27/06/2006",
+    "dataProximoConcurso": "30/06/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "22",
+      "30",
+      "45",
+      "24",
+      "31",
+      "19",
+      "43",
+      "09",
+      "32",
+      "04",
+      "24",
+      "50"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "19",
+      "22",
+      "24",
+      "30",
+      "31",
+      "45"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "04",
+      "09",
+      "24",
+      "32",
+      "43",
+      "50"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 18,
+        "valorPremio": 4409.51
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1159,
+        "valorPremio": 68.23
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "BRAS\u00cdLIA, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 465,
+    "numeroConcursoAnterior": 464,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 466,
+    "numeroJogo": 18,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena 1\u00ba sorteio) para o pr\u00f3ximo concurso, a ser realizado em 30/06/2006: R$2.200.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2070662.28,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "84023351145322",
+    "__uzmd": "1767320501"
+  },
+  "created_at": "2026-01-02T02:21:26.386398+00:00",
+  "elapsed": 0.073549,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:21:26.386386+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:21:41 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=84023351145322; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:41 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320501; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:21:41 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d384576e8ed7c52e876c700fc6637b04",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "66348350819878",
+      "__uzmd": "1767320501"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=66348350819878; __uzmd=1767320501",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1167"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1167",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "04/02/2015",
+    "dataProximoConcurso": "06/02/2015",
+    "dezenasSorteadasOrdemSorteio": [
+      "23",
+      "07",
+      "05",
+      "02",
+      "16",
+      "18",
+      "04",
+      "12",
+      "11",
+      "15",
+      "09",
+      "14",
+      "08",
+      "21",
+      "01"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "04",
+      "05",
+      "07",
+      "08",
+      "09",
+      "11",
+      "12",
+      "14",
+      "15",
+      "16",
+      "18",
+      "21",
+      "23"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "ITUMBIARA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "GO"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "DIVIN\u00d3POLIS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "CAMPO GRANDE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MS"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "PRAIA GRANDE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 473836.81
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 640,
+        "valorPremio": 1301.74
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 20502,
+        "valorPremio": 15.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 232789,
+        "valorPremio": 6.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1234202,
+        "valorPremio": 3.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "CAMINH\u00c3O DA SORTE",
+    "nomeMunicipioUFSorteio": "VALEN\u00c7A, BA",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1167,
+    "numeroConcursoAnterior": 1166,
+    "numeroConcursoFinal_0_5": 1170,
+    "numeroConcursoProximo": 1168,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21746151.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 26666724.69,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

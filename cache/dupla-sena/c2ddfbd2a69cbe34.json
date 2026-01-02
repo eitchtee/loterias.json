@@ -1,0 +1,170 @@
+{
+  "cookies": {
+    "__uzmc": "46306350560646",
+    "__uzmd": "1767319800"
+  },
+  "created_at": "2026-01-02T02:09:46.165213+00:00",
+  "elapsed": 0.074523,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:09:46.165194+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:10:00 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=46306350560646; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:10:00 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319800; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:10:00 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "841f207f2f6beeecc004abcff49779c6",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "3f6f15d6-67db-4478-803d-5be5174582d7",
+      "__uzmb": "1767319693",
+      "__uzme": "7503",
+      "__uzmc": "69579350263728",
+      "__uzmd": "1767319800"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3f6f15d6-67db-4478-803d-5be5174582d7; __uzmb=1767319693; __uzme=7503; __uzmc=69579350263728; __uzmd=1767319800",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/2490"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/2490",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "07/03/2023",
+    "dataProximoConcurso": "09/03/2023",
+    "dezenasSorteadasOrdemSorteio": [
+      "04",
+      "40",
+      "50",
+      "30",
+      "13",
+      "38",
+      "11",
+      "35",
+      "14",
+      "50",
+      "34",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "13",
+      "30",
+      "38",
+      "40",
+      "50"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "11",
+      "12",
+      "14",
+      "34",
+      "35",
+      "50"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "NOVO SANTO ANTONIO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MT"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 4033189.1
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 15,
+        "valorPremio": 5853.26
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 813,
+        "valorPremio": 123.42
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 17280,
+        "valorPremio": 2.9
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 16,
+        "valorPremio": 4938.69
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 816,
+        "valorPremio": 122.96
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 8,
+        "numeroDeGanhadores": 17659,
+        "valorPremio": 2.84
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 2490,
+    "numeroConcursoAnterior": 2489,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 2491,
+    "numeroJogo": 18,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2893355.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 17699060.45,
+    "valorAcumuladoProximoConcurso": 96578.75,
+    "valorEstimadoProximoConcurso": 200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

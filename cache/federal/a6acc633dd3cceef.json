@@ -1,0 +1,128 @@
+{
+  "cookies": {
+    "__uzmc": "568521046898277",
+    "__uzmd": "1767320149"
+  },
+  "created_at": "2026-01-02T02:15:34.683816+00:00",
+  "elapsed": 0.084136,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:15:34.683800+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:15:49 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=568521046898277; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:15:49 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320149; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:15:49 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "44e4ed910c826d5aa06d008f1905ad44",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "698781046598012",
+      "__uzmd": "1767320149"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=698781046598012; __uzmd=1767320149",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/3486"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/3486",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "09/09/2000",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "011044",
+      "031058",
+      "020213",
+      "056146",
+      "006320"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "011044",
+      "031058",
+      "020213",
+      "056146",
+      "006320"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 200000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 6000.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 4000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 3000.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 2000.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 3486,
+    "numeroConcursoAnterior": 3485,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 3487,
+    "numeroJogo": 10,
+    "observacao": "Sorteio realizado em Birigui/SP. Grande pr\u00eamio  protetora do Turfe - Caixa - Jockey Club RS",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

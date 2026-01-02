@@ -1,0 +1,128 @@
+{
+  "cookies": {
+    "__uzmc": "826531294096935",
+    "__uzmd": "1767320225"
+  },
+  "created_at": "2026-01-02T02:16:50.647803+00:00",
+  "elapsed": 0.10607,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:16:50.647785+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:17:05 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=826531294096935; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:05 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320225; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:05 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "addef28f61e6ca56820e857886bf709c",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "267001293779993",
+      "__uzmd": "1767320225"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=267001293779993; __uzmd=1767320225",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4310"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4310",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "10/01/2009",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "071207",
+      "015693",
+      "015880",
+      "061878",
+      "036185"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "071207",
+      "015693",
+      "015880",
+      "061878",
+      "036185"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 200000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 12000.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 8000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 6000.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 4000.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "BRAS\u00cdLIA, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4310,
+    "numeroConcursoAnterior": 4309,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 4311,
+    "numeroJogo": 10,
+    "observacao": "Ganhador do 1\u00ba Pr\u00eamio: Palho\u00e7a/SC.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

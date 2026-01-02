@@ -1,0 +1,149 @@
+{
+  "cookies": {
+    "__uzmc": "8265053555761",
+    "__uzmd": "1767319709"
+  },
+  "created_at": "2026-01-02T02:08:14.745555+00:00",
+  "elapsed": 0.076251,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:08:14.745536+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:08:29 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=8265053555761; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:29 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319709; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:29 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "02f8e0bc74da382ef9adfdccfc2aaa03",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "3f6f15d6-67db-4478-803d-5be5174582d7",
+      "__uzmb": "1767319693",
+      "__uzme": "7503",
+      "__uzmc": "7240053277378",
+      "__uzmd": "1767319709"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3f6f15d6-67db-4478-803d-5be5174582d7; __uzmb=1767319693; __uzme=7503; __uzmc=7240053277378; __uzmd=1767319709",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1500"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1500",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "04/06/2016",
+    "dataProximoConcurso": "07/06/2016",
+    "dezenasSorteadasOrdemSorteio": [
+      "22",
+      "36",
+      "33",
+      "12",
+      "14",
+      "50",
+      "20",
+      "49",
+      "18",
+      "32",
+      "29",
+      "41"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "12",
+      "14",
+      "22",
+      "33",
+      "36",
+      "50"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "18",
+      "20",
+      "29",
+      "32",
+      "41",
+      "49"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 26,
+        "valorPremio": 4528.37
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1930,
+        "valorPremio": 69.71
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 27,
+        "valorPremio": 4360.65
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1449,
+        "valorPremio": 92.86
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o Caixa Loterias",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1500,
+    "numeroConcursoAnterior": 1499,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1501,
+    "numeroJogo": 18,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 3880034.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 2322202.26,
+    "valorAcumuladoProximoConcurso": 7710954.34,
+    "valorEstimadoProximoConcurso": 8200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

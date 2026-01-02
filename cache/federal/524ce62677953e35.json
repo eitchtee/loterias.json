@@ -1,0 +1,128 @@
+{
+  "cookies": {
+    "__uzmc": "718881305124403",
+    "__uzmd": "1767320229"
+  },
+  "created_at": "2026-01-02T02:16:54.380212+00:00",
+  "elapsed": 0.075154,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:16:54.380194+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:17:09 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=718881305124403; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320229; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:09 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d65d9a9e7698ecbe296cd9aa031966cc",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "370021304815352",
+      "__uzmd": "1767320229"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=370021304815352; __uzmd=1767320229",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4347"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4347",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "20/05/2009",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "013473",
+      "057861",
+      "005026",
+      "078250",
+      "051057"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "013473",
+      "057861",
+      "005026",
+      "078250",
+      "051057"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 250000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 25000.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 20000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 12500.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 10810.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "PATOS DE MINAS, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4347,
+    "numeroConcursoAnterior": 4346,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 4348,
+    "numeroJogo": 10,
+    "observacao": "O BILHETE GANHADOR DO 1\u00ba. PR\u00caMIO FOI ADQUIRIDO EM FORTALEZA/CE.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

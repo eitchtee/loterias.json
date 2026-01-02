@@ -1,0 +1,158 @@
+{
+  "cookies": {
+    "__uzmc": "87245382075566",
+    "__uzmd": "1767319683"
+  },
+  "created_at": "2026-01-02T02:07:48.931430+00:00",
+  "elapsed": 0.088478,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:07:48.931413+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:08:03 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=87245382075566; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:03 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319683; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:08:03 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d3df6f45f159120a8dab8bedd746bb23",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "43986381786450",
+      "__uzmd": "1767319683"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=43986381786450; __uzmd=1767319683",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1270"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1270",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "08/04/2014",
+    "dataProximoConcurso": "11/04/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "11",
+      "05",
+      "16",
+      "13",
+      "20",
+      "04",
+      "14",
+      "17",
+      "20",
+      "30",
+      "26",
+      "32"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "05",
+      "11",
+      "13",
+      "16",
+      "20"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "14",
+      "17",
+      "20",
+      "26",
+      "30",
+      "32"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "JOAO MONLEVADE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 7165489.88
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 241,
+        "valorPremio": 1424.51
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 8535,
+        "valorPremio": 38.3
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 98,
+        "valorPremio": 3503.13
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 5815,
+        "valorPremio": 56.22
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "OSASCO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1270,
+    "numeroConcursoAnterior": 1269,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1271,
+    "numeroJogo": 18,
+    "observacao": "Sorteio realizado em Est\u00fadio de TV.\r\nO PR\u00caMIO DA SENA DO 2\u00ba SORTEIO (R$ 457.742,99) FICA ACUMULADO PARA A SENA DO 1\u00ba SORTEIO DO PR\u00d3XIMO CONCURSO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 7427662.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 457742.99,
+    "valorEstimadoProximoConcurso": 650000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

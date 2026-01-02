@@ -1,0 +1,166 @@
+{
+  "cookies": {
+    "__uzmc": "66525339718172",
+    "__uzmd": "1767319671"
+  },
+  "created_at": "2026-01-02T02:07:36.432747+00:00",
+  "elapsed": 0.111508,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:07:36.432730+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:07:51 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=66525339718172; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:51 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319671; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:51 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c1c4b2b8c60bb4697b6a9f82c0f93868",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "57853339415479",
+      "__uzmd": "1767319671"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=57853339415479; __uzmd=1767319671",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1129"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/1129",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "30/11/2012",
+    "dataProximoConcurso": "04/12/2012",
+    "dezenasSorteadasOrdemSorteio": [
+      "39",
+      "23",
+      "06",
+      "47",
+      "18",
+      "15",
+      "25",
+      "10",
+      "01",
+      "26",
+      "36",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "15",
+      "18",
+      "23",
+      "39",
+      "47"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "01",
+      "10",
+      "12",
+      "25",
+      "26",
+      "36"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BRAS\u00cdLIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "ITUIUTABA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 399370.61
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 76,
+        "valorPremio": 1518.51
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 2899,
+        "valorPremio": 37.91
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 35,
+        "valorPremio": 3297.34
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 2429,
+        "valorPremio": 45.24
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "JAGUAPIT\u00c3, PR",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1129,
+    "numeroConcursoAnterior": 1128,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1130,
+    "numeroJogo": 18,
+    "observacao": "O PR\u00caMIO DA SENA DO 2\u00ba SORTEIO (R$153.875,94) FICA ACUMULADO PARA A SENA DO 1\u00ba SORTEIO DO PR\u00d3XIMO CONCURSO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2496900.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 153875.94,
+    "valorEstimadoProximoConcurso": 300000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
