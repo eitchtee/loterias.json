@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "62733749538654",
+    "__uzmd": "1767321590"
+  },
+  "created_at": "2026-01-02T02:39:35.896288+00:00",
+  "elapsed": 0.07183,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:39:35.896269+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:39:50 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=62733749538654; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:50 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321590; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:50 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c9cabc6753c1f8e8bd0f08c6f1b0e6ba",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "16885749225606",
+      "__uzmd": "1767321590"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=16885749225606; __uzmd=1767321590",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2495"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2495",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "12/01/2011",
+    "dataProximoConcurso": "13/01/2011",
+    "dezenasSorteadasOrdemSorteio": [
+      "12",
+      "18",
+      "26",
+      "31",
+      "33"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "12",
+      "18",
+      "26",
+      "31",
+      "33"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 173,
+        "valorPremio": 1971.6
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 10094,
+        "valorPremio": 48.27
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ILHABELA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 2495,
+    "numeroConcursoAnterior": 2494,
+    "numeroConcursoFinal_0_5": 2505,
+    "numeroConcursoProximo": 2496,
+    "numeroJogo": 3,
+    "observacao": "VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DE S\u00c3O JO\u00c3O - R$ 27.963.978,26.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 4427767.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 892786.29,
+    "valorEstimadoProximoConcurso": 1400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "75257134575429",
+    "__uzmd": "1767320793"
+  },
+  "created_at": "2026-01-02T02:26:19.239687+00:00",
+  "elapsed": 0.147553,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:19.239669+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:34 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=75257134575429; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:33 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320793; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:33 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "5e6c83c8520a9c28e1a8619ae14b8e1f",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "94731134258928",
+      "__uzmd": "1767320793"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=94731134258928; __uzmd=1767320793",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/445"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/445",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "21/08/2004",
+    "dataProximoConcurso": "25/08/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "19",
+      "96",
+      "55",
+      "31",
+      "41",
+      "03",
+      "73",
+      "57",
+      "22",
+      "59",
+      "30",
+      "25",
+      "34",
+      "43",
+      "35",
+      "26",
+      "68",
+      "99",
+      "07",
+      "46"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "07",
+      "19",
+      "22",
+      "25",
+      "26",
+      "30",
+      "31",
+      "34",
+      "35",
+      "41",
+      "43",
+      "46",
+      "55",
+      "57",
+      "59",
+      "68",
+      "73",
+      "96",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 835107.52
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 11,
+        "valorPremio": 27148.55
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 267,
+        "valorPremio": 1118.48
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2411,
+        "valorPremio": 61.7
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 13561,
+        "valorPremio": 10.97
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "FRANCA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 445,
+    "numeroConcursoAnterior": 444,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 446,
+    "numeroJogo": 16,
+    "observacao": "Estimativa de pr\u00eamio (20 ACERTOS) pr\u00f3ximo concurso: R$550.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

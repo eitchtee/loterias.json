@@ -1,0 +1,125 @@
+{
+  "cookies": {
+    "__uzmc": "95725784648805",
+    "__uzmd": "1767321600"
+  },
+  "created_at": "2026-01-02T02:39:46.025565+00:00",
+  "elapsed": 0.078995,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:39:46.025546+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:40:00 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=95725784648805; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:40:00 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321600; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:40:00 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "e7e798ddb83276ad4df4ccbb63ad9473",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "46075784331230",
+      "__uzmd": "1767321600"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=46075784331230; __uzmd=1767321600",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2612"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2612",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "02/06/2011",
+    "dataProximoConcurso": "03/06/2011",
+    "dezenasSorteadasOrdemSorteio": [
+      "75",
+      "03",
+      "34",
+      "22",
+      "72"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "22",
+      "34",
+      "72",
+      "75"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "S\u00c3O PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 2522762.66
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 88,
+        "valorPremio": 4843.71
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 5814,
+        "valorPremio": 104.73
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "OEIRAS, PI",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 2612,
+    "numeroConcursoAnterior": 2611,
+    "numeroConcursoFinal_0_5": 2615,
+    "numeroConcursoProximo": 2613,
+    "numeroJogo": 3,
+    "observacao": "VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DE S\u00c3O JO\u00c3O - R$ 51.617.561,07.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5533262.25,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

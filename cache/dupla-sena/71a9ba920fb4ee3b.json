@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "6158268525078",
+    "__uzmd": "1767319592"
+  },
+  "created_at": "2026-01-02T02:06:18.137734+00:00",
+  "elapsed": 0.072622,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:18.137715+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:32 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=6158268525078; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:32 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319592; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:32 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "69f4270c0a76d1a09f8b1cf0a000356c",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "4745868279171",
+      "__uzmd": "1767319592"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=4745868279171; __uzmd=1767319592",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/225"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/225",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "23/01/2004",
+    "dataProximoConcurso": "27/01/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "47",
+      "13",
+      "28",
+      "49",
+      "45",
+      "36",
+      "44",
+      "12",
+      "47",
+      "29",
+      "48"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "13",
+      "25",
+      "28",
+      "45",
+      "47",
+      "49"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "12",
+      "29",
+      "36",
+      "44",
+      "47",
+      "48"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 29,
+        "valorPremio": 2545.45
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1219,
+        "valorPremio": 60.32
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "S\u00e3o Paulo, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 225,
+    "numeroConcursoAnterior": 224,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 226,
+    "numeroJogo": 18,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA-1\u00b0 Sorteio) pr\u00f3ximo concurso: R$650.000,00. Acumulado do 2\u00ba Sorteio para o 1\u00ba Sorteio: R$110.727,07.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 548944.08,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

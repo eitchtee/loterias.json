@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "21903174783724",
+    "__uzmd": "1767320806"
+  },
+  "created_at": "2026-01-02T02:26:31.363741+00:00",
+  "elapsed": 0.07849,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:31.363727+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:46 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=21903174783724; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:46 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320806; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:46 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "3be1c281360574a4b08ef2b0eaee89e1",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "75784174448014",
+      "__uzmd": "1767320806"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=75784174448014; __uzmd=1767320806",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/579"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/579",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "24/12/2005",
+    "dataProximoConcurso": "28/12/2005",
+    "dezenasSorteadasOrdemSorteio": [
+      "48",
+      "46",
+      "90",
+      "52",
+      "64",
+      "50",
+      "69",
+      "47",
+      "89",
+      "31",
+      "51",
+      "02",
+      "35",
+      "59",
+      "21",
+      "01",
+      "71",
+      "06",
+      "03",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "03",
+      "06",
+      "12",
+      "21",
+      "31",
+      "35",
+      "46",
+      "47",
+      "48",
+      "50",
+      "51",
+      "52",
+      "59",
+      "64",
+      "69",
+      "71",
+      "89",
+      "90"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 7,
+        "valorPremio": 31471.77
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 108,
+        "valorPremio": 2039.84
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1050,
+        "valorPremio": 104.52
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6230,
+        "valorPremio": 17.62
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Campinas, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 579,
+    "numeroConcursoAnterior": 578,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 580,
+    "numeroJogo": 16,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (20 ACERTOS) para o pr\u00f3ximo concurso, a ser realizado em 28/12/2005: R$900.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 440604.71,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

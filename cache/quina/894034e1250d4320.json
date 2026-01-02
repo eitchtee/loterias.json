@@ -1,0 +1,125 @@
+{
+  "cookies": {
+    "__uzmc": "92404554855456",
+    "__uzmd": "1767321529"
+  },
+  "created_at": "2026-01-02T02:38:34.630752+00:00",
+  "elapsed": 0.088496,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:38:34.630734+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:38:49 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=92404554855456; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:49 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321529; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:49 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "99001856db75deee83fa9a3368f0798b",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "35596554531694",
+      "__uzmd": "1767321529"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=35596554531694; __uzmd=1767321529",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1846"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1846",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "03/01/2008",
+    "dataProximoConcurso": "05/01/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "39",
+      "76",
+      "14",
+      "24",
+      "37"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "14",
+      "24",
+      "37",
+      "39",
+      "76"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PA"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 366298.87
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 134,
+        "valorPremio": 2733.57
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 7652,
+        "valorPremio": 63.83
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Maca\u00e9, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1846,
+    "numeroConcursoAnterior": 1845,
+    "numeroConcursoFinal_0_5": 1855,
+    "numeroConcursoProximo": 1847,
+    "numeroJogo": 3,
+    "observacao": "Ganhador da quina: Ananindeua/PA.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 350000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

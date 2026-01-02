@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "81049316944256",
+    "__uzmd": "1767320848"
+  },
+  "created_at": "2026-01-02T02:27:14.162986+00:00",
+  "elapsed": 0.070636,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:14.162968+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:28 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=81049316944256; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:28 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320848; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:28 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "5471ad5a19f0362021cdf6b5073cdfc2",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "20577316634210",
+      "__uzmd": "1767320848"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=20577316634210; __uzmd=1767320848",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1053"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1053",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "14/07/2010",
+    "dataProximoConcurso": "17/07/2010",
+    "dezenasSorteadasOrdemSorteio": [
+      "23",
+      "06",
+      "26",
+      "13",
+      "02",
+      "09",
+      "97",
+      "29",
+      "43",
+      "03",
+      "66",
+      "34",
+      "87",
+      "60",
+      "68",
+      "01",
+      "07",
+      "55",
+      "81",
+      "86"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "03",
+      "06",
+      "07",
+      "09",
+      "13",
+      "23",
+      "26",
+      "29",
+      "34",
+      "43",
+      "55",
+      "60",
+      "66",
+      "68",
+      "81",
+      "86",
+      "87",
+      "97"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "JEQUITINHONHA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 490587.12
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 31,
+        "valorPremio": 8934.69
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 404,
+        "valorPremio": 979.4
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 3248,
+        "valorPremio": 60.91
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 15343,
+        "valorPremio": 12.89
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 138487.72
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITUIUTABA, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1053,
+    "numeroConcursoAnterior": 1052,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1054,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DE ZERO ACERTO FOI REALIZADA EM TUBAR\u00c3O/SC.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 4494399.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

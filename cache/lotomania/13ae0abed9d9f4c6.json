@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "76200287539499",
+    "__uzmd": "1767320841"
+  },
+  "created_at": "2026-01-02T02:27:06.474595+00:00",
+  "elapsed": 0.069959,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:06.474575+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:21 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=76200287539499; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:21 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320841; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:21 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "8426a573a7d36ce42eef9f7ae9bc261b",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "33850287292398",
+      "__uzmd": "1767320841"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=33850287292398; __uzmd=1767320841",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/955"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/955",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "05/08/2009",
+    "dataProximoConcurso": "08/08/2009",
+    "dezenasSorteadasOrdemSorteio": [
+      "44",
+      "10",
+      "54",
+      "39",
+      "22",
+      "41",
+      "29",
+      "32",
+      "60",
+      "56",
+      "57",
+      "16",
+      "74",
+      "70",
+      "85",
+      "92",
+      "65",
+      "26",
+      "36",
+      "45"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "10",
+      "16",
+      "22",
+      "26",
+      "29",
+      "32",
+      "36",
+      "39",
+      "41",
+      "44",
+      "45",
+      "54",
+      "56",
+      "57",
+      "60",
+      "65",
+      "70",
+      "74",
+      "85",
+      "92"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "MARAPANIM",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PA"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 2264787.68
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 27382.91
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 209,
+        "valorPremio": 1703.24
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1851,
+        "valorPremio": 137.36
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 11045,
+        "valorPremio": 23.02
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ROLIM DE MOURA, RO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 955,
+    "numeroConcursoAnterior": 954,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 956,
+    "numeroJogo": 16,
+    "observacao": "PR\u00caMIO ACUMULADO DE ZERO ACERTO PARA O PR\u00d3XIMO CONCURSO: R$ 177.988,96.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5776349.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 600000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "cookies": {
+    "__uzmc": "29741514933975",
+    "__uzmd": "1767321516"
+  },
+  "created_at": "2026-01-02T02:38:22.004340+00:00",
+  "elapsed": 0.097384,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:38:22.004322+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:38:36 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=29741514933975; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:36 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321516; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:36 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "85ad59d23ef912229beb3491cbca372a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "51509514621139",
+      "__uzmd": "1767321516"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=51509514621139; __uzmd=1767321516",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1713"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1713",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "10/02/2007",
+    "dataProximoConcurso": "13/02/2007",
+    "dezenasSorteadasOrdemSorteio": [
+      "71",
+      "62",
+      "04",
+      "55",
+      "30"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "30",
+      "55",
+      "62",
+      "71"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 339375.48
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 73,
+        "valorPremio": 4648.98
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 4916,
+        "valorPremio": 91.71
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Cabo Frio, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1713,
+    "numeroConcursoAnterior": 1712,
+    "numeroConcursoFinal_0_5": 1715,
+    "numeroConcursoProximo": 1714,
+    "numeroJogo": 3,
+    "observacao": "Estimativa de pr\u00eamio (quina) para o pr\u00f3ximo concurso, a ser realizado em 13/02/2007: R$300.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

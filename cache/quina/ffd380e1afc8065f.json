@@ -1,0 +1,133 @@
+{
+  "cookies": {
+    "__uzmc": "26343733692057",
+    "__uzmd": "1767321585"
+  },
+  "created_at": "2026-01-02T02:39:31.043146+00:00",
+  "elapsed": 0.077323,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:39:31.043122+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:39:45 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=26343733692057; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:45 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321585; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:45 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "2173fee110f6546cb866ef14eaec67e1",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "25360733346327",
+      "__uzmd": "1767321585"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=25360733346327; __uzmd=1767321585",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2442"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2442",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "08/11/2010",
+    "dataProximoConcurso": "09/11/2010",
+    "dezenasSorteadasOrdemSorteio": [
+      "03",
+      "35",
+      "31",
+      "29",
+      "48"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "29",
+      "31",
+      "35",
+      "48"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "FEIRA DE SANTANA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTO AUGUSTO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 191259.82
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 128,
+        "valorPremio": 2134.6
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 7422,
+        "valorPremio": 52.59
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "Bras\u00edlia, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 2442,
+    "numeroConcursoAnterior": 2441,
+    "numeroConcursoFinal_0_5": 2445,
+    "numeroConcursoProximo": 2443,
+    "numeroJogo": 3,
+    "observacao": "VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DE S\u00c3O JO\u00c3O - R$ 17.576.551,88.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 3546877.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

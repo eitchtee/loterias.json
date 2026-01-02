@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "15409264478925",
+    "__uzmd": "1767320834"
+  },
+  "created_at": "2026-01-02T02:26:59.433614+00:00",
+  "elapsed": 0.095122,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:59.433597+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:14 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=15409264478925; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320834; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:14 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4ee4f404e0869095b25f49fd8633e805",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "72631264194410",
+      "__uzmd": "1767320834"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=72631264194410; __uzmd=1767320834",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/878"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/878",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "08/11/2008",
+    "dataProximoConcurso": "12/11/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "87",
+      "24",
+      "00",
+      "73",
+      "26",
+      "56",
+      "16",
+      "52",
+      "75",
+      "94",
+      "47",
+      "53",
+      "32",
+      "55",
+      "35",
+      "14",
+      "37",
+      "51",
+      "03",
+      "81"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "03",
+      "14",
+      "16",
+      "24",
+      "26",
+      "32",
+      "35",
+      "37",
+      "47",
+      "51",
+      "52",
+      "53",
+      "55",
+      "56",
+      "73",
+      "75",
+      "81",
+      "87",
+      "94"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 23712.37
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 196,
+        "valorPremio": 1572.76
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1881,
+        "valorPremio": 81.94
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 11090,
+        "valorPremio": 13.9
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 154130.45
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "S\u00c3O JOS\u00c9 DO RIO PRETO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 878,
+    "numeroConcursoAnterior": 877,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 879,
+    "numeroJogo": 16,
+    "observacao": "GANHADOR DE ZERO ACERTO: CURITIBA/PR.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2129482.07,
+    "valorEstimadoProximoConcurso": 2700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

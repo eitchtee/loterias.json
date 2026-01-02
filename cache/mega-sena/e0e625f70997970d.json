@@ -1,0 +1,118 @@
+{
+  "cookies": {
+    "__uzmc": "4348743310130",
+    "__uzmd": "1767321026"
+  },
+  "created_at": "2026-01-02T02:30:11.492647+00:00",
+  "elapsed": 0.079536,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:30:11.492629+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:30:26 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=4348743310130; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:26 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321026; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:26 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d6df7a023a96600cd0f30a37a0cb5052",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "7990943023305",
+      "__uzmd": "1767321026"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=7990943023305; __uzmd=1767321026",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/141"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/141",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "14/11/1998",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "10",
+      "22",
+      "42",
+      "13",
+      "41",
+      "58"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "10",
+      "13",
+      "22",
+      "41",
+      "42",
+      "58"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 119,
+        "valorPremio": 20106.1
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 10533,
+        "valorPremio": 226.7
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 141,
+    "numeroConcursoAnterior": 140,
+    "numeroConcursoFinal_0_5": 145,
+    "numeroConcursoProximo": 142,
+    "numeroJogo": 2,
+    "observacao": "A MEGA-SENA EST\u00c1 ACUMULADA.  PREVIS\u00c3O DO PR\u00caMIO: 23 Milh\u00f5es. ! ! !",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 3231028.21,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 19324778.9,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

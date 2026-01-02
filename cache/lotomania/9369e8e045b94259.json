@@ -1,0 +1,179 @@
+{
+  "cookies": {
+    "__uzmc": "14848509243498",
+    "__uzmd": "1767320898"
+  },
+  "created_at": "2026-01-02T02:28:03.555591+00:00",
+  "elapsed": 0.073574,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:28:03.555573+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:28:18 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=14848509243498; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:18 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320898; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:18 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4e7b1d0215da69f15872e0ef6ccb0567",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "34945508953816",
+      "__uzmd": "1767320898"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=34945508953816; __uzmd=1767320898",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1694"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1694",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "20/09/2016",
+    "dataProximoConcurso": "23/09/2016",
+    "dezenasSorteadasOrdemSorteio": [
+      "98",
+      "94",
+      "81",
+      "08",
+      "53",
+      "10",
+      "37",
+      "04",
+      "95",
+      "92",
+      "55",
+      "93",
+      "51",
+      "85",
+      "58",
+      "91",
+      "86",
+      "15",
+      "70",
+      "46"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "08",
+      "10",
+      "15",
+      "37",
+      "46",
+      "51",
+      "53",
+      "55",
+      "58",
+      "70",
+      "81",
+      "85",
+      "86",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "98"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "S\u00c3O MIGUEL DO ARAGUAIA",
+        "nomeFatansiaUL": "",
+        "posicao": 2,
+        "serie": "",
+        "uf": "GO"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 7,
+        "valorPremio": 27497.26
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 110,
+        "valorPremio": 1562.34
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1269,
+        "valorPremio": 94.79
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6017,
+        "valorPremio": 19.99
+      },
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 25354,
+        "valorPremio": 4.74
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 96240.46
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "S\u00c3O GON\u00c7ALO DO RIO ABAIXO, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1694,
+    "numeroConcursoAnterior": 1693,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1695,
+    "numeroJogo": 16,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 3964492.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 657209.64,
+    "valorEstimadoProximoConcurso": 1100000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

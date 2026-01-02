@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "20813217344272",
+    "__uzmd": "1767320818"
+  },
+  "created_at": "2026-01-02T02:26:43.532432+00:00",
+  "elapsed": 0.083742,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:43.532414+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:58 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=20813217344272; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:58 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320818; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:58 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "3c1032bb39029031e07487de2dbb76bc",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "45225217060938",
+      "__uzmd": "1767320818"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=45225217060938; __uzmd=1767320818",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/721"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/721",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "09/05/2007",
+    "dataProximoConcurso": "12/05/2007",
+    "dezenasSorteadasOrdemSorteio": [
+      "51",
+      "60",
+      "98",
+      "37",
+      "36",
+      "54",
+      "42",
+      "18",
+      "12",
+      "22",
+      "74",
+      "08",
+      "49",
+      "72",
+      "01",
+      "64",
+      "90",
+      "83",
+      "20",
+      "87"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "08",
+      "12",
+      "18",
+      "20",
+      "22",
+      "36",
+      "37",
+      "42",
+      "49",
+      "51",
+      "54",
+      "60",
+      "64",
+      "72",
+      "74",
+      "83",
+      "87",
+      "90",
+      "98"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 11,
+        "valorPremio": 22111.86
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 127,
+        "valorPremio": 1915.2
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1123,
+        "valorPremio": 107.88
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7050,
+        "valorPremio": 17.19
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 121615.23
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "NATAL, RN",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 721,
+    "numeroConcursoAnterior": 720,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 722,
+    "numeroJogo": 16,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (20 ACERTOS) para o pr\u00f3ximo concurso a ser realizado em 12/05/2007: R$1.200.000,00. Ganhandor de ZERO ACERTO: MG.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 833613.03,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

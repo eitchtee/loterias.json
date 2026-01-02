@@ -1,0 +1,135 @@
+{
+  "cookies": {
+    "__uzmc": "32960281859649",
+    "__uzmd": "1767321093"
+  },
+  "created_at": "2026-01-02T02:31:18.946722+00:00",
+  "elapsed": 0.069408,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:31:18.946705+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:31:33 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=32960281859649; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:33 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321093; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:33 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4cdcb58c202675827c0140cab2b3fc8a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "12113281551889",
+      "__uzmd": "1767321093"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=12113281551889; __uzmd=1767321093",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/936"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/936",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "19/01/2008",
+    "dataProximoConcurso": "23/01/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "05",
+      "33",
+      "14",
+      "29",
+      "44",
+      "22"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "14",
+      "22",
+      "29",
+      "33",
+      "44"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 8699137.89
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 144,
+        "valorPremio": 10297.63
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 9280,
+        "valorPremio": 159.79
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Aracaju, SE",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 936,
+    "numeroConcursoAnterior": 935,
+    "numeroConcursoFinal_0_5": 940,
+    "numeroConcursoProximo": 937,
+    "numeroJogo": 2,
+    "observacao": "Ganhadores de 6 acertos: Rio de Janeiro/RJ e Porto Alegre/RS.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 3492792.66,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "80974144123223",
+    "__uzmd": "1767321384"
+  },
+  "created_at": "2026-01-02T02:36:09.612228+00:00",
+  "elapsed": 0.097353,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:36:09.612210+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:36:24 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=80974144123223; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:36:24 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321384; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:36:24 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "02e2aa52fe5881477cb367a311d64006",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "10118143886171",
+      "__uzmd": "1767321384"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=10118143886171; __uzmd=1767321384",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/477"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/477",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "12/11/1998",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "38",
+      "04",
+      "27",
+      "18",
+      "47"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "18",
+      "27",
+      "38",
+      "47"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 144715.11
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 470,
+        "valorPremio": 689.99
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18208,
+        "valorPremio": 23.71
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 477,
+    "numeroConcursoAnterior": 476,
+    "numeroConcursoFinal_0_5": 485,
+    "numeroConcursoProximo": 478,
+    "numeroJogo": 3,
+    "observacao": "04 Ganhadores: MINAS GERAIS, MATO GROSSO DO SUL, RIO DE JANEIRO e S\u00c3O PAULO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

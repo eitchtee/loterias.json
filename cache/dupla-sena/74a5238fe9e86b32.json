@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "1454791314551",
+    "__uzmd": "1767319599"
+  },
+  "created_at": "2026-01-02T02:06:24.618489+00:00",
+  "elapsed": 0.072944,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:24.618477+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:39 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=1454791314551; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:39 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319599; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:39 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "49f9e3a70ef92d256fa466ef4330a192",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "4198191086388",
+      "__uzmd": "1767319599"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=4198191086388; __uzmd=1767319599",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/301"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/301",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "29/10/2004",
+    "dataProximoConcurso": "05/11/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "33",
+      "01",
+      "41",
+      "06",
+      "13",
+      "45",
+      "33",
+      "14",
+      "35",
+      "13",
+      "05",
+      "43"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "06",
+      "13",
+      "33",
+      "41",
+      "45"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "05",
+      "13",
+      "14",
+      "33",
+      "35",
+      "43"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 32,
+        "valorPremio": 2577.92
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1547,
+        "valorPremio": 53.12
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "JUAZEIRO DO NORTE, CE",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 301,
+    "numeroConcursoAnterior": 300,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 302,
+    "numeroJogo": 18,
+    "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA 1\u00ba SORTEIO) pr\u00f3ximo concurso: R$1.700.000,00 (HUM MILH\u00c3O E SETECENTOS MIL REAIS).",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1537502.12,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

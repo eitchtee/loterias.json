@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "593911077464595",
+    "__uzmd": "1767321686"
+  },
+  "created_at": "2026-01-02T02:41:11.903662+00:00",
+  "elapsed": 0.072115,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:41:11.903641+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:41:26 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=593911077464595; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:41:26 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321686; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:41:26 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "5060317ad2a3cd2365aae325d067ac68",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "536661077142006",
+      "__uzmd": "1767321686"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=536661077142006; __uzmd=1767321686",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/3588"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/3588",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "15/09/2014",
+    "dataProximoConcurso": "16/09/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "63",
+      "45",
+      "15",
+      "47",
+      "21"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "15",
+      "21",
+      "45",
+      "47",
+      "63"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 114,
+        "valorPremio": 4226.38
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 6042,
+        "valorPremio": 113.91
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "CARMO, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 3588,
+    "numeroConcursoAnterior": 3587,
+    "numeroConcursoFinal_0_5": 3595,
+    "numeroConcursoProximo": 3589,
+    "numeroJogo": 3,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6254513.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 23811019.55,
+    "valorAcumuladoProximoConcurso": 1265781.66,
+    "valorEstimadoProximoConcurso": 2000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

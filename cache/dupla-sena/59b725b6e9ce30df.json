@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "61213109032735",
+    "__uzmd": "1767319604"
+  },
+  "created_at": "2026-01-02T02:06:29.703305+00:00",
+  "elapsed": 0.073814,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:29.703286+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:44 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=61213109032735; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319604; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:44 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "36622200e20a595d675853a79fcfb6bb",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "62259108726593",
+      "__uzmd": "1767319604"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=62259108726593; __uzmd=1767319604",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/360"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/360",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "10/06/2005",
+    "dataProximoConcurso": "14/06/2005",
+    "dezenasSorteadasOrdemSorteio": [
+      "33",
+      "30",
+      "06",
+      "43",
+      "48",
+      "13",
+      "23",
+      "06",
+      "27",
+      "32",
+      "01",
+      "14"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "13",
+      "30",
+      "33",
+      "43",
+      "48"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "01",
+      "06",
+      "14",
+      "23",
+      "27",
+      "32"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 21,
+        "valorPremio": 4541.42
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1490,
+        "valorPremio": 63.77
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Ourinhos, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 360,
+    "numeroConcursoAnterior": 359,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 361,
+    "numeroJogo": 18,
+    "observacao": "ACUMULOU!! Estimativa de pr\u00eamio (SENA 1\u00ba SORTEIO) pr\u00f3ximo concurso: R$1.800.000,00. \r\nOBS.: OS SORTEIOS NOS DIAS 13 E 14/06 SER\u00c3O  EM MARTIN\u00d3POLIS/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1705101.51,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

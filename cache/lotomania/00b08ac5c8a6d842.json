@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "6272521769790",
+    "__uzmd": "1767320755"
+  },
+  "created_at": "2026-01-02T02:25:41.108468+00:00",
+  "elapsed": 0.086124,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:41.108450+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:25:55 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=6272521769790; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320755; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "67a5c3a4ac200977f378175a7f35cf30",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "3045621458576",
+      "__uzmd": "1767320755"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=3045621458576; __uzmd=1767320755",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/69"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/69",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "06/12/2000",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "55",
+      "00",
+      "95",
+      "45",
+      "94",
+      "15",
+      "72",
+      "34",
+      "76",
+      "24",
+      "69",
+      "73",
+      "98",
+      "58",
+      "86",
+      "30",
+      "29",
+      "14",
+      "01",
+      "83"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "01",
+      "14",
+      "15",
+      "24",
+      "29",
+      "30",
+      "34",
+      "45",
+      "55",
+      "58",
+      "69",
+      "72",
+      "73",
+      "76",
+      "83",
+      "86",
+      "94",
+      "95",
+      "98"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 24028.34
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 136,
+        "valorPremio": 2296.83
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1355,
+        "valorPremio": 114.93
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 8343,
+        "valorPremio": 18.67
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "JAGUARIAIVA, PR",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 69,
+    "numeroConcursoAnterior": 68,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 70,
+    "numeroJogo": 16,
+    "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso(20 acertos)R$2.000.000,00 e (zero acertos)R$700.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1161113.53,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

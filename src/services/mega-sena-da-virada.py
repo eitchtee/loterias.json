@@ -1,9 +1,8 @@
 """
 Mega-Sena da Virada lottery data collection service.
-Filters Mega-Sena draws that happened on December 31st.
+Filters Mega-Sena draws where indicadorConcursoEspecial == 2 or date is 31/12 (2008+).
+Uses cached API responses shared with mega-sena service.
 """
-
-import json
 
 from base import BaseService
 
@@ -17,28 +16,63 @@ class MegaSenaDaViradaService(BaseService):
 
     @property
     def base_url(self) -> str:
-        # Not used - we read from mega-sena.json instead
-        return ""
+        return "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena"
+
+    @property
+    def cache_name(self) -> str:
+        # Share cache with mega-sena service
+        return "mega-sena"
+
+    def _is_virada(self, raw_data: dict) -> bool:
+        """
+        Check if a draw is a Mega-Sena da Virada.
+
+        A draw is considered Virada if:
+        - indicadorConcursoEspecial == 2 (official API indicator), OR
+        - Date is 31/12 and year is 2008 or later (first Virada was 2008)
+        """
+        # Check official indicator
+        if raw_data.get("indicadorConcursoEspecial") == 2:
+            return True
+
+        # Fallback: check date (DD/MM/YYYY format)
+        date_str = raw_data.get("dataApuracao", "")
+        if date_str.startswith("31/12"):
+            try:
+                year = int(date_str.split("/")[2])
+                if year >= 2008:
+                    return True
+            except (IndexError, ValueError):
+                pass
+
+        return False
 
     def run(self) -> None:
-        """Filter Mega-Sena draws that happened on December 31st."""
+        """Fetch all Mega-Sena draws and filter Virada draws."""
         self.logger.info("Starting Mega-Sena da Virada data collection...")
 
-        # Read from mega-sena.json
-        mega_sena_path = self.data_dir / "mega-sena.json"
+        # Get the latest draw to find the current max concurso
+        latest_raw = self.fetch_json()
+        latest_concurso = latest_raw["numero"]
+        self.logger.info(f"Latest concurso is {latest_concurso}")
 
-        if not mega_sena_path.exists():
-            self.logger.warning("mega-sena.json not found, skipping")
-            return
+        # Collect all virada draws
+        virada_draws = []
 
-        with open(mega_sena_path, "r", encoding="utf-8") as f:
-            mega_sena_draws = json.load(f)
+        # Check if the latest is a virada
+        if self._is_virada(latest_raw):
+            virada_draws.append(self.transform_draw(latest_raw))
 
-        # Filter draws that happened on December 31st
-        # Date format is DD/MM/YYYY
-        virada_draws = [
-            draw for draw in mega_sena_draws if draw["data"].startswith("31/12")
-        ]
+        # Fetch all draws and filter for virada
+        # Most requests will be served from cache
+        for concurso in range(1, latest_concurso):
+            try:
+                raw_data = self.fetch_json(f"{self.base_url}/{concurso}")
+                if self._is_virada(raw_data):
+                    virada_draws.append(self.transform_draw(raw_data))
+            except Exception as e:
+                self.logger.warning(f"Could not fetch draw {concurso}: {e}")
+                continue
 
         # Sort by concurso
         virada_draws.sort(key=lambda x: x["concurso"])
@@ -47,7 +81,7 @@ class MegaSenaDaViradaService(BaseService):
 
         self.logger.info(
             f"Mega-Sena da Virada data collection finished. "
-            f"Found {len(virada_draws)} draws on December 31st."
+            f"Found {len(virada_draws)} Virada draws."
         )
 
 

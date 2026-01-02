@@ -1,0 +1,128 @@
+{
+  "cookies": {
+    "__uzmc": "370021304815352",
+    "__uzmd": "1767320229"
+  },
+  "created_at": "2026-01-02T02:16:54.303130+00:00",
+  "elapsed": 0.112627,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:16:54.303111+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:17:09 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=370021304815352; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320229; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:09 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "67df31181a8fb6584d49e38fa4f6aaec",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "338711304552846",
+      "__uzmd": "1767320228"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=338711304552846; __uzmd=1767320228",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4346"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4346",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "16/05/2009",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "039012",
+      "009676",
+      "037820",
+      "062467",
+      "003776"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "039012",
+      "009676",
+      "037820",
+      "062467",
+      "003776"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 200000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 10500.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 8000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 6000.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 4412.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "S\u00c3O PEDRO DA ALDEIA, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4346,
+    "numeroConcursoAnterior": 4345,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 4347,
+    "numeroJogo": 10,
+    "observacao": "OS BILHETES GANHADORES DO 1\u00ba PR\u00caMIO FORAM ADQUIRIDOS EM MOGI DAS CRUZES/SP, S\u00c3O BERNARDO DO CAMPO/SP E S\u00c3O PAULO/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

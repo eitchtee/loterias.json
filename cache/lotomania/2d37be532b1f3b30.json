@@ -1,0 +1,189 @@
+{
+  "cookies": {
+    "__uzmc": "91518271626136",
+    "__uzmd": "1767320836"
+  },
+  "created_at": "2026-01-02T02:27:01.552693+00:00",
+  "elapsed": 0.098558,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:01.552676+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:16 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=91518271626136; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:16 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320836; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:16 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "ecadc14a8f00f5987828ca48b8a7d784",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "21405271329156",
+      "__uzmd": "1767320836"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=21405271329156; __uzmd=1767320836",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/902"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/902",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "31/01/2009",
+    "dataProximoConcurso": "04/02/2009",
+    "dezenasSorteadasOrdemSorteio": [
+      "07",
+      "03",
+      "28",
+      "10",
+      "82",
+      "99",
+      "26",
+      "39",
+      "12",
+      "15",
+      "75",
+      "78",
+      "93",
+      "73",
+      "69",
+      "43",
+      "05",
+      "49",
+      "19",
+      "21"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "05",
+      "07",
+      "10",
+      "12",
+      "15",
+      "19",
+      "21",
+      "26",
+      "28",
+      "39",
+      "43",
+      "49",
+      "69",
+      "73",
+      "75",
+      "78",
+      "82",
+      "93",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "CE"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 307113.01
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 60,
+        "valorPremio": 4685.82
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 503,
+        "valorPremio": 558.95
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 3394,
+        "valorPremio": 41.42
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 15628,
+        "valorPremio": 9.0
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 46858.19
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ARAPIRACA, AL",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 902,
+    "numeroConcursoAnterior": 901,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 903,
+    "numeroJogo": 16,
+    "observacao": "GANHADORES DE 20 ACERTOS: CUNHA POR\u00c3/SC, QUIXERAMOBIM/CE E SANTAR\u00c9M/PA. GANHADORES DE ZERO ACERTO: CUNHA POR\u00c3/SC, QUIXERAMOBIM/CE E RIO DE JANEIRO/RJ.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

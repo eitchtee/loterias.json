@@ -1,0 +1,133 @@
+{
+  "cookies": {
+    "__uzmc": "23238722537881",
+    "__uzmd": "1767321582"
+  },
+  "created_at": "2026-01-02T02:39:27.613106+00:00",
+  "elapsed": 0.077408,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:39:27.613089+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:39:42 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=23238722537881; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:42 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321582; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:39:42 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "fa3bc676b76eeb0b255e9cdc81edb133",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "55515722263213",
+      "__uzmd": "1767321582"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=55515722263213; __uzmd=1767321582",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2405"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/2405",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "23/09/2010",
+    "dataProximoConcurso": "24/09/2010",
+    "dezenasSorteadasOrdemSorteio": [
+      "05",
+      "10",
+      "49",
+      "61",
+      "33"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "10",
+      "33",
+      "49",
+      "61"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BALNE\u00c1RIO CAMBORI\u00da",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "Aracaju",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SE"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 178106.57
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 160,
+        "valorPremio": 1590.24
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 8027,
+        "valorPremio": 45.28
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "VIDEIRA, SC",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 2405,
+    "numeroConcursoAnterior": 2404,
+    "numeroConcursoFinal_0_5": 2415,
+    "numeroConcursoProximo": 2406,
+    "numeroJogo": 3,
+    "observacao": "VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DE S\u00c3O JO\u00c3O - R$ 9.105.718,46.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 3302952.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

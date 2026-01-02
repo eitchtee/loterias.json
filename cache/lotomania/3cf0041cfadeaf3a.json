@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "80266415024618",
+    "__uzmd": "1767320874"
+  },
+  "created_at": "2026-01-02T02:27:39.253325+00:00",
+  "elapsed": 0.072139,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:39.253305+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:54 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=80266415024618; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:54 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320874; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:54 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "050548887b11958dce31182bff777201",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "79316414756366",
+      "__uzmd": "1767320873"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=79316414756366; __uzmd=1767320873",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1380"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1380",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "04/09/2013",
+    "dataProximoConcurso": "06/09/2013",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "16",
+      "27",
+      "53",
+      "79",
+      "80",
+      "22",
+      "12",
+      "67",
+      "97",
+      "29",
+      "14",
+      "64",
+      "47",
+      "76",
+      "21",
+      "17",
+      "08",
+      "63",
+      "23"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "08",
+      "12",
+      "14",
+      "16",
+      "17",
+      "21",
+      "22",
+      "23",
+      "25",
+      "27",
+      "29",
+      "47",
+      "53",
+      "63",
+      "64",
+      "67",
+      "76",
+      "79",
+      "80",
+      "97"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "PASSO DE TORRES",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 364300.05
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 5,
+        "valorPremio": 41634.29
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 126,
+        "valorPremio": 1652.16
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1382,
+        "valorPremio": 94.14
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7148,
+        "valorPremio": 18.2
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 104085.73
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITANHA\u00c9M, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1380,
+    "numeroConcursoAnterior": 1379,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1381,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DE ZERO ACERTO FOI REALIZADA EM PASSO DE TORRES/SC.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 4222422.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 13180106.97,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 350000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

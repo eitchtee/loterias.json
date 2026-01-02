@@ -1,0 +1,179 @@
+{
+  "cookies": {
+    "__uzmc": "99825517028121",
+    "__uzmd": "1767320900"
+  },
+  "created_at": "2026-01-02T02:28:05.623098+00:00",
+  "elapsed": 0.12614,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:28:05.623080+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:28:20 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=99825517028121; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:20 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320900; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:20 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c51f3fe5a11159b1969259b194035b2b",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "29264516720594",
+      "__uzmd": "1767320900"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=29264516720594; __uzmd=1767320900",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1720"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1720",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "20/12/2016",
+    "dataProximoConcurso": "23/12/2016",
+    "dezenasSorteadasOrdemSorteio": [
+      "31",
+      "94",
+      "95",
+      "00",
+      "80",
+      "92",
+      "17",
+      "75",
+      "24",
+      "97",
+      "04",
+      "63",
+      "54",
+      "39",
+      "83",
+      "06",
+      "66",
+      "33",
+      "22",
+      "59"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "04",
+      "06",
+      "17",
+      "22",
+      "24",
+      "31",
+      "33",
+      "39",
+      "54",
+      "59",
+      "63",
+      "66",
+      "75",
+      "80",
+      "83",
+      "92",
+      "94",
+      "95",
+      "97"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CARATINGA",
+        "nomeFatansiaUL": "",
+        "posicao": 2,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 16,
+        "valorPremio": 18846.97
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 247,
+        "valorPremio": 1090.04
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1761,
+        "valorPremio": 107.02
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 9944,
+        "valorPremio": 18.95
+      },
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 38381,
+        "valorPremio": 4.91
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 150775.75
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "JI-PARAN\u00c1, RO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1720,
+    "numeroConcursoAnterior": 1719,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1721,
+    "numeroJogo": 16,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6210999.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 5529867.5,
+    "valorEstimadoProximoConcurso": 6200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

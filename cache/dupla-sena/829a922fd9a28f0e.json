@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "87642109348901",
+    "__uzmd": "1767319604"
+  },
+  "created_at": "2026-01-02T02:06:29.799125+00:00",
+  "elapsed": 0.093698,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:29.799107+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:06:44 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=87642109348901; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319604; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:06:44 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "3eba3b3c3d247581d50ae4722778b793",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "61213109032735",
+      "__uzmd": "1767319604"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=61213109032735; __uzmd=1767319604",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/361"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/361",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "14/06/2005",
+    "dataProximoConcurso": "17/06/2005",
+    "dezenasSorteadasOrdemSorteio": [
+      "27",
+      "32",
+      "38",
+      "28",
+      "30",
+      "20",
+      "21",
+      "02",
+      "18",
+      "20",
+      "49",
+      "31"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "20",
+      "27",
+      "28",
+      "30",
+      "32",
+      "38"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "02",
+      "18",
+      "20",
+      "21",
+      "31",
+      "49"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 8,
+        "valorPremio": 10508.01
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 799,
+        "valorPremio": 104.82
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Martin\u00f3polis, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 361,
+    "numeroConcursoAnterior": 360,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 362,
+    "numeroJogo": 18,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA 1\u00ba SORTEIO) pr\u00f3ximo concurso, a ser realizado em 17/06/2005: R$2.100.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1957293.66,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

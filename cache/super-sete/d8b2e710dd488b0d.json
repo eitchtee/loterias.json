@@ -1,0 +1,132 @@
+{
+  "cookies": {
+    "__uzmc": "1388832283375",
+    "__uzmd": "1767321971"
+  },
+  "created_at": "2026-01-02T02:45:57.048353+00:00",
+  "elapsed": 0.078042,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:45:57.048335+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:46:11 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=1388832283375; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:11 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321971; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:11 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "f7ddf79a10943f24bc4c20b20b1a4087",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "d721322d-24ce-44e9-9d05-635e9d4cab24",
+      "__uzmb": "1767321963",
+      "__uzme": "3069",
+      "__uzmc": "1388831983375",
+      "__uzmd": "1767321971"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=d721322d-24ce-44e9-9d05-635e9d4cab24; __uzmb=1767321963; __uzme=3069; __uzmc=1388831983375; __uzmd=1767321971",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/104"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/104",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "14/06/2021",
+    "dataProximoConcurso": "16/06/2021",
+    "dezenasSorteadasOrdemSorteio": [
+      "8",
+      "1",
+      "0",
+      "8",
+      "1",
+      "9",
+      "2"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "8",
+      "1",
+      "0",
+      "8",
+      "1",
+      "9",
+      "2"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 9562.56
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 70,
+        "valorPremio": 780.61
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 969,
+        "valorPremio": 56.39
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 8130,
+        "valorPremio": 5.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o Loterias CAIXA",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 104,
+    "numeroConcursoAnterior": 103,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 105,
+    "numeroJogo": 7,
+    "observacao": "As Loterias CAIXA informam que o sorteio do concurso n\u00ba 105\u00a0do Super Sete, previsto para \u00e0s 15h de hoje (16/06), ainda n\u00e3o foi realizado devido a problemas operacionais, mas ser\u00e1 transmitido ao vivo nos perfis da CAIXA no YouTube e Facebook. Acompanhe!",
+    "premiacaoContingencia": null,
+    "tipoJogo": "SUPER_SETE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 934112.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2415810.84,
+    "valorEstimadoProximoConcurso": 2600000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 2415810.84
+  }
+}

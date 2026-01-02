@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "8660594949333",
+    "__uzmd": "1767320424"
+  },
+  "created_at": "2026-01-02T02:20:09.430523+00:00",
+  "elapsed": 0.125091,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:20:09.430504+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "close",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:20:24 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=8660594949333; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:24 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320424; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:20:24 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "7bb353fbaadec382fc9cb4a4c735e207",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
+      "__uzmb": "1767320398",
+      "__uzme": "6012",
+      "__uzmc": "1151294660731",
+      "__uzmd": "1767320424"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=1151294660731; __uzmd=1767320424",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/313"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/313",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "10/04/2008",
+    "dataProximoConcurso": "14/04/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "07",
+      "06",
+      "14",
+      "23",
+      "17",
+      "12",
+      "15",
+      "19",
+      "10",
+      "16",
+      "09",
+      "25",
+      "02",
+      "03",
+      "18"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "02",
+      "03",
+      "06",
+      "07",
+      "09",
+      "10",
+      "12",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "23",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "ES"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 381993.94
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 456,
+        "valorPremio": 1077.05
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 18119,
+        "valorPremio": 10.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 231723,
+        "valorPremio": 4.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1255491,
+        "valorPremio": 2.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "SANTO ANDR\u00c9, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 313,
+    "numeroConcursoAnterior": 312,
+    "numeroConcursoFinal_0_5": 320,
+    "numeroConcursoProximo": 314,
+    "numeroJogo": 8,
+    "observacao": "GANHADORES DE 15 ACERTOS: CURITIBA/PR, S\u00c3O BERNARDO DO CAMPO/SP, S\u00c3O GABRIEL DA PALHA/ES.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 1200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

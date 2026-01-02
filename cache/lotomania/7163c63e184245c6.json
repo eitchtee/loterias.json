@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "86496399746116",
+    "__uzmd": "1767320870"
+  },
+  "created_at": "2026-01-02T02:27:35.367130+00:00",
+  "elapsed": 0.08271,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:35.367109+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:50 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=86496399746116; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:50 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320870; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:50 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "5f25cfafb2eaec008babd50ed04c78eb",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "29138399487624",
+      "__uzmd": "1767320870"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=29138399487624; __uzmd=1767320870",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1329"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1329",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "06/03/2013",
+    "dataProximoConcurso": "09/03/2013",
+    "dezenasSorteadasOrdemSorteio": [
+      "11",
+      "49",
+      "91",
+      "57",
+      "12",
+      "39",
+      "46",
+      "18",
+      "09",
+      "66",
+      "20",
+      "95",
+      "40",
+      "94",
+      "06",
+      "55",
+      "85",
+      "21",
+      "48",
+      "17"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "09",
+      "11",
+      "12",
+      "17",
+      "18",
+      "20",
+      "21",
+      "39",
+      "40",
+      "46",
+      "48",
+      "49",
+      "55",
+      "57",
+      "66",
+      "85",
+      "91",
+      "94",
+      "95"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 18,
+        "valorPremio": 16300.56
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 231,
+        "valorPremio": 1270.18
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1793,
+        "valorPremio": 102.27
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 9889,
+        "valorPremio": 18.54
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 73352.53
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "CUIAB\u00c1, MT",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1329,
+    "numeroConcursoAnterior": 1328,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1330,
+    "numeroJogo": 16,
+    "observacao": "AS APOSTAS GANHADORAS DE ZERO ACERTO FORAM EFETUADAS EM NOVA TIMBOTEUA/PA E S\u00c3O PAULO/SP. VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DA P\u00c1SCOA: R$ 26.074.463,15.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5951350.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2934952.92,
+    "valorEstimadoProximoConcurso": 3600000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

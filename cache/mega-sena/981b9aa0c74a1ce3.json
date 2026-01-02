@@ -1,0 +1,135 @@
+{
+  "cookies": {
+    "__uzmc": "38570180422963",
+    "__uzmd": "1767321064"
+  },
+  "created_at": "2026-01-02T02:30:50.190787+00:00",
+  "elapsed": 0.076058,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:30:50.190769+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:31:04 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=38570180422963; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:04 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321064; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:04 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "94b4ca865d8dc11fff7c9fc1cb586804",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "16682180123940",
+      "__uzmd": "1767321064"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=16682180123940; __uzmd=1767321064",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/598"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/598",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "15/09/2004",
+    "dataProximoConcurso": "18/09/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "05",
+      "16",
+      "53",
+      "38",
+      "50",
+      "34"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "16",
+      "34",
+      "38",
+      "50",
+      "53"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 23179951.19
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 234,
+        "valorPremio": 15531.4
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 19229,
+        "valorPremio": 188.29
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "PORTO ALEGRE, RS",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 598,
+    "numeroConcursoAnterior": 597,
+    "numeroConcursoFinal_0_5": 600,
+    "numeroConcursoProximo": 599,
+    "numeroJogo": 2,
+    "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 13144938.94,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

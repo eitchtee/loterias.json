@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "15245422233807",
+    "__uzmd": "1767320875"
+  },
+  "created_at": "2026-01-02T02:27:41.227668+00:00",
+  "elapsed": 0.078624,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:41.227651+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:56 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=15245422233807; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320875; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "ffe0135c282106a27a5ae602bc06fdc4",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "80393421971971",
+      "__uzmd": "1767320875"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=80393421971971; __uzmd=1767320875",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1404"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1404",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "27/11/2013",
+    "dataProximoConcurso": "30/11/2013",
+    "dezenasSorteadasOrdemSorteio": [
+      "54",
+      "51",
+      "71",
+      "23",
+      "09",
+      "49",
+      "24",
+      "40",
+      "29",
+      "43",
+      "95",
+      "84",
+      "73",
+      "86",
+      "33",
+      "46",
+      "44",
+      "30",
+      "15",
+      "04"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "09",
+      "15",
+      "23",
+      "24",
+      "29",
+      "30",
+      "33",
+      "40",
+      "43",
+      "44",
+      "46",
+      "49",
+      "51",
+      "54",
+      "71",
+      "73",
+      "84",
+      "86",
+      "95"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "SANTO ANDR\u00c9",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 4936074.99
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 8,
+        "valorPremio": 44805.21
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 155,
+        "valorPremio": 2312.52
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1554,
+        "valorPremio": 144.16
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 9587,
+        "valorPremio": 23.36
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 179220.82
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Audit\u00f3rio",
+    "nomeMunicipioUFSorteio": "BRAS\u00cdLIA, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1404,
+    "numeroConcursoAnterior": 1403,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1405,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DE ZERO ACERTO FOI REALIZADA EM CAPIN\u00d3POLIS/MG.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 7270410.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 20395193.05,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

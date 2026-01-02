@@ -1,0 +1,128 @@
+{
+  "cookies": {
+    "__uzmc": "620391322267305",
+    "__uzmd": "1767320234"
+  },
+  "created_at": "2026-01-02T02:16:59.321489+00:00",
+  "elapsed": 0.076684,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:16:59.321471+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:17:14 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=620391322267305; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320234; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:17:14 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6ce9c700298d6e1af6780aa1026def14",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
+      "__uzmb": "1767319841",
+      "__uzme": "1176",
+      "__uzmc": "599031321931511",
+      "__uzmd": "1767320233"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=599031321931511; __uzmd=1767320233",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4404"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/4404",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "05/12/2009",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "038659",
+      "000234",
+      "031807",
+      "060195",
+      "004316"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "038659",
+      "000234",
+      "031807",
+      "060195",
+      "004316"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 200000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 10500.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 8000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 5130.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 3500.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "SERT\u00c3OZINHO, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4404,
+    "numeroConcursoAnterior": 4403,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 4405,
+    "numeroJogo": 10,
+    "observacao": "OS BILHETES GANHADORES DO 1\u00ba PR\u00caMIO FORAM DISTRIBU\u00cdDOS PARA CRUZEIRO DO OSTE/PR, ITAPETININGA/SP E TREMEMB\u00c9/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

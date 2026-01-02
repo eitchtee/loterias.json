@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "18334469087958",
+    "__uzmd": "1767320888"
+  },
+  "created_at": "2026-01-02T02:27:53.471098+00:00",
+  "elapsed": 0.069104,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:53.471078+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:28:08 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=18334469087958; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:08 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320888; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:08 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "02f27e92a333607d77d70073fa663912",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "79185468795544",
+      "__uzmd": "1767320888"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=79185468795544; __uzmd=1767320888",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1560"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1560",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "03/06/2015",
+    "dataProximoConcurso": "06/06/2015",
+    "dezenasSorteadasOrdemSorteio": [
+      "35",
+      "56",
+      "61",
+      "94",
+      "30",
+      "52",
+      "23",
+      "37",
+      "77",
+      "74",
+      "47",
+      "04",
+      "75",
+      "49",
+      "17",
+      "06",
+      "65",
+      "08",
+      "53",
+      "26"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "06",
+      "08",
+      "17",
+      "23",
+      "26",
+      "30",
+      "35",
+      "37",
+      "47",
+      "49",
+      "52",
+      "53",
+      "56",
+      "61",
+      "65",
+      "74",
+      "75",
+      "77",
+      "94"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "ANANINDEUA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTOS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 3315842.88
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 14,
+        "valorPremio": 26873.06
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 344,
+        "valorPremio": 1562.38
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2702,
+        "valorPremio": 87.02
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 14942,
+        "valorPremio": 15.73
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "CAMINH\u00c3O DA SORTE",
+    "nomeMunicipioUFSorteio": "PIQUEROBI, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1560,
+    "numeroConcursoAnterior": 1559,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1561,
+    "numeroJogo": 16,
+    "observacao": "O PR\u00caMIO DE ZERO ACERTO (R$ 188.111,42) FICA ACUMULADO PARA O PR\u00caMIO DE VINTE ACERTOS DO PR\u00d3XIMO CONCURSO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 7631073.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 5601740.67,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

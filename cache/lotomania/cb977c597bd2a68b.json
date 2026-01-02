@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "24692198187130",
+    "__uzmd": "1767320812"
+  },
+  "created_at": "2026-01-02T02:26:37.965777+00:00",
+  "elapsed": 0.088384,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:37.965762+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:52 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=24692198187130; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:52 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320812; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:52 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "39d855038401bb6052ed530f8b112bfc",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "95442197821772",
+      "__uzmd": "1767320812"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=95442197821772; __uzmd=1767320812",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/657"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/657",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "23/09/2006",
+    "dataProximoConcurso": "27/09/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "88",
+      "24",
+      "83",
+      "54",
+      "28",
+      "99",
+      "81",
+      "66",
+      "90",
+      "16",
+      "76",
+      "25",
+      "06",
+      "72",
+      "08",
+      "87",
+      "21",
+      "26",
+      "84",
+      "38"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "08",
+      "16",
+      "21",
+      "24",
+      "25",
+      "26",
+      "28",
+      "38",
+      "54",
+      "66",
+      "72",
+      "76",
+      "81",
+      "83",
+      "84",
+      "87",
+      "88",
+      "90",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 10,
+        "valorPremio": 25180.41
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 100,
+        "valorPremio": 2518.04
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1011,
+        "valorPremio": 124.06
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6924,
+        "valorPremio": 18.12
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 125902.07
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITAPEVA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 657,
+    "numeroConcursoAnterior": 656,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 658,
+    "numeroJogo": 16,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (20 acertos) para o pr\u00f3ximo concurso, a ser realizado em 27/09/2006: R$800.000,00. Ganhador de zero acerto: RJ.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 377706.17,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

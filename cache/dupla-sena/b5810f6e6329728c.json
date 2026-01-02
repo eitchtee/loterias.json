@@ -1,0 +1,146 @@
+{
+  "cookies": {
+    "__uzmc": "82379204781426",
+    "__uzmd": "1767319631"
+  },
+  "created_at": "2026-01-02T02:06:56.669845+00:00",
+  "elapsed": 0.076622,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:06:56.669827+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:07:11 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=82379204781426; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:11 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319631; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:11 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "13cfd74d4728c5cd9d9aff50fc4af44d",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "80210204412911",
+      "__uzmd": "1767319631"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=80210204412911; __uzmd=1767319631",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/679"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/679",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "01/08/2008",
+    "dataProximoConcurso": "05/08/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "18",
+      "49",
+      "05",
+      "44",
+      "21",
+      "10",
+      "22",
+      "24",
+      "05",
+      "46",
+      "10",
+      "13"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "10",
+      "18",
+      "21",
+      "44",
+      "49"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "05",
+      "10",
+      "13",
+      "22",
+      "24",
+      "46"
+    ],
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 3322757.63
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 38,
+        "valorPremio": 4204.49
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 2955,
+        "valorPremio": 54.07
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ARAGAR\u00c7AS, GO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 679,
+    "numeroConcursoAnterior": 678,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 680,
+    "numeroJogo": 18,
+    "observacao": "GANHADOR DE 6 ACERTOS DO 1\u00ba SORTEIO: S\u00c3O PAULO/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 350000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

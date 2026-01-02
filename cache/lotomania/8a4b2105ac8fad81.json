@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "83440125892645",
+    "__uzmd": "1767320791"
+  },
+  "created_at": "2026-01-02T02:26:16.643151+00:00",
+  "elapsed": 0.08134,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:16.643133+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:31 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=83440125892645; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:31 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320791; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:31 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6fecded38b0b0df516cef6aeb1a5d892",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "84700125595214",
+      "__uzmd": "1767320791"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=84700125595214; __uzmd=1767320791",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/416"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/416",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "12/05/2004",
+    "dataProximoConcurso": "15/05/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "34",
+      "24",
+      "25",
+      "62",
+      "15",
+      "47",
+      "57",
+      "63",
+      "40",
+      "70",
+      "35",
+      "41",
+      "00",
+      "23",
+      "54",
+      "80",
+      "92",
+      "17",
+      "13",
+      "95"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "13",
+      "15",
+      "17",
+      "23",
+      "24",
+      "25",
+      "34",
+      "35",
+      "40",
+      "41",
+      "47",
+      "54",
+      "57",
+      "62",
+      "63",
+      "70",
+      "80",
+      "92",
+      "95"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "CE"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 3753443.91
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 10,
+        "valorPremio": 37748.41
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 187,
+        "valorPremio": 2018.63
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1567,
+        "valorPremio": 120.0
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 10521,
+        "valorPremio": 17.88
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 188742.09
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITAPECERICA DA SERRA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 416,
+    "numeroConcursoAnterior": 415,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 417,
+    "numeroJogo": 16,
+    "observacao": "Estimativa de pr\u00eamio (20 ACERTOS) pr\u00f3ximo concurso: R$500.000,00. Ganhadores (zero acerto) por Estado: CE(1).",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

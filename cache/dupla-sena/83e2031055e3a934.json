@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "91253225465128",
+    "__uzmd": "1767319637"
+  },
+  "created_at": "2026-01-02T02:07:02.723283+00:00",
+  "elapsed": 0.077878,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:07:02.723266+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:07:17 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=91253225465128; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:17 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319637; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:07:17 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "72fb3e1b941cd3f41acc553ce5f4c595",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "215eda5c-5315-4739-bc28-49491946b11c",
+      "__uzmb": "1767319543",
+      "__uzme": "3660",
+      "__uzmc": "11210225125648",
+      "__uzmd": "1767319637"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=215eda5c-5315-4739-bc28-49491946b11c; __uzmb=1767319543; __uzme=3660; __uzmc=11210225125648; __uzmd=1767319637",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/748"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/748",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "03/04/2009",
+    "dataProximoConcurso": "07/04/2009",
+    "dezenasSorteadasOrdemSorteio": [
+      "06",
+      "21",
+      "14",
+      "46",
+      "42",
+      "40",
+      "03",
+      "23",
+      "29",
+      "09",
+      "32",
+      "50"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "14",
+      "21",
+      "40",
+      "42",
+      "46"
+    ],
+    "listaDezenasSegundoSorteio": [
+      "03",
+      "09",
+      "23",
+      "29",
+      "32",
+      "50"
+    ],
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 32,
+        "valorPremio": 3218.48
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1666,
+        "valorPremio": 61.82
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "NAVIRA\u00cd, MS",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 748,
+    "numeroConcursoAnterior": 747,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 749,
+    "numeroJogo": 18,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DUPLA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1048239.11,
+    "valorEstimadoProximoConcurso": 1200000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
