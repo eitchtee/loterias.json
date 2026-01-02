@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "81375428238048",
+    "__uzmd": "1767320877"
+  },
+  "created_at": "2026-01-02T02:27:42.731725+00:00",
+  "elapsed": 0.073963,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:42.731707+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:57 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=81375428238048; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:57 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320877; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:57 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "b73a3d080a913d013bfbc9e849bed78a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "11365427950398",
+      "__uzmd": "1767320877"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=11365427950398; __uzmd=1767320877",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1424"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1424",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "05/02/2014",
+    "dataProximoConcurso": "08/02/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "15",
+      "94",
+      "88",
+      "67",
+      "86",
+      "61",
+      "21",
+      "80",
+      "96",
+      "49",
+      "93",
+      "76",
+      "91",
+      "64",
+      "17",
+      "16",
+      "09",
+      "87",
+      "92",
+      "28"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "09",
+      "15",
+      "16",
+      "17",
+      "21",
+      "28",
+      "49",
+      "61",
+      "64",
+      "67",
+      "76",
+      "80",
+      "86",
+      "87",
+      "88",
+      "91",
+      "92",
+      "93",
+      "94",
+      "96"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 62225.99
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 96,
+        "valorPremio": 2592.75
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 849,
+        "valorPremio": 183.23
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 5248,
+        "valorPremio": 29.64
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 124451.97
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "SENHOR DO BONFIM, BA",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1424,
+    "numeroConcursoAnterior": 1423,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1425,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DO ZERO ACERTO FOI REALIZADA EM S\u00c3O JOS\u00c9 DO RIO PRETO/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5048614.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 25838740.65,
+    "valorAcumuladoProximoConcurso": 1360476.35,
+    "valorEstimadoProximoConcurso": 1900000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

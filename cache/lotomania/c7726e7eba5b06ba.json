@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "24653288719107",
+    "__uzmd": "1767320841"
+  },
+  "created_at": "2026-01-02T02:27:06.755016+00:00",
+  "elapsed": 0.073574,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:06.755002+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:21 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=24653288719107; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:21 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320841; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:21 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "c83a6e8e5d834e2e6c74347ebfe690ef",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "37102288476602",
+      "__uzmd": "1767320841"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=37102288476602; __uzmd=1767320841",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/959"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/959",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "19/08/2009",
+    "dataProximoConcurso": "22/08/2009",
+    "dezenasSorteadasOrdemSorteio": [
+      "11",
+      "21",
+      "10",
+      "97",
+      "80",
+      "78",
+      "07",
+      "74",
+      "86",
+      "87",
+      "52",
+      "16",
+      "27",
+      "54",
+      "92",
+      "19",
+      "62",
+      "09",
+      "93",
+      "60"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "07",
+      "09",
+      "10",
+      "11",
+      "16",
+      "19",
+      "21",
+      "27",
+      "52",
+      "54",
+      "60",
+      "62",
+      "74",
+      "78",
+      "80",
+      "86",
+      "87",
+      "92",
+      "93",
+      "97"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "BRAS\u00cdLIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "DF"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 785229.69
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 8,
+        "valorPremio": 41085.31
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 140,
+        "valorPremio": 2347.73
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1171,
+        "valorPremio": 200.48
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 8155,
+        "valorPremio": 28.78
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 164341.28
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "MACAP\u00c1, AP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 959,
+    "numeroConcursoAnterior": 958,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 960,
+    "numeroJogo": 16,
+    "observacao": "O GANHADOR DO PR\u00caMIO DE ZERO ACERTO \u00c9 DO RIO DE JANEIRO/RJ.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5333435.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "54817267463594",
+    "__uzmd": "1767320835"
+  },
+  "created_at": "2026-01-02T02:27:00.331387+00:00",
+  "elapsed": 0.137017,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:00.331369+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:15 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=54817267463594; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:15 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320835; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:15 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "e6e6183804f004d7e3946f4ecfc5d946",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "77882267181810",
+      "__uzmd": "1767320834"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=77882267181810; __uzmd=1767320834",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/888"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/888",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "13/12/2008",
+    "dataProximoConcurso": "17/12/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "25",
+      "84",
+      "30",
+      "00",
+      "28",
+      "09",
+      "51",
+      "76",
+      "42",
+      "53",
+      "66",
+      "71",
+      "68",
+      "52",
+      "98",
+      "77",
+      "56",
+      "04",
+      "86",
+      "61"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "04",
+      "09",
+      "25",
+      "28",
+      "30",
+      "42",
+      "51",
+      "52",
+      "53",
+      "56",
+      "61",
+      "66",
+      "68",
+      "71",
+      "76",
+      "77",
+      "84",
+      "86",
+      "98"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 400799.58
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 9,
+        "valorPremio": 29688.86
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 121,
+        "valorPremio": 2208.27
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1112,
+        "valorPremio": 120.15
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7161,
+        "valorPremio": 18.66
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 133599.88
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "FRANCA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 888,
+    "numeroConcursoAnterior": 887,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 889,
+    "numeroJogo": 16,
+    "observacao": "GANHADOR DE VINTE ACERTOS: ALVORADA/RS. GANHADOR DE ZERO ACERTO: CORRENTE/PI.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

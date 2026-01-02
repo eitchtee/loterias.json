@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "3503984415677",
+    "__uzmd": "1767320777"
+  },
+  "created_at": "2026-01-02T02:26:02.928696+00:00",
+  "elapsed": 0.078963,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:02.928674+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:17 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=3503984415677; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:17 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320777; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:17 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "353507c3b2f9cac108a5e13beebec928",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "1542584153028",
+      "__uzmd": "1767320777"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=1542584153028; __uzmd=1767320777",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/278"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/278",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "28/12/2002",
+    "dataProximoConcurso": "04/01/2003",
+    "dezenasSorteadasOrdemSorteio": [
+      "78",
+      "48",
+      "03",
+      "99",
+      "44",
+      "68",
+      "05",
+      "96",
+      "14",
+      "94",
+      "17",
+      "64",
+      "52",
+      "39",
+      "47",
+      "98",
+      "35",
+      "67",
+      "21",
+      "50"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "05",
+      "14",
+      "17",
+      "21",
+      "35",
+      "39",
+      "44",
+      "47",
+      "48",
+      "50",
+      "52",
+      "64",
+      "67",
+      "68",
+      "78",
+      "94",
+      "96",
+      "98",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 4936660.17
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 31,
+        "valorPremio": 24167.7
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 503,
+        "valorPremio": 1489.46
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 4239,
+        "valorPremio": 88.04
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 25813,
+        "valorPremio": 14.47
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Itapira, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 278,
+    "numeroConcursoAnterior": 277,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 279,
+    "numeroJogo": 16,
+    "observacao": "Estimativa de pr\u00eamios pr\u00f3ximo concurso: (20 ACERTOS) R$600.000,00 - (ZERO ACERTO) R$3.500.000,00 (TR\u00caS MILH\u00d5ES E MEIO!!!). A CAIXA informa que o concurso 279 da Lotomania acontecer\u00e1 em 04/01/2003 (s\u00e1bado).",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

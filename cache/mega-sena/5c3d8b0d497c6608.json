@@ -1,0 +1,118 @@
+{
+  "cookies": {
+    "__uzmc": "3496361032083",
+    "__uzmd": "1767321031"
+  },
+  "created_at": "2026-01-02T02:30:16.388926+00:00",
+  "elapsed": 0.072538,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:30:16.388910+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:30:31 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=3496361032083; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:31 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321031; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:31 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "f7542fda0c0c085ef187f7e77e0ace97",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "3690960774819",
+      "__uzmd": "1767321031"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=3690960774819; __uzmd=1767321031",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/200"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/200",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "31/12/1999",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "12",
+      "15",
+      "44",
+      "34",
+      "51",
+      "19"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "12",
+      "15",
+      "19",
+      "34",
+      "44",
+      "51"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 8829389.2
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 186,
+        "valorPremio": 11008.48
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 13027,
+        "valorPremio": 156.59
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 200,
+    "numeroConcursoAnterior": 199,
+    "numeroConcursoFinal_0_5": 205,
+    "numeroConcursoProximo": 201,
+    "numeroJogo": 2,
+    "observacao": "Os ganhadores da MEGASENA s\u00e3o de: Clevel\u00e2ndia/PR e S\u00e3o Jos\u00e9 dos Campos/SP.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 1638061.59,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

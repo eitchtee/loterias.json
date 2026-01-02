@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "7125535878667",
+    "__uzmd": "1767320760"
+  },
+  "created_at": "2026-01-02T02:25:45.896992+00:00",
+  "elapsed": 0.223585,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:45.896973+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:00 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=7125535878667; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:00 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320760; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:00 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4212a600270eb316950c5e82c6c1564e",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "5601635551095",
+      "__uzmd": "1767320760"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=5601635551095; __uzmd=1767320760",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/116"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/116",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "23/05/2001",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "46",
+      "83",
+      "03",
+      "82",
+      "21",
+      "56",
+      "04",
+      "11",
+      "80",
+      "64",
+      "92",
+      "35",
+      "45",
+      "59",
+      "08",
+      "31",
+      "53",
+      "07",
+      "39",
+      "47"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "04",
+      "07",
+      "08",
+      "11",
+      "21",
+      "31",
+      "35",
+      "39",
+      "45",
+      "46",
+      "47",
+      "53",
+      "56",
+      "59",
+      "64",
+      "80",
+      "82",
+      "83",
+      "92"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 26717.3
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 120,
+        "valorPremio": 2894.38
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1157,
+        "valorPremio": 149.53
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7894,
+        "valorPremio": 21.92
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Goi\u00e2nia, GO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 116,
+    "numeroConcursoAnterior": 115,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 117,
+    "numeroJogo": 16,
+    "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso 20 ACERTOS:R$2 MILH\u00d5ES e NENHUM ACERTO:R$400MIL.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1206897.66,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

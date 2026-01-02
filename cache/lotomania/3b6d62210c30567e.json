@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "817612555502",
+    "__uzmd": "1767320750"
+  },
+  "created_at": "2026-01-02T02:25:35.338030+00:00",
+  "elapsed": 0.084137,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:35.338013+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:25:50 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=817612555502; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:50 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320750; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:50 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "8b6c642061e1630fa864fa7c8470e5bd",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "641052235699",
+      "__uzmd": "1767320749"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=641052235699; __uzmd=1767320749",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/5"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/5",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "30/10/1999",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "39",
+      "32",
+      "65",
+      "08",
+      "51",
+      "42",
+      "17",
+      "92",
+      "43",
+      "71",
+      "28",
+      "73",
+      "98",
+      "69",
+      "59",
+      "54",
+      "20",
+      "87",
+      "99",
+      "00"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "08",
+      "17",
+      "20",
+      "28",
+      "32",
+      "39",
+      "42",
+      "43",
+      "51",
+      "54",
+      "59",
+      "65",
+      "69",
+      "71",
+      "73",
+      "87",
+      "92",
+      "98",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 49935.4
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 254,
+        "valorPremio": 2555.75
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2326,
+        "valorPremio": 139.01
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 14561,
+        "valorPremio": 22.21
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 324580.09
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 5,
+    "numeroConcursoAnterior": 4,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 6,
+    "numeroJogo": 16,
+    "observacao": "1)- Sorteio realizado no Audit\u00f3rio da CAIXA em Bras\u00edlia 2)- O Ganhador da 6\u00aa faixa (Zero Acerto), \u00e9 de Minas Gerais, cidade de Uberl\u00e2ndia.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 3166185.82,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

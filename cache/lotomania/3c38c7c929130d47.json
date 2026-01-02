@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "3627427152939",
+    "__uzmd": "1767320757"
+  },
+  "created_at": "2026-01-02T02:25:42.841872+00:00",
+  "elapsed": 0.179552,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:42.841856+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:25:57 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=3627427152939; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:57 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320757; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:57 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "a3b2205869f9c84fc33c0356808c0ae9",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "2630226877918",
+      "__uzmd": "1767320757"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=2630226877918; __uzmd=1767320757",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/87"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/87",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "07/02/2001",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "17",
+      "24",
+      "87",
+      "15",
+      "47",
+      "53",
+      "43",
+      "83",
+      "51",
+      "96",
+      "54",
+      "59",
+      "99",
+      "42",
+      "85",
+      "93",
+      "30",
+      "98",
+      "67",
+      "06"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "15",
+      "17",
+      "24",
+      "30",
+      "42",
+      "43",
+      "47",
+      "51",
+      "53",
+      "54",
+      "59",
+      "67",
+      "83",
+      "85",
+      "87",
+      "93",
+      "96",
+      "98",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 44,
+        "valorPremio": 7527.0
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 561,
+        "valorPremio": 588.59
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 4177,
+        "valorPremio": 39.54
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 20539,
+        "valorPremio": 11.48
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 165595.6
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Rio Claro, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 87,
+    "numeroConcursoAnterior": 86,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 88,
+    "numeroJogo": 16,
+    "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (20 acertos): R$2MILH\u00d5ES - (0 acerto): R$250MIL.\r\nGanhador de 0 acerto: Santa Cruz/RN.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1147988.31,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

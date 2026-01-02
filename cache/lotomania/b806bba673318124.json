@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "8892687753332",
+    "__uzmd": "1767320778"
+  },
+  "created_at": "2026-01-02T02:26:03.923580+00:00",
+  "elapsed": 0.084323,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:03.923564+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:18 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=8892687753332; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:18 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320778; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:18 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "220a6f5d4ba87f2ee06d7770e4c0529f",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "4958387479487",
+      "__uzmd": "1767320778"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=4958387479487; __uzmd=1767320778",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/289"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/289",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "08/02/2003",
+    "dataProximoConcurso": "12/02/2003",
+    "dezenasSorteadasOrdemSorteio": [
+      "33",
+      "18",
+      "43",
+      "65",
+      "15",
+      "70",
+      "16",
+      "26",
+      "03",
+      "74",
+      "27",
+      "64",
+      "05",
+      "72",
+      "06",
+      "99",
+      "25",
+      "49",
+      "39",
+      "61"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "05",
+      "06",
+      "15",
+      "16",
+      "18",
+      "25",
+      "26",
+      "27",
+      "33",
+      "39",
+      "43",
+      "49",
+      "61",
+      "64",
+      "65",
+      "70",
+      "72",
+      "74",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 24,
+        "valorPremio": 19363.87
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 291,
+        "valorPremio": 1597.02
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2925,
+        "valorPremio": 79.14
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 15995,
+        "valorPremio": 14.48
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Itanha\u00e9m, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 289,
+    "numeroConcursoAnterior": 288,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 290,
+    "numeroJogo": 16,
+    "observacao": "Estimativa de pr\u00eamios pr\u00f3ximo concurso - (VINTE ACERTOS): R$1.900.000,00 - (ZERO ACERTO): R$1.200.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1233768.79,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

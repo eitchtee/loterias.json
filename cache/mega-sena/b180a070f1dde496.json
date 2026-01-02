@@ -1,0 +1,118 @@
+{
+  "cookies": {
+    "__uzmc": "93051222183458",
+    "__uzmd": "1767321077"
+  },
+  "created_at": "2026-01-02T02:31:02.395002+00:00",
+  "elapsed": 0.073919,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:31:02.394986+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:31:17 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=93051222183458; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:17 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321077; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:31:17 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "b4b68b729ff76de9c2f1e71b5d1b1511",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "96406221838214",
+      "__uzmd": "1767321077"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=96406221838214; __uzmd=1767321077",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/737"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/737",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "11/02/2006",
+    "dataProximoConcurso": "15/02/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "33",
+      "12",
+      "24",
+      "38",
+      "11",
+      "32"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "11",
+      "12",
+      "24",
+      "32",
+      "33",
+      "38"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 65,
+        "valorPremio": 18730.63
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 6267,
+        "valorPremio": 193.54
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "LAVRAS, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 737,
+    "numeroConcursoAnterior": 736,
+    "numeroConcursoFinal_0_5": 740,
+    "numeroConcursoProximo": 738,
+    "numeroJogo": 2,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 15/02/2006: R$13.000.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 3778470.18,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 11547995.59,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

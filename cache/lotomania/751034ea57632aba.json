@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "85233378139797",
+    "__uzmd": "1767320864"
+  },
+  "created_at": "2026-01-02T02:27:29.793091+00:00",
+  "elapsed": 0.065575,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:29.793072+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:44 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=85233378139797; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320864; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:44 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "66cc7752adf168ad4c0390291b158a34",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "94582377828889",
+      "__uzmd": "1767320864"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=94582377828889; __uzmd=1767320864",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1257"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1257",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "27/06/2012",
+    "dataProximoConcurso": "30/06/2012",
+    "dezenasSorteadasOrdemSorteio": [
+      "89",
+      "08",
+      "34",
+      "52",
+      "86",
+      "18",
+      "24",
+      "44",
+      "00",
+      "22",
+      "81",
+      "46",
+      "45",
+      "42",
+      "25",
+      "48",
+      "15",
+      "03",
+      "37",
+      "07"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "03",
+      "07",
+      "08",
+      "15",
+      "18",
+      "22",
+      "24",
+      "25",
+      "34",
+      "37",
+      "42",
+      "44",
+      "45",
+      "46",
+      "48",
+      "52",
+      "81",
+      "86",
+      "89"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "UBERL\u00c2NDIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 892582.65
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 9,
+        "valorPremio": 25207.91
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 137,
+        "valorPremio": 1655.99
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1232,
+        "valorPremio": 115.09
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 8075,
+        "valorPremio": 17.55
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 113435.57
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "PARAUAPEBAS, PA",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1257,
+    "numeroConcursoAnterior": 1256,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1258,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DE ZERO ACERTO FOI REALIZADA EM UBERL\u00c2NDIA/MG. VALOR L\u00cdQUIDO ACUMULADO PARA O CONCURSO ESPECIAL DA P\u00c1SCOA - R$ 3.903.004,68.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 4601715.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

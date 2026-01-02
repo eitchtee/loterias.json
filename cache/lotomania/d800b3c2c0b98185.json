@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "3223423892195",
+    "__uzmd": "1767320756"
+  },
+  "created_at": "2026-01-02T02:25:41.751409+00:00",
+  "elapsed": 0.089363,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:41.751392+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:25:56 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=3223423892195; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:56 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320756; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:56 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "b068186df692d453d960039089d4c98a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "2398023519847",
+      "__uzmd": "1767320756"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=2398023519847; __uzmd=1767320756",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/76"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/76",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "30/12/2000",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "00",
+      "22",
+      "61",
+      "80",
+      "96",
+      "31",
+      "30",
+      "07",
+      "67",
+      "48",
+      "29",
+      "56",
+      "10",
+      "55",
+      "68",
+      "50",
+      "06",
+      "52",
+      "86",
+      "18"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "06",
+      "07",
+      "10",
+      "18",
+      "22",
+      "29",
+      "30",
+      "31",
+      "48",
+      "50",
+      "52",
+      "55",
+      "56",
+      "61",
+      "67",
+      "68",
+      "80",
+      "86",
+      "96"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 15,
+        "valorPremio": 30763.96
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 215,
+        "valorPremio": 2146.32
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2252,
+        "valorPremio": 102.16
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 14078,
+        "valorPremio": 16.35
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 173028.83
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Ubatuba, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 76,
+    "numeroConcursoAnterior": 75,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 77,
+    "numeroJogo": 16,
+    "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (20 acertos) R$1.400.000,00 - (zero acertos)R$150.000,00. Ganhadores com zero acertos: Guarulhos/SP (01) e Senador Canedo/GO (01).",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 1038172.93,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

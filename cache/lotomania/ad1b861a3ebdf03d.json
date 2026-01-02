@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "4838412150683",
+    "__uzmd": "1767320752"
+  },
+  "created_at": "2026-01-02T02:25:38.082216+00:00",
+  "elapsed": 0.085932,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:38.082204+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:25:52 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=4838412150683; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:52 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320752; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:25:52 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "4b8d6d01f6b97fd7deb40c861c5a6355",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "1488711859887",
+      "__uzmd": "1767320752"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=1488711859887; __uzmd=1767320752",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/37"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/37",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "10/06/2000",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "44",
+      "43",
+      "74",
+      "73",
+      "99",
+      "01",
+      "20",
+      "03",
+      "82",
+      "97",
+      "98",
+      "50",
+      "09",
+      "55",
+      "17",
+      "35",
+      "38",
+      "21",
+      "52",
+      "06"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "06",
+      "09",
+      "17",
+      "20",
+      "21",
+      "35",
+      "38",
+      "43",
+      "44",
+      "50",
+      "52",
+      "55",
+      "73",
+      "74",
+      "82",
+      "97",
+      "98",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RS"
+      },
+      {
+        "ganhadores": 2,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 892612.72
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 24,
+        "valorPremio": 26881.58
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 321,
+        "valorPremio": 2009.84
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2666,
+        "valorPremio": 120.55
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 16810,
+        "valorPremio": 19.12
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 322578.94
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Gar\u00e7a, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 37,
+    "numeroConcursoAnterior": 36,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 38,
+    "numeroJogo": 16,
+    "observacao": "Previs\u00e3o de pr\u00eamio p/ conc.38(1\u00aafx)R$900.000,00",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

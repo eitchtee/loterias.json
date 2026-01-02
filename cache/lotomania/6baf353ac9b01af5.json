@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "89748250384215",
+    "__uzmd": "1767320829"
+  },
+  "created_at": "2026-01-02T02:26:54.602060+00:00",
+  "elapsed": 0.086074,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:54.602042+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:27:09 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=89748250384215; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320829; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:27:09 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "03ba0871f0f8bb2efab4acd861e95d21",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "85616250071237",
+      "__uzmd": "1767320829"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=85616250071237; __uzmd=1767320829",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/831"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/831",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "28/05/2008",
+    "dataProximoConcurso": "31/05/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "91",
+      "10",
+      "50",
+      "17",
+      "43",
+      "99",
+      "54",
+      "19",
+      "56",
+      "22",
+      "16",
+      "94",
+      "87",
+      "47",
+      "64",
+      "38",
+      "83",
+      "40",
+      "20",
+      "00"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "10",
+      "16",
+      "17",
+      "19",
+      "20",
+      "22",
+      "38",
+      "40",
+      "43",
+      "47",
+      "50",
+      "54",
+      "56",
+      "64",
+      "83",
+      "87",
+      "91",
+      "94",
+      "99"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MG"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 372805.33
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 11,
+        "valorPremio": 21133.97
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 164,
+        "valorPremio": 1417.53
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1366,
+        "valorPremio": 85.1
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7920,
+        "valorPremio": 14.68
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 58118.44
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "CONCEI\u00c7\u00c3O DE MACABU, RJ",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 831,
+    "numeroConcursoAnterior": 830,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 832,
+    "numeroJogo": 16,
+    "observacao": "GANHADORES DE 20 ACERTOS: SALVADOR/BA, MONTES CLAROS/MG. GANHADORES DE ZERO ACERTO: SALVADOR/BA, LAGOA VERMELHA/RS.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 350000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

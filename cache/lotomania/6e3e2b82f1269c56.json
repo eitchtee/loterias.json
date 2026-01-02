@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "47132189120676",
+    "__uzmd": "1767320810"
+  },
+  "created_at": "2026-01-02T02:26:35.453631+00:00",
+  "elapsed": 0.076118,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:35.453615+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:50 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=47132189120676; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:50 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320810; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:50 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "87fd9d5df3830227277143eb03b5e71b",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "14045188855918",
+      "__uzmd": "1767320810"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=14045188855918; __uzmd=1767320810",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/627"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/627",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "10/06/2006",
+    "dataProximoConcurso": "14/06/2006",
+    "dezenasSorteadasOrdemSorteio": [
+      "92",
+      "37",
+      "83",
+      "86",
+      "81",
+      "78",
+      "24",
+      "30",
+      "09",
+      "61",
+      "72",
+      "27",
+      "31",
+      "93",
+      "28",
+      "00",
+      "47",
+      "84",
+      "87",
+      "53"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "00",
+      "09",
+      "24",
+      "27",
+      "28",
+      "30",
+      "31",
+      "37",
+      "47",
+      "53",
+      "61",
+      "72",
+      "78",
+      "81",
+      "83",
+      "84",
+      "86",
+      "87",
+      "92",
+      "93"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 6,
+        "valorPremio": 42598.18
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 109,
+        "valorPremio": 2344.86
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1003,
+        "valorPremio": 126.93
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6704,
+        "valorPremio": 19.0
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "GAMA, DF",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 627,
+    "numeroConcursoAnterior": 626,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 628,
+    "numeroJogo": 16,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (20 acertos) para o pr\u00f3ximo concurso, a ser realizado em 14/06/2006: R$1.000.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 511178.25,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

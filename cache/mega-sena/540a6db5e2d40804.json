@@ -1,0 +1,127 @@
+{
+  "cookies": {
+    "__uzmc": "97412593569969",
+    "__uzmd": "1767321178"
+  },
+  "created_at": "2026-01-02T02:32:43.352092+00:00",
+  "elapsed": 0.073134,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:32:43.352069+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:32:58 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=97412593569969; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:32:58 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321178; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:32:58 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "7c8504c9b65c390dddd981801e7931b0",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
+      "__uzmb": "1767321014",
+      "__uzme": "4414",
+      "__uzmc": "52357593248282",
+      "__uzmd": "1767321178"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=52357593248282; __uzmd=1767321178",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/1975"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/1975",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "07/10/2017",
+    "dataProximoConcurso": "11/10/2017",
+    "dezenasSorteadasOrdemSorteio": [
+      "08",
+      "24",
+      "47",
+      "26",
+      "11",
+      "57"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "08",
+      "11",
+      "24",
+      "26",
+      "47",
+      "57"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "GUARULHOS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 22575348.57
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 76,
+        "valorPremio": 33102.68
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 5845,
+        "valorPremio": 614.88
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITAPIRANGA, SC",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1975,
+    "numeroConcursoAnterior": 1974,
+    "numeroConcursoFinal_0_5": 1980,
+    "numeroConcursoProximo": 1976,
+    "numeroJogo": 2,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 43635819.5,
+    "valorAcumuladoConcurso_0_5": 2913035.44,
+    "valorAcumuladoConcursoEspecial": 60940840.9,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 3000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

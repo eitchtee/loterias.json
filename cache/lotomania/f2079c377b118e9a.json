@@ -1,0 +1,164 @@
+{
+  "cookies": {
+    "__uzmc": "97174211990334",
+    "__uzmd": "1767320816"
+  },
+  "created_at": "2026-01-02T02:26:41.991706+00:00",
+  "elapsed": 0.094826,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:26:41.991688+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:56 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=97174211990334; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:56 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320816; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:56 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "1394077fc459b8798d8d17f7b151e035",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "24897211693716",
+      "__uzmd": "1767320816"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=24897211693716; __uzmd=1767320816",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/703"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/703",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "07/03/2007",
+    "dataProximoConcurso": "10/03/2007",
+    "dezenasSorteadasOrdemSorteio": [
+      "43",
+      "07",
+      "72",
+      "92",
+      "66",
+      "32",
+      "56",
+      "84",
+      "33",
+      "30",
+      "08",
+      "96",
+      "79",
+      "71",
+      "49",
+      "16",
+      "70",
+      "39",
+      "87",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "07",
+      "08",
+      "12",
+      "16",
+      "30",
+      "32",
+      "33",
+      "39",
+      "43",
+      "49",
+      "56",
+      "66",
+      "70",
+      "71",
+      "72",
+      "79",
+      "84",
+      "87",
+      "92",
+      "96"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 5,
+        "valorPremio": 47728.22
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 105,
+        "valorPremio": 2272.77
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 986,
+        "valorPremio": 120.56
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6038,
+        "valorPremio": 19.7
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 119320.56
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "SALVADOR, BA",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 703,
+    "numeroConcursoAnterior": 702,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 704,
+    "numeroJogo": 16,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (20 acertos) para o pr\u00f3ximo concurso, a ser realizado em 10/03/2007: R$800.000,00. Ganhador de zero acerto: RS.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 357961.59,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

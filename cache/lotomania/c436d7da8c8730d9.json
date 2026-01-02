@@ -1,0 +1,173 @@
+{
+  "cookies": {
+    "__uzmc": "44525442914767",
+    "__uzmd": "1767320881"
+  },
+  "created_at": "2026-01-02T02:27:46.571658+00:00",
+  "elapsed": 0.067442,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:27:46.571637+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:28:01 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=44525442914767; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320881; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:01 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "2d533ff3706bec8eedbf7fe6a1a2ae45",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "042"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "34290442628939",
+      "__uzmd": "1767320881"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=34290442628939; __uzmd=1767320881",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1473"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1473",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "30/07/2014",
+    "dataProximoConcurso": "02/08/2014",
+    "dezenasSorteadasOrdemSorteio": [
+      "84",
+      "56",
+      "70",
+      "73",
+      "24",
+      "53",
+      "40",
+      "06",
+      "09",
+      "08",
+      "21",
+      "79",
+      "96",
+      "92",
+      "12",
+      "64",
+      "87",
+      "25",
+      "05",
+      "94"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "06",
+      "08",
+      "09",
+      "12",
+      "21",
+      "24",
+      "25",
+      "40",
+      "53",
+      "56",
+      "64",
+      "70",
+      "73",
+      "79",
+      "84",
+      "87",
+      "92",
+      "94",
+      "96"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "GOI\u00c2NIA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "GO"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 4396246.12
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 6,
+        "valorPremio": 50699.11
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 143,
+        "valorPremio": 2127.23
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1201,
+        "valorPremio": 158.3
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 7844,
+        "valorPremio": 24.23
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 152097.32
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "MARATA\u00cdZES, ES",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1473,
+    "numeroConcursoAnterior": 1472,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1474,
+    "numeroJogo": 16,
+    "observacao": "A APOSTA GANHADORA DE ZERO ACERTO FOI REALIZADA EM GOI\u00c2NIA/GO.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6170097.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 7568316.12,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

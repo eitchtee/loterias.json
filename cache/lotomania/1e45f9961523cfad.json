@@ -1,0 +1,181 @@
+{
+  "cookies": {
+    "__uzmc": "9881262214198",
+    "__uzmd": "1767320769"
+  },
+  "created_at": "2026-01-02T02:25:55.476849+00:00",
+  "elapsed": 0.491298,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:25:55.476832+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:26:10 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=9881262214198; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320769; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:26:09 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "a585afe362f8e04358e5e6e25db38712",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
+      "__uzmb": "1767320749",
+      "__uzme": "4799",
+      "__uzmc": "3735961949646",
+      "__uzmd": "1767320769"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=3735961949646; __uzmd=1767320769",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/204"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/204",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "06/04/2002",
+    "dataProximoConcurso": "10/04/2002",
+    "dezenasSorteadasOrdemSorteio": [
+      "89",
+      "88",
+      "67",
+      "06",
+      "50",
+      "40",
+      "45",
+      "16",
+      "44",
+      "46",
+      "38",
+      "96",
+      "70",
+      "30",
+      "17",
+      "59",
+      "55",
+      "27",
+      "62",
+      "49"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "06",
+      "16",
+      "17",
+      "27",
+      "30",
+      "38",
+      "40",
+      "44",
+      "45",
+      "46",
+      "49",
+      "50",
+      "55",
+      "59",
+      "62",
+      "67",
+      "70",
+      "88",
+      "89",
+      "96"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PE"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 591169.76
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 13,
+        "valorPremio": 35153.75
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 179,
+        "valorPremio": 2553.07
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1848,
+        "valorPremio": 123.19
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 15453,
+        "valorPremio": 14.74
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 228499.42
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Santa Rosa, RS",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 204,
+    "numeroConcursoAnterior": 203,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 205,
+    "numeroJogo": 16,
+    "observacao": "Estimativa de pr\u00eamios pr\u00f3ximo concurso: (20 ACERTOS) R$600.000,00 - (ZERO ACERTO) R$200.000,00. Ganhador da faixa (zero acerto) \u00e9 de PE.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
