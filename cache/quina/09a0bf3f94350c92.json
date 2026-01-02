@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "72857390492659",
+    "__uzmd": "1767321475"
+  },
+  "created_at": "2026-01-02T02:37:41.095383+00:00",
+  "elapsed": 0.083192,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:37:41.095368+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:37:55 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=72857390492659; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:37:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321475; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:37:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d8919dff1164232a5f86f6e3bb7678e4",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "52922390115081",
+      "__uzmd": "1767321475"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=52922390115081; __uzmd=1767321475",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1298"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1298",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "11/05/2004",
+    "dataProximoConcurso": "13/05/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "66",
+      "60",
+      "24",
+      "12",
+      "77"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "12",
+      "24",
+      "60",
+      "66",
+      "77"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 137,
+        "valorPremio": 2038.57
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 5693,
+        "valorPremio": 65.17
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "ITAPECERICA DA SERRA, SP",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1298,
+    "numeroConcursoAnterior": 1297,
+    "numeroConcursoFinal_0_5": 1305,
+    "numeroConcursoProximo": 1299,
+    "numeroJogo": 3,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (QUINA) pr\u00f3ximo concurso: R$600.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 279284.73,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

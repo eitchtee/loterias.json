@@ -1,0 +1,122 @@
+{
+  "cookies": {
+    "__uzmc": "178221388244544",
+    "__uzmd": "1767321777"
+  },
+  "created_at": "2026-01-02T02:42:43.156181+00:00",
+  "elapsed": 0.079281,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:42:43.156165+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:42:57 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=178221388244544; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:42:57 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321777; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:42:57 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "9db74f322a2cb8c4bb59c35d65a2fc98",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "914531387952185",
+      "__uzmd": "1767321777"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=914531387952185; __uzmd=1767321777",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/4624"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/4624",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "08/03/2018",
+    "dataProximoConcurso": "09/03/2018",
+    "dezenasSorteadasOrdemSorteio": [
+      "11",
+      "33",
+      "03",
+      "46",
+      "41"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "11",
+      "33",
+      "41",
+      "46"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 137,
+        "valorPremio": 4772.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 9928,
+        "valorPremio": 99.02
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 236589,
+        "valorPremio": 2.28
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "CAMINH\u00c3O DA SORTE",
+    "nomeMunicipioUFSorteio": "PALMEIRA DOS \u00cdNDIOS, AL",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 4624,
+    "numeroConcursoAnterior": 4623,
+    "numeroConcursoFinal_0_5": 4625,
+    "numeroConcursoProximo": 4625,
+    "numeroJogo": 3,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 11339338.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 76629381.0,
+    "valorAcumuladoProximoConcurso": 8198863.76,
+    "valorEstimadoProximoConcurso": 9400000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

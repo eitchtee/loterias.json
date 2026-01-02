@@ -1,0 +1,138 @@
+{
+  "cookies": {
+    "__uzmc": "9442581736730",
+    "__uzmd": "1767322051"
+  },
+  "created_at": "2026-01-02T02:47:16.771749+00:00",
+  "elapsed": 0.115667,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:47:16.771732+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:47:31 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=9442581736730; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:47:31 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767322051; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:47:31 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "d65b7379375acc6c5e9fae6f0b36f48a",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "e3f180b5-aa77-442f-b9a5-197dfb8a7912",
+      "__uzmb": "1767322025",
+      "__uzme": "9749",
+      "__uzmc": "5804681457324",
+      "__uzmd": "1767322051"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=e3f180b5-aa77-442f-b9a5-197dfb8a7912; __uzmb=1767322025; __uzme=9749; __uzmc=5804681457324; __uzmd=1767322051",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/269"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/269",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "07/12/2011",
+    "dataProximoConcurso": "10/12/2011",
+    "dezenasSorteadasOrdemSorteio": [
+      "73",
+      "59",
+      "79",
+      "68",
+      "56",
+      "65",
+      "40"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "40",
+      "56",
+      "59",
+      "65",
+      "68",
+      "73",
+      "79"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 4,
+        "valorPremio": 29681.01
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 188,
+        "valorPremio": 902.15
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 3306,
+        "valorPremio": 6.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 31465,
+        "valorPremio": 2.0
+      },
+      {
+        "descricaoFaixa": "Time do Cora\u00e7\u00e3o",
+        "faixa": 6,
+        "numeroDeGanhadores": 6959,
+        "valorPremio": 5.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "BIRIGUI, SP",
+    "nomeTimeCoracaoMesSorte": "OLARIA/RJ",
+    "numero": 269,
+    "numeroConcursoAnterior": 268,
+    "numeroConcursoFinal_0_5": 270,
+    "numeroConcursoProximo": 270,
+    "numeroJogo": 20,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "TIMEMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2099108.0,
+    "valorAcumuladoConcurso_0_5": 7289630.79,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 7289630.79,
+    "valorEstimadoProximoConcurso": 7500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

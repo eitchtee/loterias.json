@@ -1,0 +1,131 @@
+{
+  "cookies": {
+    "__uzmc": "397811907542975",
+    "__uzmd": "1767321917"
+  },
+  "created_at": "2026-01-02T02:45:03.223956+00:00",
+  "elapsed": 0.083599,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:45:03.223937+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:45:18 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=397811907542975; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:45:17 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321917; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:45:17 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SDU",
+    "X-Azion-Request-Id": "e6ff83dd8331726a7ad5df72f32c280b",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "052"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "403911907290566",
+      "__uzmd": "1767321917"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=403911907290566; __uzmd=1767321917",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6355"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6355",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "31/01/2024",
+    "dataProximoConcurso": "01/02/2024",
+    "dezenasSorteadasOrdemSorteio": [
+      "10",
+      "03",
+      "01",
+      "22",
+      "69"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "10",
+      "22",
+      "69"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "MISSAO VELHA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "CE"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 4308891.11
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 99,
+        "valorPremio": 3733.9
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 6386,
+        "valorPremio": 55.12
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 122626,
+        "valorPremio": 2.87
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO,  SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 6355,
+    "numeroConcursoAnterior": 6354,
+    "numeroConcursoFinal_0_5": 6365,
+    "numeroConcursoProximo": 6356,
+    "numeroJogo": 3,
+    "observacao": "As Loterias CAIXA informam que os sorteios desta quinta-feira (1\u00ba) est\u00e3o com atraso por quest\u00f5es operacionais. Acompanhe a transmiss\u00e3o pelo perfil das Loterias CAIXA no Facebook e no canal da CAIXA no YouTube.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 8121172.5,
+    "valorAcumuladoConcurso_0_5": 369655.47,
+    "valorAcumuladoConcursoEspecial": 87173807.86,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

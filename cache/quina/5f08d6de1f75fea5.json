@@ -1,0 +1,131 @@
+{
+  "cookies": {
+    "__uzmc": "226951737468290",
+    "__uzmd": "1767321873"
+  },
+  "created_at": "2026-01-02T02:44:19.081592+00:00",
+  "elapsed": 0.065207,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:44:19.081574+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:44:33 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=226951737468290; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:44:33 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321873; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:44:33 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SDU",
+    "X-Azion-Request-Id": "68b80e37b848e206b4179f3d8d715ccc",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "005c"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "210691737121774",
+      "__uzmd": "1767321873"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=210691737121774; __uzmd=1767321873",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/5788"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/5788",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "23/02/2022",
+    "dataProximoConcurso": "24/02/2022",
+    "dezenasSorteadasOrdemSorteio": [
+      "26",
+      "12",
+      "35",
+      "36",
+      "03"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "12",
+      "26",
+      "35",
+      "36"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CHAPECO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SC"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 658964.44
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 63,
+        "valorPremio": 4482.76
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 4452,
+        "valorPremio": 60.41
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 110976,
+        "valorPremio": 2.42
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O LOTERIAS CAIXA",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO,  SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 5788,
+    "numeroConcursoAnterior": 5787,
+    "numeroConcursoFinal_0_5": 5795,
+    "numeroConcursoProximo": 5789,
+    "numeroJogo": 3,
+    "observacao": "Acumulado pr\u00f3ximo concurso final cinco (5795) R$ 2.169.730,74",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6204500.0,
+    "valorAcumuladoConcurso_0_5": 2169730.74,
+    "valorAcumuladoConcursoEspecial": 93670086.01,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 700000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

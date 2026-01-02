@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "47887578280723",
+    "__uzmd": "1767321536"
+  },
+  "created_at": "2026-01-02T02:38:41.528170+00:00",
+  "elapsed": 0.077227,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:38:41.528143+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:38:56 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=47887578280723; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:56 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321536; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:56 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "6ae38fcf64c1ef8bde145871cf672628",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "96070577988629",
+      "__uzmd": "1767321536"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=96070577988629; __uzmd=1767321536",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1924"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1924",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "10/07/2008",
+    "dataProximoConcurso": "12/07/2008",
+    "dezenasSorteadasOrdemSorteio": [
+      "52",
+      "74",
+      "40",
+      "42",
+      "24"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "24",
+      "40",
+      "42",
+      "52",
+      "74"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 67,
+        "valorPremio": 5444.76
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 4832,
+        "valorPremio": 100.66
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "IPAMERI, GO",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1924,
+    "numeroConcursoAnterior": 1923,
+    "numeroConcursoFinal_0_5": 1925,
+    "numeroConcursoProximo": 1925,
+    "numeroJogo": 3,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 364798.75,
+    "valorEstimadoProximoConcurso": 800000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

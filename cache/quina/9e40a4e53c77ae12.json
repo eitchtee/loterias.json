@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "91216451035629",
+    "__uzmd": "1767321495"
+  },
+  "created_at": "2026-01-02T02:38:00.816184+00:00",
+  "elapsed": 0.095143,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:38:00.816166+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:38:15 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=91216451035629; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:15 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321495; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:38:15 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "58942b069bc4cb0afbf7d1c3b51b7c65",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "46060450761582",
+      "__uzmd": "1767321494"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=46060450761582; __uzmd=1767321494",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1500"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1500",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "19/09/2005",
+    "dataProximoConcurso": "20/09/2005",
+    "dezenasSorteadasOrdemSorteio": [
+      "65",
+      "52",
+      "43",
+      "74",
+      "30"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "30",
+      "43",
+      "52",
+      "65",
+      "74"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 95,
+        "valorPremio": 3463.35
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 4836,
+        "valorPremio": 90.38
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "Porto Alegre, RS",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1500,
+    "numeroConcursoAnterior": 1499,
+    "numeroConcursoFinal_0_5": 1505,
+    "numeroConcursoProximo": 1501,
+    "numeroJogo": 3,
+    "observacao": "ACUMULOU. Estimativa de pr\u00eamio (quina) para o pr\u00f3ximo concurso, a ser realizado 20/09/2005: R$700.000,00.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 329017.64,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

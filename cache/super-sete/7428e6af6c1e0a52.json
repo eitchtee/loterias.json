@@ -1,0 +1,141 @@
+{
+  "cookies": {
+    "__uzmc": "2514583567504",
+    "__uzmd": "1767321985"
+  },
+  "created_at": "2026-01-02T02:46:10.457967+00:00",
+  "elapsed": 0.065952,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:46:10.457950+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:46:25 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=2514583567504; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:25 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321985; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:25 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "47ac510ec0ffbb3a7b0ecb4f8858a26c",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "d721322d-24ce-44e9-9d05-635e9d4cab24",
+      "__uzmb": "1767321963",
+      "__uzme": "3069",
+      "__uzmc": "8188383282911",
+      "__uzmd": "1767321985"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=d721322d-24ce-44e9-9d05-635e9d4cab24; __uzmb=1767321963; __uzme=3069; __uzmc=8188383282911; __uzmd=1767321985",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/275"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/275",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "27/07/2022",
+    "dataProximoConcurso": "29/07/2022",
+    "dezenasSorteadasOrdemSorteio": [
+      "7",
+      "1",
+      "2",
+      "8",
+      "8",
+      "6",
+      "1"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "7",
+      "1",
+      "2",
+      "8",
+      "8",
+      "6",
+      "1"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 6623773.04
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 30206.91
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 139,
+        "valorPremio": 931.35
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2277,
+        "valorPremio": 56.85
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 20703,
+        "valorPremio": 5.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 275,
+    "numeroConcursoAnterior": 274,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 276,
+    "numeroJogo": 7,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "SUPER_SETE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2229687.5,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 100000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 6623773.04
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "cookies": {
+    "__uzmc": "85225388978099",
+    "__uzmd": "1767321475"
+  },
+  "created_at": "2026-01-02T02:37:40.671837+00:00",
+  "elapsed": 0.078962,
+  "encoding": "utf-8",
+  "expires": "2026-07-01T02:37:40.671818+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 02 Jan 2026 02:37:55 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=85225388978099; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:37:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321475; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:37:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "CGH",
+    "X-Azion-Request-Id": "7b8626a8691854d9faa73b08f1ff12cb",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "cookies": {
+      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
+      "__uzmb": "1767321326",
+      "__uzme": "3767",
+      "__uzmc": "78604388626112",
+      "__uzmd": "1767321475"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=78604388626112; __uzmd=1767321475",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1293"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/1293",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "29/04/2004",
+    "dataProximoConcurso": "01/05/2004",
+    "dezenasSorteadasOrdemSorteio": [
+      "78",
+      "75",
+      "77",
+      "36",
+      "05"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "05",
+      "36",
+      "75",
+      "77",
+      "78"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 154,
+        "valorPremio": 2186.48
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 7090,
+        "valorPremio": 63.09
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Caminh\u00e3o da Sorte",
+    "nomeMunicipioUFSorteio": "IPATINGA, MG",
+    "nomeTimeCoracaoMesSorte": "",
+    "numero": 1293,
+    "numeroConcursoAnterior": 1292,
+    "numeroConcursoFinal_0_5": 1295,
+    "numeroConcursoProximo": 1294,
+    "numeroJogo": 3,
+    "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (QUINA) pr\u00f3ximo concurso: R$1.000.000,00 (HUM MILH\u00c3O DE REAIS).",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 603436.41,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
