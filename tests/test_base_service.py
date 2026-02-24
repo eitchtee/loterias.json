@@ -19,7 +19,10 @@ class DummyService(BaseService):
 
 class BaseServiceRunTests(unittest.TestCase):
     def test_run_fetches_latest_with_cache_bypassed(self):
-        service = DummyService()
+        service = object.__new__(DummyService)
+        service.logger = MagicMock()
+        service.data_dir = Path("/tmp")
+        service.cache_dir = Path("/tmp")
         service.session = MagicMock()
         cache_ctx = MagicMock()
         service.session.cache_disabled.return_value = cache_ctx
