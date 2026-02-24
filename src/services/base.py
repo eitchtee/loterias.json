@@ -141,7 +141,9 @@ class BaseService(ABC):
         self.logger.info(f"Starting {self.name} data collection...")
 
         # Get the latest draw to find the current max concurso
-        latest_raw = self.fetch_json()
+        # Always bypass cache so new concursos can be detected on every run
+        with self.session.cache_disabled():
+            latest_raw = self.fetch_json()
         latest_concurso = latest_raw["numero"]
         self.logger.info(f"Latest concurso is {latest_concurso}")
 
