@@ -1,0 +1,121 @@
+{
+  "cookies": {
+    "__uzmc": "482205846319",
+    "__uzmd": "1771990458"
+  },
+  "created_at": "2026-02-25T03:34:18.939517+00:00",
+  "elapsed": 0.193081,
+  "encoding": "utf-8",
+  "expires": "2026-08-24T03:34:18.939491+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Wed, 25 Feb 2026 03:34:18 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=482205846319; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:34:18 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1771990458; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:34:18 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "c6d61fd4dadba752ec0f6c584bc7bb1d",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "a2a0d771-b15a-47a5-b735-383526493b95",
+      "__uzmb": "1771990445",
+      "__uzme": "8101",
+      "__uzmc": "133495533733",
+      "__uzmd": "1771990458"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=a2a0d771-b15a-47a5-b735-383526493b95; __uzmb=1771990445; __uzme=8101; __uzmc=133495533733; __uzmd=1771990458",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6931"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6931",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "19/01/2026",
+    "dataProximoConcurso": "20/01/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "48",
+      "77",
+      "69",
+      "73",
+      "79"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "48",
+      "69",
+      "73",
+      "77",
+      "79"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 27,
+        "valorPremio": 9534.86
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1878,
+        "valorPremio": 130.55
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 42836,
+        "valorPremio": 5.72
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 6931,
+    "numeroConcursoAnterior": 6930,
+    "numeroConcursoFinal_0_5": 6935,
+    "numeroConcursoProximo": 6932,
+    "numeroJogo": 3,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 5599041.0,
+    "valorAcumuladoConcurso_0_5": 3196658.36,
+    "valorAcumuladoConcursoEspecial": 76945307.32,
+    "valorAcumuladoProximoConcurso": 600695.91,
+    "valorEstimadoProximoConcurso": 1300000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}

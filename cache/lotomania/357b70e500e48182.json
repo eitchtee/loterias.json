@@ -1,0 +1,169 @@
+{
+  "cookies": {
+    "__uzmc": "524375215466",
+    "__uzmd": "1771990421"
+  },
+  "created_at": "2026-02-25T03:33:41.403247+00:00",
+  "elapsed": 0.341032,
+  "encoding": "utf-8",
+  "expires": "2026-08-24T03:33:41.403226+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Wed, 25 Feb 2026 03:33:41 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=524375215466; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:33:41 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1771990421; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:33:41 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "d49d04d0368e30aae265947b35b2cb64",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "051"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "f8955923-4ee6-480f-945c-2c780d0febf7",
+      "__uzmb": "1771990411",
+      "__uzme": "1135",
+      "__uzmc": "344134992944",
+      "__uzmd": "1771990420"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=f8955923-4ee6-480f-945c-2c780d0febf7; __uzmb=1771990411; __uzme=1135; __uzmc=344134992944; __uzmd=1771990420",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2882"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2882",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "30/01/2026",
+    "dataProximoConcurso": "02/02/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "19",
+      "01",
+      "09",
+      "91",
+      "63",
+      "44",
+      "66",
+      "16",
+      "97",
+      "31",
+      "06",
+      "14",
+      "71",
+      "41",
+      "64",
+      "15",
+      "32",
+      "03",
+      "23",
+      "77"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "06",
+      "09",
+      "14",
+      "15",
+      "16",
+      "19",
+      "23",
+      "31",
+      "32",
+      "41",
+      "44",
+      "63",
+      "64",
+      "66",
+      "71",
+      "77",
+      "91",
+      "97"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "20 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "19 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 11,
+        "valorPremio": 30991.97
+      },
+      {
+        "descricaoFaixa": "18 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 134,
+        "valorPremio": 2271.53
+      },
+      {
+        "descricaoFaixa": "17 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 993,
+        "valorPremio": 214.57
+      },
+      {
+        "descricaoFaixa": "16 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 5662,
+        "valorPremio": 37.63
+      },
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 6,
+        "numeroDeGanhadores": 22775,
+        "valorPremio": 9.35
+      },
+      {
+        "descricaoFaixa": "0 acertos",
+        "faixa": 7,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 2882,
+    "numeroConcursoAnterior": 2881,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 2883,
+    "numeroJogo": 16,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6951024.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 8471067.29,
+    "valorEstimadoProximoConcurso": 9500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
