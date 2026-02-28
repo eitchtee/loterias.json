@@ -18102,6 +18102,21 @@
     "time_do_coracao": "AMÉRICA/RJ"
   },
   {
+    "concurso": 1307,
+    "data": "19/03/2019",
+    "resultado": [
+      "11",
+      "17",
+      "26",
+      "29",
+      "32",
+      "40",
+      "54",
+      "70"
+    ],
+    "time_do_coracao": "U BARBARENSE/SP"
+  },
+  {
     "concurso": 1308,
     "data": "21/03/2019",
     "resultado": [
@@ -18506,6 +18521,20 @@
       "47"
     ],
     "time_do_coracao": "SÃO RAIMUNDO/AM"
+  },
+  {
+    "concurso": 1337,
+    "data": "28/05/2019",
+    "resultado": [
+      "12",
+      "18",
+      "35",
+      "49",
+      "56",
+      "59",
+      "80"
+    ],
+    "time_do_coracao": "U BARBARENSE/SP"
   },
   {
     "concurso": 1338,
@@ -19136,6 +19165,20 @@
       "80"
     ],
     "time_do_coracao": "CRUZEIRO/MG"
+  },
+  {
+    "concurso": 1383,
+    "data": "17/09/2019",
+    "resultado": [
+      "32",
+      "33",
+      "37",
+      "41",
+      "46",
+      "57",
+      "63"
+    ],
+    "time_do_coracao": "U BARBARENSE/SP"
   },
   {
     "concurso": 1384,
