@@ -1,0 +1,168 @@
+{
+  "cookies": {
+    "__uzmc": "253196782397",
+    "__uzmd": "1773286150"
+  },
+  "created_at": "2026-03-12T03:29:11.075673+00:00",
+  "elapsed": 0.198926,
+  "encoding": "utf-8",
+  "expires": "2026-09-08T03:29:11.075640+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Thu, 12 Mar 2026 03:29:11 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=253196782397; HttpOnly; path=/; Expires=Thu, 10-Sep-26 03:29:10 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1773286150; HttpOnly; path=/; Expires=Thu, 10-Sep-26 03:29:10 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "e02b08215aa6ed3ec69194e81537bcae",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "021"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "972ef1d0-98c4-4098-9b53-838056798fe8",
+      "__uzmb": "1773286137",
+      "__uzme": "8739",
+      "__uzmc": "479706433856",
+      "__uzmd": "1773286149"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=972ef1d0-98c4-4098-9b53-838056798fe8; __uzmb=1773286137; __uzme=8739; __uzmc=479706433856; __uzmd=1773286149",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6047"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6047",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "07/03/2026",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "008317",
+      "092029",
+      "085104",
+      "050790",
+      "057605"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "008317",
+      "092029",
+      "085104",
+      "050790",
+      "057605"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 0,
+        "municipio": "CORUMBA",
+        "nomeFatansiaUL": "CASA LOTERICA E CAFE NECTAR",
+        "posicao": 5,
+        "serie": "A",
+        "uf": "MS"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "IBITINGA",
+        "nomeFatansiaUL": "GILMAR LOTERIAS",
+        "posicao": 2,
+        "serie": "A",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "SAO PAULO",
+        "nomeFatansiaUL": "SORTE ACUMULADA",
+        "posicao": 1,
+        "serie": "A",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "SAO PAULO",
+        "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+        "posicao": 3,
+        "serie": "A",
+        "uf": "SP"
+      },
+      {
+        "ganhadores": 0,
+        "municipio": "SAO PAULO",
+        "nomeFatansiaUL": "LOTERICA BIXIGA",
+        "posicao": 4,
+        "serie": "A",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 500000.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 35000.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 30000.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 25000.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 20503.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 6047,
+    "numeroConcursoAnterior": 6046,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 6048,
+    "numeroJogo": 10,
+    "observacao": null,
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
