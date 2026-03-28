@@ -1,0 +1,156 @@
+{
+  "cookies": {
+    "__uzmc": "967651346146",
+    "__uzmd": "1774668740"
+  },
+  "created_at": "2026-03-28T03:32:20.778551+00:00",
+  "elapsed": 0.248526,
+  "encoding": "utf-8",
+  "expires": "2026-09-24T03:32:20.778516+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Sat, 28 Mar 2026 03:32:20 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=967651346146; HttpOnly; path=/; Expires=Sat, 26-Sep-26 03:32:20 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1774668740; HttpOnly; path=/; Expires=Sat, 26-Sep-26 03:32:20 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "EWR",
+    "X-Azion-Request-Id": "504225d8551b6cdde90711fd5d6ad5b4",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "XS": "002"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "8110f82d-eec5-49de-805a-fa39f48aa1b6",
+      "__uzmb": "1774668733",
+      "__uzme": "3055",
+      "__uzmc": "741111092733",
+      "__uzmd": "1774668733"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=8110f82d-eec5-49de-805a-fa39f48aa1b6; __uzmb=1774668733; __uzme=3055; __uzmc=741111092733; __uzmd=1774668733",
+      "User-Agent": "python-requests/2.33.0"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3646"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3646",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "26/03/2026",
+    "dataProximoConcurso": "27/03/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "05",
+      "07",
+      "23",
+      "25",
+      "08",
+      "16",
+      "03",
+      "15",
+      "18",
+      "11",
+      "01",
+      "20",
+      "24",
+      "19",
+      "13"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "03",
+      "05",
+      "07",
+      "08",
+      "11",
+      "13",
+      "15",
+      "16",
+      "18",
+      "19",
+      "20",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "SAO PAULO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 1058039.24
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 388,
+        "valorPremio": 816.81
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 12535,
+        "valorPremio": 35.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 133146,
+        "valorPremio": 14.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 552653,
+        "valorPremio": 7.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3646,
+    "numeroConcursoAnterior": 3645,
+    "numeroConcursoFinal_0_5": 3650,
+    "numeroConcursoProximo": 3647,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 19660238.5,
+    "valorAcumuladoConcurso_0_5": 1791103.14,
+    "valorAcumuladoConcursoEspecial": 85484760.41,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 2000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
