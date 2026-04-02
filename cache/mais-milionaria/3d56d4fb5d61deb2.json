@@ -1,0 +1,165 @@
+{
+  "cookies": {
+    "__uzmc": "233761350608",
+    "__uzmd": "1775101228"
+  },
+  "created_at": "2026-04-02T03:40:28.740788+00:00",
+  "elapsed": 0.166561,
+  "encoding": "utf-8",
+  "expires": "2026-09-29T03:40:28.740762+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Thu, 02 Apr 2026 03:40:28 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=233761350608; HttpOnly; path=/; Expires=Thu, 01-Oct-26 03:40:28 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1775101228; HttpOnly; path=/; Expires=Thu, 01-Oct-26 03:40:28 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "8e2c2cde80ca643058a360a03a60ee36",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "fb4ab089-d826-41b0-84c4-650b85843608",
+      "__uzmb": "1775101227",
+      "__uzme": "7165",
+      "__uzmc": "613261029939",
+      "__uzmd": "1775101227"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=fb4ab089-d826-41b0-84c4-650b85843608; __uzmb=1775101227; __uzme=7165; __uzmc=613261029939; __uzmd=1775101227",
+      "User-Agent": "python-requests/2.33.1"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/341"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/341",
+  "_decoded_content": {
+    "trevosSorteados": [
+      "2",
+      "5"
+    ],
+    "acumulado": true,
+    "dataApuracao": "28/03/2026",
+    "dataProximoConcurso": "01/04/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "21",
+      "50",
+      "18",
+      "41",
+      "38",
+      "01",
+      "05",
+      "02"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "18",
+      "21",
+      "38",
+      "41",
+      "50"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos + 2 trevos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos + 1 ou nenhum trevo",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos + 2 trevos",
+        "faixa": 3,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 212595.0
+      },
+      {
+        "descricaoFaixa": "5 acertos + 1 ou nenhum trevo",
+        "faixa": 4,
+        "numeroDeGanhadores": 20,
+        "valorPremio": 4724.33
+      },
+      {
+        "descricaoFaixa": "4 acertos + 2 trevos",
+        "faixa": 5,
+        "numeroDeGanhadores": 101,
+        "valorPremio": 1002.33
+      },
+      {
+        "descricaoFaixa": "4 acertos + 1 ou nenhum trevo",
+        "faixa": 6,
+        "numeroDeGanhadores": 937,
+        "valorPremio": 108.04
+      },
+      {
+        "descricaoFaixa": "3 acertos + 2 trevos",
+        "faixa": 7,
+        "numeroDeGanhadores": 1608,
+        "valorPremio": 50.0
+      },
+      {
+        "descricaoFaixa": "3 acertos + 1 trevo",
+        "faixa": 8,
+        "numeroDeGanhadores": 9725,
+        "valorPremio": 24.0
+      },
+      {
+        "descricaoFaixa": "2 acertos + 2 trevos",
+        "faixa": 9,
+        "numeroDeGanhadores": 10625,
+        "valorPremio": 12.0
+      },
+      {
+        "descricaoFaixa": "2 acertos + 1 trevo",
+        "faixa": 10,
+        "numeroDeGanhadores": 66441,
+        "valorPremio": 6.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o da Sorte",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 341,
+    "numeroConcursoAnterior": 340,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 342,
+    "numeroJogo": 9,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MAIS_MILIONARIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 6074946.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 30889586.52,
+    "valorEstimadoProximoConcurso": 33000000.0,
+    "valorSaldoReservaGarantidora": 12546499.53,
+    "valorTotalPremioFaixaUm": 732273.62
+  }
+}
