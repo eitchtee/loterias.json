@@ -1,0 +1,140 @@
+{
+  "cookies": {
+    "__uzmc": "536801372617",
+    "__uzmd": "1775706215"
+  },
+  "created_at": "2026-04-09T03:43:35.453225+00:00",
+  "elapsed": 0.304392,
+  "encoding": "utf-8",
+  "expires": "2026-10-06T03:43:35.453196+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Thu, 09 Apr 2026 03:43:35 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=536801372617; HttpOnly; path=/; Expires=Thu, 08-Oct-26 03:43:35 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1775706215; HttpOnly; path=/; Expires=Thu, 08-Oct-26 03:43:35 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "d85652ba19c42ef5486b4b19a8e9f4ef",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "053"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "d1eb32c7-9da8-4622-bce2-165bc899e0bd",
+      "__uzmb": "1775706211",
+      "__uzme": "7975",
+      "__uzmc": "211401010621",
+      "__uzmd": "1775706211"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=d1eb32c7-9da8-4622-bce2-165bc899e0bd; __uzmb=1775706211; __uzme=7975; __uzmc=211401010621; __uzmd=1775706211",
+      "User-Agent": "python-requests/2.33.1"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte/1197"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte/1197",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "04/04/2026",
+    "dataProximoConcurso": "07/04/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "10",
+      "20",
+      "04",
+      "19",
+      "11",
+      "26",
+      "25"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "04",
+      "10",
+      "11",
+      "19",
+      "20",
+      "25",
+      "26"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "MAGE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 1630757.24
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 66,
+        "valorPremio": 1990.96
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 2053,
+        "valorPremio": 25.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 23313,
+        "valorPremio": 5.0
+      },
+      {
+        "descricaoFaixa": "M\u00eas da Sorte",
+        "faixa": 5,
+        "numeroDeGanhadores": 65917,
+        "valorPremio": 2.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "Julho",
+    "numero": 1197,
+    "numeroConcursoAnterior": 1196,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 1198,
+    "numeroJogo": 11,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "DIA_DE_SORTE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2188655.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 150000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
