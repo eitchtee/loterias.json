@@ -1,0 +1,172 @@
+{
+  "cookies": {
+    "__uzmc": "676641348504",
+    "__uzmd": "1775878388"
+  },
+  "created_at": "2026-04-11T03:33:08.985391+00:00",
+  "elapsed": 0.159486,
+  "encoding": "utf-8",
+  "expires": "2026-10-08T03:33:08.985362+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Sat, 11 Apr 2026 03:33:08 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=676641348504; HttpOnly; path=/; Expires=Sat, 10-Oct-26 03:33:08 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1775878388; HttpOnly; path=/; Expires=Sat, 10-Oct-26 03:33:08 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "5277ad28d2a005ead3547b4a31900875",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "021"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "492fb5db-d785-467a-9c37-9f5ac20a3c25",
+      "__uzmb": "1775878382",
+      "__uzme": "5599",
+      "__uzmc": "762941047516",
+      "__uzmd": "1775878382"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=492fb5db-d785-467a-9c37-9f5ac20a3c25; __uzmb=1775878382; __uzme=5599; __uzmc=762941047516; __uzmd=1775878382",
+      "User-Agent": "python-requests/2.33.1"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3657"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3657",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "09/04/2026",
+    "dataProximoConcurso": "10/04/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "24",
+      "13",
+      "07",
+      "08",
+      "18",
+      "10",
+      "20",
+      "02",
+      "19",
+      "12",
+      "01",
+      "17",
+      "04",
+      "22",
+      "23"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "04",
+      "07",
+      "08",
+      "10",
+      "12",
+      "13",
+      "17",
+      "18",
+      "19",
+      "20",
+      "22",
+      "23",
+      "24"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CANAL ELETRONICO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "--"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "VARZEA GRANDE",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MT"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "QUATRO BARRAS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "PR"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 475451.73
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 458,
+        "valorPremio": 932.85
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 11388,
+        "valorPremio": 35.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 119330,
+        "valorPremio": 14.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 568074,
+        "valorPremio": 7.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3657,
+    "numeroConcursoAnterior": 3656,
+    "numeroConcursoFinal_0_5": 3660,
+    "numeroConcursoProximo": 3658,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 21311374.0,
+    "valorAcumuladoConcurso_0_5": 2429406.42,
+    "valorAcumuladoConcursoEspecial": 91518478.69,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 2000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
