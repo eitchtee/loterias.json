@@ -1,0 +1,172 @@
+{
+  "cookies": {
+    "__uzmc": "408111388618",
+    "__uzmd": "1778905510"
+  },
+  "created_at": "2026-05-16T04:25:10.813009+00:00",
+  "elapsed": 0.186024,
+  "encoding": "utf-8",
+  "expires": "2026-11-12T04:25:10.812977+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Sat, 16 May 2026 04:25:10 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=408111388618; HttpOnly; path=/; Expires=Sat, 14-Nov-26 04:25:10 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1778905510; HttpOnly; path=/; Expires=Sat, 14-Nov-26 04:25:10 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "236919cda05c7af9995477549a6073c1",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "da5f6b84-1233-4b0d-9dfb-a2e37e04f9cf",
+      "__uzmb": "1778905504",
+      "__uzme": "4543",
+      "__uzmc": "554391038902",
+      "__uzmd": "1778905504"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=da5f6b84-1233-4b0d-9dfb-a2e37e04f9cf; __uzmb=1778905504; __uzme=4543; __uzmc=554391038902; __uzmd=1778905504",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3685"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3685",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "14/05/2026",
+    "dataProximoConcurso": "15/05/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "23",
+      "21",
+      "19",
+      "20",
+      "14",
+      "11",
+      "15",
+      "25",
+      "08",
+      "02",
+      "01",
+      "10",
+      "04",
+      "24",
+      "17"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "01",
+      "02",
+      "04",
+      "08",
+      "10",
+      "11",
+      "14",
+      "15",
+      "17",
+      "19",
+      "20",
+      "21",
+      "23",
+      "24",
+      "25"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "CANAL ELETRONICO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "--"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "SANTO ANTONIO DE JESUS",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "BA"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RIBEIRAO PRETO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "SP"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "15 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 459970.95
+      },
+      {
+        "descricaoFaixa": "14 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 349,
+        "valorPremio": 1184.34
+      },
+      {
+        "descricaoFaixa": "13 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 11119,
+        "valorPremio": 35.0
+      },
+      {
+        "descricaoFaixa": "12 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 111435,
+        "valorPremio": 14.0
+      },
+      {
+        "descricaoFaixa": "11 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 541839,
+        "valorPremio": 7.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3685,
+    "numeroConcursoAnterior": 3684,
+    "numeroConcursoFinal_0_5": 3690,
+    "numeroConcursoProximo": 3686,
+    "numeroJogo": 8,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTOFACIL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 20373717.0,
+    "valorAcumuladoConcurso_0_5": 1221114.14,
+    "valorAcumuladoConcursoEspecial": 105381303.42,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 2000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
