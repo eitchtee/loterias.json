@@ -462,6 +462,20 @@
     "time_do_coracao": "SÃO RAIMUNDO/AM"
   },
   {
+    "concurso": 34,
+    "data": "19/10/2008",
+    "resultado": [
+      "28",
+      "29",
+      "34",
+      "48",
+      "56",
+      "57",
+      "60"
+    ],
+    "time_do_coracao": "VASCO DA GAMA /RJ"
+  },
+  {
     "concurso": 35,
     "data": "26/10/2008",
     "resultado": [
@@ -672,6 +686,20 @@
     "time_do_coracao": "CEARÁ/CE"
   },
   {
+    "concurso": 50,
+    "data": "08/02/2009",
+    "resultado": [
+      "05",
+      "20",
+      "23",
+      "24",
+      "56",
+      "72",
+      "77"
+    ],
+    "time_do_coracao": "VILA NOVA /GO"
+  },
+  {
     "concurso": 51,
     "data": "15/02/2009",
     "resultado": [
@@ -740,6 +768,48 @@
       "77"
     ],
     "time_do_coracao": "ATLÉTICO/GO"
+  },
+  {
+    "concurso": 56,
+    "data": "21/03/2009",
+    "resultado": [
+      "14",
+      "18",
+      "44",
+      "45",
+      "60",
+      "61",
+      "76"
+    ],
+    "time_do_coracao": "IPATINGA /MG"
+  },
+  {
+    "concurso": 57,
+    "data": "29/03/2009",
+    "resultado": [
+      "12",
+      "23",
+      "31",
+      "41",
+      "56",
+      "61",
+      "67"
+    ],
+    "time_do_coracao": "BOTAFOGO /RJ"
+  },
+  {
+    "concurso": 58,
+    "data": "04/04/2009",
+    "resultado": [
+      "04",
+      "09",
+      "30",
+      "32",
+      "38",
+      "47",
+      "71"
+    ],
+    "time_do_coracao": "JUVENTUDE /RS"
   },
   {
     "concurso": 59,
@@ -2380,6 +2450,20 @@
     "time_do_coracao": "XV PIRACICABA /SP"
   },
   {
+    "concurso": 176,
+    "data": "15/01/2011",
+    "resultado": [
+      "25",
+      "34",
+      "40",
+      "50",
+      "52",
+      "66",
+      "80"
+    ],
+    "time_do_coracao": "PALMAS /TO"
+  },
+  {
     "concurso": 177,
     "data": "19/01/2011",
     "resultado": [
@@ -3584,6 +3668,20 @@
     "time_do_coracao": "BRASILIENSE/DF"
   },
   {
+    "concurso": 263,
+    "data": "16/11/2011",
+    "resultado": [
+      "03",
+      "13",
+      "16",
+      "25",
+      "38",
+      "61",
+      "71"
+    ],
+    "time_do_coracao": "VILA NOVA /GO"
+  },
+  {
     "concurso": 264,
     "data": "19/11/2011",
     "resultado": [
@@ -3610,6 +3708,20 @@
       "78"
     ],
     "time_do_coracao": "AMERICANO/RJ"
+  },
+  {
+    "concurso": 266,
+    "data": "26/11/2011",
+    "resultado": [
+      "13",
+      "19",
+      "35",
+      "41",
+      "46",
+      "52",
+      "66"
+    ],
+    "time_do_coracao": "SAMP CORREA /MA"
   },
   {
     "concurso": 267,
@@ -3666,6 +3778,20 @@
       "54"
     ],
     "time_do_coracao": "LONDRINA/PR"
+  },
+  {
+    "concurso": 271,
+    "data": "14/12/2011",
+    "resultado": [
+      "26",
+      "47",
+      "50",
+      "56",
+      "67",
+      "74",
+      "77"
+    ],
+    "time_do_coracao": "AMERICANO /RJ"
   },
   {
     "concurso": 272,
@@ -8498,6 +8624,34 @@
     "time_do_coracao": "PALMAS/TO"
   },
   {
+    "concurso": 617,
+    "data": "23/08/2014",
+    "resultado": [
+      "12",
+      "18",
+      "19",
+      "20",
+      "23",
+      "47",
+      "63"
+    ],
+    "time_do_coracao": "FIGUEIRENSE /SC"
+  },
+  {
+    "concurso": 618,
+    "data": "26/08/2014",
+    "resultado": [
+      "11",
+      "23",
+      "25",
+      "31",
+      "33",
+      "54",
+      "71"
+    ],
+    "time_do_coracao": "GOIAS /GO"
+  },
+  {
     "concurso": 619,
     "data": "28/08/2014",
     "resultado": [
@@ -8888,6 +9042,20 @@
       "78"
     ],
     "time_do_coracao": "CRICIÚMA/SC"
+  },
+  {
+    "concurso": 647,
+    "data": "01/11/2014",
+    "resultado": [
+      "30",
+      "34",
+      "48",
+      "55",
+      "57",
+      "67",
+      "69"
+    ],
+    "time_do_coracao": "CSA /AL"
   },
   {
     "concurso": 648,
@@ -33333,5 +33501,19 @@
       "73"
     ],
     "time_do_coracao": "CRB /AL"
+  },
+  {
+    "concurso": 2394,
+    "data": "21/05/2026",
+    "resultado": [
+      "03",
+      "08",
+      "15",
+      "26",
+      "47",
+      "52",
+      "73"
+    ],
+    "time_do_coracao": "ATLETICO /MG"
   }
 ]

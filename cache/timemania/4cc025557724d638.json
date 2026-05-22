@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "349432215006",
+    "__uzmd": "1779425805"
+  },
+  "created_at": "2026-05-22T04:56:46.198136+00:00",
+  "elapsed": 0.252689,
+  "encoding": "utf-8",
+  "expires": "2026-11-18T04:56:46.198111+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 22 May 2026 04:56:46 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=349432215006; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:56:45 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1779425805; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:56:45 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SEA",
+    "X-Azion-Request-Id": "bc0279fca7ab3e1dab12ec322112568e",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "029a67a1-88b0-40e5-9d01-e77a49f19322",
+      "__uzmb": "1779425804",
+      "__uzme": "2417",
+      "__uzmc": "973631910424",
+      "__uzmd": "1779425805"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=029a67a1-88b0-40e5-9d01-e77a49f19322; __uzmb=1779425804; __uzme=2417; __uzmc=973631910424; __uzmd=1779425805",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/57"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/57",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "29/03/2009",
+    "dataProximoConcurso": "04/04/2009",
+    "dezenasSorteadasOrdemSorteio": [
+      "56",
+      "23",
+      "41",
+      "31",
+      "61",
+      "67",
+      "12"
+    ],
+    "exibirDetalhamentoPorCidade": true,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "12",
+      "23",
+      "31",
+      "41",
+      "56",
+      "61",
+      "67"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 3,
+        "valorPremio": 73318.69
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 173,
+        "valorPremio": 847.61
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 3892,
+        "valorPremio": 6.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 38342,
+        "valorPremio": 2.0
+      },
+      {
+        "descricaoFaixa": "Time do Cora\u00e7\u00e3o",
+        "faixa": 6,
+        "numeroDeGanhadores": 38337,
+        "valorPremio": 2.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "",
+    "nomeMunicipioUFSorteio": "CAMPOS DOS GOYTACAZES, RJ",
+    "nomeTimeCoracaoMesSorte": "BOTAFOGO         /RJ",
+    "numero": 57,
+    "numeroConcursoAnterior": 56,
+    "numeroConcursoFinal_0_5": 60,
+    "numeroConcursoProximo": 58,
+    "numeroJogo": 20,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "TIMEMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2661130.0,
+    "valorAcumuladoConcurso_0_5": 209377.62,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 5294136.26,
+    "valorEstimadoProximoConcurso": 5600000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
