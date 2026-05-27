@@ -1,0 +1,134 @@
+{
+  "cookies": {
+    "__uzmc": "826691375119",
+    "__uzmd": "1779858646"
+  },
+  "created_at": "2026-05-27T05:10:47.129139+00:00",
+  "elapsed": 0.29287,
+  "encoding": "utf-8",
+  "expires": "2026-11-23T05:10:47.129106+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Wed, 27 May 2026 05:10:47 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=826691375119; HttpOnly; path=/; Expires=Wed, 25-Nov-26 05:10:46 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1779858646; HttpOnly; path=/; Expires=Wed, 25-Nov-26 05:10:46 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "8566299de17569d9cc96e19a44fd8ae2",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "011"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "29e4d84b-df0a-475d-b468-37220763c773",
+      "__uzmb": "1779858639",
+      "__uzme": "2683",
+      "__uzmc": "135391015813",
+      "__uzmd": "1779858639"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=29e4d84b-df0a-475d-b468-37220763c773; __uzmb=1779858639; __uzme=2683; __uzmc=135391015813; __uzmd=1779858639",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3010"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3010",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "24/05/2026",
+    "dataProximoConcurso": "26/05/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "35",
+      "33",
+      "45",
+      "30",
+      "47",
+      "03"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 2,
+    "listaDezenas": [
+      "03",
+      "30",
+      "33",
+      "35",
+      "45",
+      "47"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "FORTALEZA",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "CE"
+      },
+      {
+        "ganhadores": 1,
+        "municipio": "RIO DE JANEIRO",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "RJ"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 168170026.83
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 590,
+        "valorPremio": 13890.02
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 37565,
+        "valorPremio": 311.65
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO,  SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 3010,
+    "numeroConcursoAnterior": 3009,
+    "numeroConcursoFinal_0_5": 3015,
+    "numeroConcursoProximo": 3011,
+    "numeroJogo": 2,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "MEGA_SENA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 534701982.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 3500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
