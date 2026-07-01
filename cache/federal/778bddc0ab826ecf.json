@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "852471680725192",
-    "__uzmd": "1767320349"
+    "__uzmc": "811841680790097",
+    "__uzmd": "1782885494"
   },
-  "created_at": "2026-01-02T02:18:54.776998+00:00",
-  "elapsed": 0.118301,
+  "created_at": "2026-07-01T05:58:14.540385+00:00",
+  "elapsed": 0.333519,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:18:54.776980+00:00",
+  "expires": "2026-12-28T05:58:14.540358+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:19:09 GMT",
+    "Date": "Wed, 01 Jul 2026 05:58:14 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=852471680725192; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:19:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320349; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:19:09 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=811841680790097; HttpOnly; path=/; Expires=Wed, 30-Dec-26 05:58:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782885494; HttpOnly; path=/; Expires=Wed, 30-Dec-26 05:58:14 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "ac1e8976de199eae1968fff01b085416",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "a5ea7b5e2fd6509bd75f3a7529a5a404",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "041"
+    "xS": "005c"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "6dc62168-11b2-4702-bd78-177264aa80db",
-      "__uzmb": "1767319841",
-      "__uzme": "1176",
-      "__uzmc": "672211680454194",
-      "__uzmd": "1767320349"
+      "__uzma": "99c77d81-7183-4125-b96e-a5579082f9b1",
+      "__uzmb": "1782884115",
+      "__uzme": "0719",
+      "__uzmc": "888231680463381",
+      "__uzmd": "1782885493"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=6dc62168-11b2-4702-bd78-177264aa80db; __uzmb=1767319841; __uzme=1176; __uzmc=672211680454194; __uzmd=1767320349",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=99c77d81-7183-4125-b96e-a5579082f9b1; __uzmb=1782884115; __uzme=0719; __uzmc=888231680463381; __uzmd=1782885493",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/5599"
@@ -82,7 +81,7 @@
       {
         "ganhadores": 0,
         "municipio": "GUARAPUAVA",
-        "nomeFatansiaUL": "LOTERICA SUPER SORTE",
+        "nomeFatansiaUL": "LOTERIAS BAGATOLI LTDA",
         "posicao": 5,
         "serie": "A",
         "uf": "PR"

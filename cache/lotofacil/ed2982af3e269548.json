@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "87521616640551",
-    "__uzmd": "1767320574"
+    "__uzmc": "70764616667776",
+    "__uzmd": "1782886146"
   },
-  "created_at": "2026-01-02T02:22:39.900859+00:00",
-  "elapsed": 0.081484,
+  "created_at": "2026-07-01T06:09:06.681236+00:00",
+  "elapsed": 0.987302,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:22:39.900842+00:00",
+  "expires": "2026-12-28T06:09:06.681211+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:22:54 GMT",
+    "Date": "Wed, 01 Jul 2026 06:09:06 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=87521616640551; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:54 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320574; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:22:54 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=70764616667776; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:09:06 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782886146; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:09:06 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "6a063011d2617beae3863c932b5c9f6c",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "3294cb8c988a811e8df1c8f3e28a4345",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "053"
+    "xS": "051m"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "c737c81c-d39d-4da4-90e4-17345d3b452d",
-      "__uzmb": "1767320398",
-      "__uzme": "6012",
-      "__uzmc": "63159616366624",
-      "__uzmd": "1767320574"
+      "__uzma": "a5094238-9b32-4afa-a805-f1885e1ea267",
+      "__uzmb": "1782885613",
+      "__uzme": "0429",
+      "__uzmc": "38440616361558",
+      "__uzmd": "1782886145"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=c737c81c-d39d-4da4-90e4-17345d3b452d; __uzmb=1767320398; __uzme=6012; __uzmc=63159616366624; __uzmd=1767320574",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=a5094238-9b32-4afa-a805-f1885e1ea267; __uzmb=1782885613; __uzme=0429; __uzmc=38440616361558; __uzmd=1782886145",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/2052"

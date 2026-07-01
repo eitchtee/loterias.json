@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "22894446894522",
-    "__uzmd": "1767321138"
+    "__uzmc": "62699446835659",
+    "__uzmd": "1782887817"
   },
-  "created_at": "2026-01-02T02:32:03.987022+00:00",
-  "elapsed": 0.07426,
+  "created_at": "2026-07-01T06:36:58.113706+00:00",
+  "elapsed": 0.239925,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:32:03.987006+00:00",
+  "expires": "2026-12-28T06:36:58.113657+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:32:18 GMT",
+    "Date": "Wed, 01 Jul 2026 06:36:58 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=22894446894522; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:32:18 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321138; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:32:18 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=62699446835659; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:36:57 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782887817; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:36:57 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "40164c737459c4792d7ea00ed6441f22",
+    "X-Azion-Edge-Location": "LAX",
+    "X-Azion-Request-Id": "4dc8bcf68aab9202ddbe30eea9580ba4",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "051"
+    "xS": "041"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
-      "__uzmb": "1767321014",
-      "__uzme": "4414",
-      "__uzmc": "53631446574042",
-      "__uzmd": "1767321138"
+      "__uzma": "b9c5fdee-a82a-41cc-95a9-4337405e0c93",
+      "__uzmb": "1782887324",
+      "__uzme": "0559",
+      "__uzmc": "39309446541371",
+      "__uzmd": "1782887817"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; __uzmb=1767321014; __uzme=4414; __uzmc=53631446574042; __uzmd=1767321138",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=b9c5fdee-a82a-41cc-95a9-4337405e0c93; __uzmb=1782887324; __uzme=0559; __uzmc=39309446541371; __uzmd=1782887817",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/1486"

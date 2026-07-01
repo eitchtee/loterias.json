@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "429981614180109",
-    "__uzmd": "1767321841"
+    "__uzmc": "378371614133056",
+    "__uzmd": "1782889634"
   },
-  "created_at": "2026-01-02T02:43:46.329694+00:00",
-  "elapsed": 0.060973,
+  "created_at": "2026-07-01T07:07:15.089577+00:00",
+  "elapsed": 0.234176,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:43:46.329675+00:00",
+  "expires": "2026-12-28T07:07:15.089550+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:44:01 GMT",
+    "Date": "Wed, 01 Jul 2026 07:07:15 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=429981614180109; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:44:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321841; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:44:01 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=378371614133056; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:07:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782889634; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:07:14 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "SDU",
-    "X-Azion-Request-Id": "383b7e5cf6013bc9d00d33fb256096b1",
+    "X-Azion-Edge-Location": "LAX",
+    "X-Azion-Request-Id": "8a62ef993a23fdc889c5035f8605ef50",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "051"
+    "xS": "011"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "5a09f817-fac9-4be5-a3e1-c2205b115e1d",
-      "__uzmb": "1767321326",
-      "__uzme": "3767",
-      "__uzmc": "639201613863559",
-      "__uzmd": "1767321841"
+      "__uzma": "21af2338-6d0e-4dd8-8b8c-bc53ba949958",
+      "__uzmb": "1782888184",
+      "__uzme": "0892",
+      "__uzmc": "355311613893801",
+      "__uzmd": "1782889634"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=5a09f817-fac9-4be5-a3e1-c2205b115e1d; __uzmb=1767321326; __uzme=3767; __uzmc=639201613863559; __uzmd=1767321841",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=21af2338-6d0e-4dd8-8b8c-bc53ba949958; __uzmb=1782888184; __uzme=0892; __uzmc=355311613893801; __uzmd=1782889634",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/5377"

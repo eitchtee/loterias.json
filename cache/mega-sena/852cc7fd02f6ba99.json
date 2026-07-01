@@ -1,42 +1,41 @@
 {
   "cookies": {
-    "__uzma": "c49d0ed2-1a01-4295-97de-9262da9ecef9",
-    "__uzmb": "1767321014",
-    "__uzme": "4414",
-    "__uzmc": "360031088956",
-    "__uzmd": "1767321014"
+    "__uzma": "b9c5fdee-a82a-41cc-95a9-4337405e0c93",
+    "__uzmb": "1782887324",
+    "__uzme": "0559",
+    "__uzmc": "489721032031",
+    "__uzmd": "1782887324"
   },
-  "created_at": "2026-01-02T02:29:59.570058+00:00",
-  "elapsed": 0.359973,
+  "created_at": "2026-07-01T06:28:46.196045+00:00",
+  "elapsed": 2.187992,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:29:59.570039+00:00",
+  "expires": "2026-12-28T06:28:46.196014+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:30:14 GMT",
+    "Date": "Wed, 01 Jul 2026 06:28:46 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzma=c49d0ed2-1a01-4295-97de-9262da9ecef9; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmb=1767321014; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzme=4414; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmc=360031088956; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:14 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321014; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:30:14 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzma=b9c5fdee-a82a-41cc-95a9-4337405e0c93; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:28:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmb=1782887324; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:28:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzme=0559; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:28:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmc=489721032031; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:28:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782887324; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:28:44 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "11db58ea50565ddf10a53e00ca886e3f",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "0bd3d51591bb0090aaebbc37065d2898",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "054"
+    "XS": "002"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "User-Agent": "python-requests/2.32.5"
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena"
@@ -44,102 +43,69 @@
   "status_code": 200,
   "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena",
   "_decoded_content": {
-    "acumulado": false,
-    "dataApuracao": "01/01/2026",
-    "dataProximoConcurso": "06/01/2026",
+    "acumulado": true,
+    "dataApuracao": "30/06/2026",
+    "dataProximoConcurso": "02/07/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "59",
       "21",
-      "32",
-      "13",
-      "33",
-      "09"
+      "58",
+      "07",
+      "14",
+      "16",
+      "33"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
-    "indicadorConcursoEspecial": 2,
+    "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "09",
-      "13",
+      "07",
+      "14",
+      "16",
       "21",
-      "32",
       "33",
-      "59"
+      "58"
     ],
     "listaDezenasSegundoSorteio": null,
-    "listaMunicipioUFGanhadores": [
-      {
-        "ganhadores": 3,
-        "municipio": "CANAL ELETRONICO",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "--"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "PONTA PORA",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "MS"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "JOAO PESSOA",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "PB"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "FRANCO DA ROCHA",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "SP"
-      }
-    ],
+    "listaMunicipioUFGanhadores": [],
     "listaRateioPremio": [
       {
         "descricaoFaixa": "6 acertos",
         "faixa": 1,
-        "numeroDeGanhadores": 6,
-        "valorPremio": 181892881.09
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
       },
       {
         "descricaoFaixa": "5 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 3921,
-        "valorPremio": 11931.42
+        "numeroDeGanhadores": 95,
+        "valorPremio": 13278.38
       },
       {
         "descricaoFaixa": "4 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 308315,
-        "valorPremio": 216.76
+        "numeroDeGanhadores": 3679,
+        "valorPremio": 565.18
       }
     ],
     "listaResultadoEquipeEsportiva": null,
     "localSorteio": "ESPA\u00c7O DA SORTE",
-    "nomeMunicipioUFSorteio": "S\u00c3O PAULO,  SP",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
     "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "numero": 2955,
-    "numeroConcursoAnterior": 2954,
-    "numeroConcursoFinal_0_5": 2960,
-    "numeroConcursoProximo": 2956,
+    "numero": 3025,
+    "numeroConcursoAnterior": 3024,
+    "numeroConcursoFinal_0_5": 3030,
+    "numeroConcursoProximo": 3026,
     "numeroJogo": 2,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "MEGA_SENA",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 3052431720.0,
-    "valorAcumuladoConcurso_0_5": 0.0,
-    "valorAcumuladoConcursoEspecial": 0.0,
-    "valorAcumuladoProximoConcurso": 0.0,
-    "valorEstimadoProximoConcurso": 3500000.0,
+    "valorArrecadado": 31655730.0,
+    "valorAcumuladoConcurso_0_5": 2134754.8,
+    "valorAcumuladoConcursoEspecial": 15501445.12,
+    "valorAcumuladoProximoConcurso": 21308790.98,
+    "valorEstimadoProximoConcurso": 27000000.0,
     "valorSaldoReservaGarantidora": 0.0,
     "valorTotalPremioFaixaUm": 0.0
   }

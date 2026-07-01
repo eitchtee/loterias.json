@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "6857266131912",
-    "__uzmd": "1767319428"
+    "__uzmc": "9374766195895",
+    "__uzmd": "1782882987"
   },
-  "created_at": "2026-01-02T02:03:34.135332+00:00",
-  "elapsed": 0.074025,
+  "created_at": "2026-07-01T05:16:27.785385+00:00",
+  "elapsed": 0.22771,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:03:34.135313+00:00",
+  "expires": "2026-12-28T05:16:27.785359+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:03:48 GMT",
+    "Date": "Wed, 01 Jul 2026 05:16:27 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=6857266131912; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:48 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767319428; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:03:48 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=9374766195895; HttpOnly; path=/; Expires=Wed, 30-Dec-26 05:16:27 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782882987; HttpOnly; path=/; Expires=Wed, 30-Dec-26 05:16:27 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "SDU",
-    "X-Azion-Request-Id": "44b1f44fb90e4baa59480f8a3b97f9ed",
+    "X-Azion-Edge-Location": "LAX",
+    "X-Azion-Request-Id": "4856185fc6eee246fea62755233d1d03",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "051"
+    "xS": "021"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "bf50ba5c-08b3-4934-8aac-7930631166ab",
-      "__uzmb": "1767319381",
-      "__uzme": "9004",
-      "__uzmc": "9007365887087",
-      "__uzmd": "1767319428"
+      "__uzma": "813553e4-044e-4421-9260-ed9d33a527a9",
+      "__uzmb": "1782882936",
+      "__uzme": "8516",
+      "__uzmc": "8802565855316",
+      "__uzmd": "1782882987"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=bf50ba5c-08b3-4934-8aac-7930631166ab; __uzmb=1767319381; __uzme=9004; __uzmc=9007365887087; __uzmd=1767319428",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=813553e4-044e-4421-9260-ed9d33a527a9; __uzmb=1782882936; __uzme=8516; __uzmc=8802565855316; __uzmd=1782882987",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/diadesorte/217"

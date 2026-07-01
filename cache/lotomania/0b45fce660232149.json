@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "41677505999485",
-    "__uzmd": "1767320897"
+    "__uzmc": "68410505940543",
+    "__uzmd": "1782886939"
   },
-  "created_at": "2026-01-02T02:28:02.712947+00:00",
-  "elapsed": 0.069648,
+  "created_at": "2026-07-01T06:22:19.412892+00:00",
+  "elapsed": 0.219995,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:28:02.712930+00:00",
+  "expires": "2026-12-28T06:22:19.412867+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:28:17 GMT",
+    "Date": "Wed, 01 Jul 2026 06:22:19 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=41677505999485; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:17 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767320897; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:28:17 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=68410505940543; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:22:19 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782886939; HttpOnly; path=/; Expires=Wed, 30-Dec-26 06:22:19 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "7bc767f88f6cfb1847f62f550ea5ccfc",
+    "X-Azion-Edge-Location": "LAX",
+    "X-Azion-Request-Id": "1219cdcde786d65d5ffae0b2c615289d",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "054"
+    "xS": "053"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "875a53ae-d886-4172-a23f-9b5de662a103",
-      "__uzmb": "1767320749",
-      "__uzme": "4799",
-      "__uzmc": "28060505648006",
-      "__uzmd": "1767320897"
+      "__uzma": "a1a48d41-36ee-4fb0-8f61-7e7e81184436",
+      "__uzmb": "1782886526",
+      "__uzme": "6385",
+      "__uzmc": "43363505671348",
+      "__uzmd": "1782886938"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=875a53ae-d886-4172-a23f-9b5de662a103; __uzmb=1767320749; __uzme=4799; __uzmc=28060505648006; __uzmd=1767320897",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=a1a48d41-36ee-4fb0-8f61-7e7e81184436; __uzmb=1782886526; __uzme=6385; __uzmc=43363505671348; __uzmd=1782886938",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/1683"

@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "8711453599218",
-    "__uzmd": "1767322042"
+    "__uzmc": "8698351780739",
+    "__uzmd": "1782890296"
   },
-  "created_at": "2026-01-02T02:47:07.956272+00:00",
-  "elapsed": 0.075163,
+  "created_at": "2026-07-01T07:18:16.940087+00:00",
+  "elapsed": 0.237494,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:47:07.956254+00:00",
+  "expires": "2026-12-28T07:18:16.940059+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:47:22 GMT",
+    "Date": "Wed, 01 Jul 2026 07:18:16 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=8711453599218; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:47:22 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767322042; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:47:22 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=8698351780739; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:18:16 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782890296; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:18:16 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "209e03485bf6a9230c0fb9d0eb724a1b",
+    "X-Azion-Edge-Location": "LAX",
+    "X-Azion-Request-Id": "4ba9bc5c1ca417cc1dbc305fd62b74cf",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "051"
+    "xS": "051m"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "e3f180b5-aa77-442f-b9a5-197dfb8a7912",
-      "__uzmb": "1767322025",
-      "__uzme": "9749",
-      "__uzmc": "5000153271540",
-      "__uzmd": "1767322042"
+      "__uzma": "7fda7552-57cf-41dc-b647-273a043839e8",
+      "__uzmb": "1782890255",
+      "__uzme": "6599",
+      "__uzmc": "2023251489386",
+      "__uzmd": "1782890296"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=e3f180b5-aa77-442f-b9a5-197dfb8a7912; __uzmb=1767322025; __uzme=9749; __uzmc=5000153271540; __uzmd=1767322042",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=7fda7552-57cf-41dc-b647-273a043839e8; __uzmb=1782890255; __uzme=6599; __uzmc=2023251489386; __uzmd=1782890296",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/175"
@@ -51,7 +50,7 @@
   "_decoded_content": {
     "acumulado": true,
     "dataApuracao": "12/01/2011",
-    "dataProximoConcurso": "19/01/2011",
+    "dataProximoConcurso": "15/01/2011",
     "dezenasSorteadasOrdemSorteio": [
       "66",
       "13",
@@ -120,7 +119,7 @@
     "numero": 175,
     "numeroConcursoAnterior": 174,
     "numeroConcursoFinal_0_5": 180,
-    "numeroConcursoProximo": 177,
+    "numeroConcursoProximo": 176,
     "numeroJogo": 20,
     "observacao": "",
     "premiacaoContingencia": null,

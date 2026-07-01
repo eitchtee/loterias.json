@@ -1,47 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "4662638518583",
-    "__uzmd": "1767321973"
+    "__uzmc": "8832038526463",
+    "__uzmd": "1782890053"
   },
-  "created_at": "2026-01-02T02:45:58.771068+00:00",
-  "elapsed": 0.067451,
+  "created_at": "2026-07-01T07:14:13.617253+00:00",
+  "elapsed": 0.290323,
   "encoding": "utf-8",
-  "expires": "2026-07-01T02:45:58.771051+00:00",
+  "expires": "2026-12-28T07:14:13.617226+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 02 Jan 2026 02:46:13 GMT",
+    "Date": "Wed, 01 Jul 2026 07:14:13 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=4662638518583; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1767321973; HttpOnly; path=/; Expires=Fri, 03-Jul-26 02:46:13 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=8832038526463; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:14:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1782890053; HttpOnly; path=/; Expires=Wed, 30-Dec-26 07:14:13 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "CGH",
-    "X-Azion-Request-Id": "aec637eb64818e63d71e32c6f673106c",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "382849b2422ae74cdeb20381311fd3be",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "006c"
+    "xS": "021"
   },
   "reason": "OK",
   "request": {
-    "body": "",
     "cookies": {
-      "__uzma": "d721322d-24ce-44e9-9d05-635e9d4cab24",
-      "__uzmb": "1767321963",
-      "__uzme": "3069",
-      "__uzmc": "3687538280561",
-      "__uzmd": "1767321973"
+      "__uzma": "9683ee23-3133-46a7-a3cd-d7b9d4115fcd",
+      "__uzmb": "1782890013",
+      "__uzme": "9039",
+      "__uzmc": "7934638275749",
+      "__uzmd": "1782890053"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=d721322d-24ce-44e9-9d05-635e9d4cab24; __uzmb=1767321963; __uzme=3069; __uzmc=3687538280561; __uzmd=1767321973",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=9683ee23-3133-46a7-a3cd-d7b9d4115fcd; __uzmb=1782890013; __uzme=9039; __uzmc=7934638275749; __uzmd=1782890053",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/125"
