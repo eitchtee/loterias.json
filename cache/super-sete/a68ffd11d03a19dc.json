@@ -1,0 +1,131 @@
+{
+  "cookies": {
+    "__uzmc": "768231396313",
+    "__uzmd": "1783053446"
+  },
+  "created_at": "2026-07-03T04:37:26.479346+00:00",
+  "elapsed": 0.237718,
+  "encoding": "utf-8",
+  "expires": "2026-12-30T04:37:26.479317+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 03 Jul 2026 04:37:26 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=768231396313; HttpOnly; path=/; Expires=Fri, 01-Jan-27 04:37:26 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1783053446; HttpOnly; path=/; Expires=Fri, 01-Jan-27 04:37:26 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "f558511e4f8af98cbe21bab43bad762d",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "041"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "3a0fc80a-da9e-4baa-951e-771af561c44c",
+      "__uzmb": "1783053444",
+      "__uzme": "8174",
+      "__uzmc": "741421075283",
+      "__uzmd": "1783053444"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=3a0fc80a-da9e-4baa-951e-771af561c44c; __uzmb=1783053444; __uzme=8174; __uzmc=741421075283; __uzmd=1783053444",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/866"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/866",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "29/06/2026",
+    "dataProximoConcurso": "01/07/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "4",
+      "7",
+      "5",
+      "1",
+      "6",
+      "2",
+      "5"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "4",
+      "7",
+      "5",
+      "1",
+      "6",
+      "2",
+      "5"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 15744.13
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 31,
+        "valorPremio": 1451.07
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 676,
+        "valorPremio": 66.54
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 6208,
+        "valorPremio": 6.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "Espa\u00e7o da Sorte",
+    "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 866,
+    "numeroConcursoAnterior": 865,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 867,
+    "numeroJogo": 7,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "SUPER_SETE",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 769893.0,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 2332245.63,
+    "valorEstimadoProximoConcurso": 2500000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 115458.5
+  }
+}
