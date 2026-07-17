@@ -33795,5 +33795,33 @@
       "71"
     ],
     "time_do_coracao": "BRUSQUE /SC"
+  },
+  {
+    "concurso": 2415,
+    "data": "14/07/2026",
+    "resultado": [
+      "04",
+      "10",
+      "11",
+      "21",
+      "42",
+      "44",
+      "69"
+    ],
+    "time_do_coracao": "VOLTA REDONDA /RJ"
+  },
+  {
+    "concurso": 2416,
+    "data": "16/07/2026",
+    "resultado": [
+      "17",
+      "30",
+      "36",
+      "50",
+      "70",
+      "74",
+      "77"
+    ],
+    "time_do_coracao": "CORITIBA /PR"
   }
 ]
