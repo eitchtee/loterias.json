@@ -1,0 +1,127 @@
+{
+  "cookies": {
+    "__uzmc": "392686713714",
+    "__uzmd": "1784779832"
+  },
+  "created_at": "2026-07-23T04:10:33.306537+00:00",
+  "elapsed": 0.329062,
+  "encoding": "utf-8",
+  "expires": "2027-01-19T04:10:33.306510+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Thu, 23 Jul 2026 04:10:33 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=392686713714; HttpOnly; path=/; Expires=Thu, 21-Jan-27 04:10:32 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1784779832; HttpOnly; path=/; Expires=Thu, 21-Jan-27 04:10:32 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "031d7fd8290ad34e30028e080c0023cc",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "4f19f4c8-183b-422f-8444-91075ba72411",
+      "__uzmb": "1784779816",
+      "__uzme": "1132",
+      "__uzmc": "594936467923",
+      "__uzmd": "1784779831"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=4f19f4c8-183b-422f-8444-91075ba72411; __uzmb=1784779816; __uzme=1132; __uzmc=594936467923; __uzmd=1784779831",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6084"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6084",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "19/07/2026",
+    "dataProximoConcurso": "",
+    "dezenasSorteadasOrdemSorteio": [
+      "017667",
+      "039675",
+      "033914",
+      "001743",
+      "036446"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "017667",
+      "039675",
+      "033914",
+      "001743",
+      "036446"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "1 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "SP",
+    "nomeTimeCoracaoMesSorte": null,
+    "numero": 6084,
+    "numeroConcursoAnterior": 6083,
+    "numeroConcursoFinal_0_5": 0,
+    "numeroConcursoProximo": 6085,
+    "numeroJogo": 10,
+    "observacao": "CAIXA Loterias informa: sorteio da extra\u00e7\u00e3o 6084-4 realizado exclusivamente para divulga\u00e7\u00e3o de resultado, sem comercializa\u00e7\u00e3o e premia\u00e7\u00e3o.",
+    "premiacaoContingencia": null,
+    "tipoJogo": "LOTERIA_FEDERAL",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 0.01,
+    "valorAcumuladoConcurso_0_5": 0.0,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 0.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
