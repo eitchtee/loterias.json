@@ -1,46 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "7897110037509",
-    "__uzmd": "1771990393"
+    "__uzmc": "8108410055157",
+    "__uzmd": "1787624069"
   },
-  "created_at": "2026-02-25T03:33:14.054721+00:00",
-  "elapsed": 0.267888,
+  "created_at": "2026-08-25T02:14:29.449129+00:00",
+  "elapsed": 0.221424,
   "encoding": "utf-8",
-  "expires": "2026-08-24T03:33:14.054701+00:00",
+  "expires": "2027-02-21T02:14:29.449098+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Wed, 25 Feb 2026 03:33:14 GMT",
+    "Date": "Tue, 25 Aug 2026 02:14:29 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=7897110037509; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:33:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1771990393; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:33:13 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=8108410055157; HttpOnly; path=/; Expires=Tue, 23-Feb-27 02:14:29 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1787624069; HttpOnly; path=/; Expires=Tue, 23-Feb-27 02:14:29 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "QRO",
-    "X-Azion-Request-Id": "c2a29381b8ad4c1af65cf15fc2a927ac",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "189c8cecf0755c32b39af3ee256f5ea1",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "042"
+    "xS": "005c"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "33a85157-3cb1-49eb-b5b2-59fca9cbaf58",
-      "__uzmb": "1771990375",
-      "__uzme": "1031",
-      "__uzmc": "826739710917",
-      "__uzmd": "1771990393"
+      "__uzma": "d8046dae-bf72-4bb4-8ece-06bdb8de70f2",
+      "__uzmb": "1787624055",
+      "__uzme": "2222",
+      "__uzmc": "890619759421",
+      "__uzmd": "1787624069"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=33a85157-3cb1-49eb-b5b2-59fca9cbaf58; __uzmb=1771990375; __uzme=1031; __uzmc=826739710917; __uzmd=1771990393",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=d8046dae-bf72-4bb4-8ece-06bdb8de70f2; __uzmb=1787624055; __uzme=2222; __uzmc=890619759421; __uzmd=1787624069",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6040"
@@ -50,7 +50,7 @@
   "_decoded_content": {
     "acumulado": false,
     "dataApuracao": "07/02/2026",
-    "dataProximoConcurso": "",
+    "dataProximoConcurso": "11/02/2026",
     "dezenasSorteadasOrdemSorteio": [
       "001627",
       "073789",
@@ -89,7 +89,7 @@
       {
         "ganhadores": 0,
         "municipio": "TAQUARA",
-        "nomeFatansiaUL": "LOTERIAS GAUCHA",
+        "nomeFatansiaUL": "LOTERICA GAUCHA",
         "posicao": 5,
         "serie": "A",
         "uf": "RS"

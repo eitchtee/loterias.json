@@ -1,46 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "919855545886",
-    "__uzmd": "1771990373"
+    "__uzmc": "218125551047",
+    "__uzmd": "1787624053"
   },
-  "created_at": "2026-02-25T03:32:53.916626+00:00",
-  "elapsed": 0.202625,
+  "created_at": "2026-08-25T02:14:13.814842+00:00",
+  "elapsed": 0.174041,
   "encoding": "utf-8",
-  "expires": "2026-08-24T03:32:53.916598+00:00",
+  "expires": "2027-02-21T02:14:13.814810+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Wed, 25 Feb 2026 03:32:53 GMT",
+    "Date": "Tue, 25 Aug 2026 02:14:13 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=919855545886; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:32:53 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1771990373; HttpOnly; path=/; Expires=Wed, 26-Aug-26 03:32:53 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=218125551047; HttpOnly; path=/; Expires=Tue, 23-Feb-27 02:14:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1787624053; HttpOnly; path=/; Expires=Tue, 23-Feb-27 02:14:13 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "64a8f9f4507128d7242228f3ada410da",
+    "X-Azion-Request-Id": "f7928f354040e8747d2d13407445a93b",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "054"
+    "XS": "002"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "7dec2b76-3d37-442e-bb25-d54a354b7534",
-      "__uzmb": "1771990366",
-      "__uzme": "6487",
-      "__uzmc": "247975268599",
-      "__uzmd": "1771990373"
+      "__uzma": "49fe361d-f4d4-4db2-8df8-df42731eabe6",
+      "__uzmb": "1787624046",
+      "__uzme": "2061",
+      "__uzmc": "912355289390",
+      "__uzmd": "1787624053"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=7dec2b76-3d37-442e-bb25-d54a354b7534; __uzmb=1771990366; __uzme=6487; __uzmc=247975268599; __uzmd=1771990373",
-      "User-Agent": "python-requests/2.32.5"
+      "Cookie": "__uzma=49fe361d-f4d4-4db2-8df8-df42731eabe6; __uzmb=1787624046; __uzme=2061; __uzmc=912355289390; __uzmd=1787624053",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/duplasena/2920"
