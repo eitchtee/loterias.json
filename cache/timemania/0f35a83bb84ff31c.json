@@ -1,30 +1,30 @@
 {
   "cookies": {
-    "__uzmc": "339181343500",
-    "__uzmd": "1787919934"
+    "__uzmc": "258411688716",
+    "__uzmd": "1787919935"
   },
-  "created_at": "2026-08-28T12:25:35.001861+00:00",
-  "elapsed": 0.241145,
+  "created_at": "2026-08-28T12:25:35.307338+00:00",
+  "elapsed": 0.216309,
   "encoding": "utf-8",
-  "expires": "2027-02-24T12:25:35.001836+00:00",
+  "expires": "2027-02-24T12:25:35.307312+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 28 Aug 2026 12:25:34 GMT",
+    "Date": "Fri, 28 Aug 2026 12:25:35 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=339181343500; HttpOnly; path=/; Expires=Fri, 26-Feb-27 12:25:34 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1787919934; HttpOnly; path=/; Expires=Fri, 26-Feb-27 12:25:34 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=258411688716; HttpOnly; path=/; Expires=Fri, 26-Feb-27 12:25:35 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1787919935; HttpOnly; path=/; Expires=Fri, 26-Feb-27 12:25:35 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "4ed91662d00444b1792a2b182af07c1d",
+    "X-Azion-Request-Id": "3da7750f6b841cf23caaa07298fd4a33",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "XS": "002"
+    "xS": "042"
   },
   "reason": "OK",
   "request": {
@@ -32,45 +32,45 @@
       "__uzma": "44fc6636-ee9b-4670-8004-6688eeca7cbe",
       "__uzmb": "1787919931",
       "__uzme": "4694",
-      "__uzmc": "617681097543",
-      "__uzmd": "1787919931"
+      "__uzmc": "339181343500",
+      "__uzmd": "1787919934"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=44fc6636-ee9b-4670-8004-6688eeca7cbe; __uzmb=1787919931; __uzme=4694; __uzmc=617681097543; __uzmd=1787919931",
+      "Cookie": "__uzma=44fc6636-ee9b-4670-8004-6688eeca7cbe; __uzmb=1787919931; __uzme=4694; __uzmc=339181343500; __uzmd=1787919934",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2360"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2433"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2360",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2433",
   "_decoded_content": {
     "acumulado": true,
-    "dataApuracao": "26/02/2026",
-    "dataProximoConcurso": "28/02/2026",
+    "dataApuracao": "25/08/2026",
+    "dataProximoConcurso": "27/08/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "07",
-      "76",
-      "53",
+      "29",
+      "80",
       "28",
-      "26",
-      "10",
-      "19"
+      "49",
+      "12",
+      "25",
+      "06"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "07",
-      "10",
-      "19",
-      "26",
+      "06",
+      "12",
+      "25",
       "28",
-      "53",
-      "76"
+      "29",
+      "49",
+      "80"
     ],
     "listaDezenasSegundoSorteio": null,
     "listaMunicipioUFGanhadores": [],
@@ -84,53 +84,53 @@
       {
         "descricaoFaixa": "6 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 3,
-        "valorPremio": 44172.6
+        "numeroDeGanhadores": 6,
+        "valorPremio": 25582.3
       },
       {
         "descricaoFaixa": "5 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 170,
-        "valorPremio": 1113.59
+        "numeroDeGanhadores": 152,
+        "valorPremio": 1442.61
       },
       {
         "descricaoFaixa": "4 acertos",
         "faixa": 4,
-        "numeroDeGanhadores": 3005,
+        "numeroDeGanhadores": 3168,
         "valorPremio": 10.5
       },
       {
         "descricaoFaixa": "3 acertos",
         "faixa": 5,
-        "numeroDeGanhadores": 25949,
+        "numeroDeGanhadores": 28969,
         "valorPremio": 3.5
       },
       {
         "descricaoFaixa": "Time do Cora\u00e7\u00e3o",
         "faixa": 6,
-        "numeroDeGanhadores": 6111,
+        "numeroDeGanhadores": 16017,
         "valorPremio": 8.5
       }
     ],
     "listaResultadoEquipeEsportiva": null,
     "localSorteio": "ESPA\u00c7O DA SORTE",
     "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
-    "nomeTimeCoracaoMesSorte": "CHAPECOENSE      /SC",
-    "numero": 2360,
-    "numeroConcursoAnterior": 2359,
-    "numeroConcursoFinal_0_5": 2365,
-    "numeroConcursoProximo": 2361,
+    "nomeTimeCoracaoMesSorte": "BAHIA            /BA",
+    "numero": 2433,
+    "numeroConcursoAnterior": 2432,
+    "numeroConcursoFinal_0_5": 2435,
+    "numeroConcursoProximo": 2434,
     "numeroJogo": 20,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "TIMEMANIA",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 2241746.5,
-    "valorAcumuladoConcurso_0_5": 66258.91,
+    "valorArrecadado": 2734368.0,
+    "valorAcumuladoConcurso_0_5": 267423.46,
     "valorAcumuladoConcursoEspecial": 0.0,
-    "valorAcumuladoProximoConcurso": 8330278.76,
-    "valorEstimadoProximoConcurso": 8700000.0,
+    "valorAcumuladoProximoConcurso": 9885906.03,
+    "valorEstimadoProximoConcurso": 10400000.0,
     "valorSaldoReservaGarantidora": 0.0,
     "valorTotalPremioFaixaUm": 0.0
   }
