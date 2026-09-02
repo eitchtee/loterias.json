@@ -1,12 +1,12 @@
 {
   "cookies": {
-    "__uzmc": "162871319637",
-    "__uzmd": "1788326324"
+    "__uzmc": "604671677174",
+    "__uzmd": "1788326325"
   },
-  "created_at": "2026-09-02T05:18:45.301006+00:00",
-  "elapsed": 0.318525,
+  "created_at": "2026-09-02T05:18:45.811338+00:00",
+  "elapsed": 0.303981,
   "encoding": "utf-8",
-  "expires": "2027-03-01T05:18:45.300976+00:00",
+  "expires": "2027-03-01T05:18:45.811307+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
@@ -16,11 +16,11 @@
     "Date": "Wed, 02 Sep 2026 05:18:45 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=162871319637; HttpOnly; path=/; Expires=Wed, 03-Mar-27 05:18:44 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1788326324; HttpOnly; path=/; Expires=Wed, 03-Mar-27 05:18:44 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=604671677174; HttpOnly; path=/; Expires=Wed, 03-Mar-27 05:18:45 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1788326325; HttpOnly; path=/; Expires=Wed, 03-Mar-27 05:18:45 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "SJC",
-    "X-Azion-Request-Id": "966bf1d8afcf454eb0100085cd38ace8",
+    "X-Azion-Request-Id": "0171c757c7007775e392cfd3ae13bae2",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
@@ -32,134 +32,102 @@
       "__uzma": "a216efdb-83a1-4a67-942b-c2058ff1c091",
       "__uzmb": "1788326318",
       "__uzme": "6315",
-      "__uzmc": "379511069126",
-      "__uzmd": "1788326318"
+      "__uzmc": "162871319637",
+      "__uzmd": "1788326324"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=a216efdb-83a1-4a67-942b-c2058ff1c091; __uzmb=1788326318; __uzme=6315; __uzmc=379511069126; __uzmd=1788326318",
+      "Cookie": "__uzma=a216efdb-83a1-4a67-942b-c2058ff1c091; __uzmb=1788326318; __uzme=6315; __uzmc=162871319637; __uzmd=1788326324",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3627"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3776"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3627",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3776",
   "_decoded_content": {
     "acumulado": false,
-    "dataApuracao": "04/03/2026",
-    "dataProximoConcurso": "05/03/2026",
+    "dataApuracao": "31/08/2026",
+    "dataProximoConcurso": "01/09/2026",
     "dezenasSorteadasOrdemSorteio": [
+      "20",
+      "18",
       "21",
+      "19",
+      "14",
+      "16",
+      "25",
+      "24",
       "08",
       "17",
-      "16",
-      "02",
-      "12",
-      "15",
+      "23",
+      "05",
+      "03",
       "07",
-      "13",
-      "01",
-      "19",
-      "10",
-      "09",
-      "14",
-      "06"
+      "10"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "01",
-      "02",
-      "06",
+      "03",
+      "05",
       "07",
       "08",
-      "09",
       "10",
-      "12",
-      "13",
       "14",
-      "15",
       "16",
       "17",
+      "18",
       "19",
-      "21"
+      "20",
+      "21",
+      "23",
+      "24",
+      "25"
     ],
     "listaDezenasSegundoSorteio": null,
     "listaMunicipioUFGanhadores": [
       {
         "ganhadores": 1,
-        "municipio": "CANAL ELETRONICO",
+        "municipio": "RIO DE JANEIRO",
         "nomeFatansiaUL": "",
         "posicao": 1,
         "serie": "",
-        "uf": "--"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "FORTALEZA",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "CE"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "CAMAPUA",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "MS"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "MOSSORO",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "RN"
-      },
-      {
-        "ganhadores": 1,
-        "municipio": "SAO PAULO",
-        "nomeFatansiaUL": "",
-        "posicao": 1,
-        "serie": "",
-        "uf": "SP"
+        "uf": "RJ"
       }
     ],
     "listaRateioPremio": [
       {
         "descricaoFaixa": "15 acertos",
         "faixa": 1,
-        "numeroDeGanhadores": 5,
-        "valorPremio": 1982105.68
+        "numeroDeGanhadores": 1,
+        "valorPremio": 1572957.19
       },
       {
         "descricaoFaixa": "14 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 481,
-        "valorPremio": 2237.88
+        "numeroDeGanhadores": 132,
+        "valorPremio": 2498.59
       },
       {
         "descricaoFaixa": "13 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 15308,
+        "numeroDeGanhadores": 6225,
         "valorPremio": 35.0
       },
       {
         "descricaoFaixa": "12 acertos",
         "faixa": 4,
-        "numeroDeGanhadores": 207077,
+        "numeroDeGanhadores": 86179,
         "valorPremio": 14.0
       },
       {
         "descricaoFaixa": "11 acertos",
         "faixa": 5,
-        "numeroDeGanhadores": 1207986,
+        "numeroDeGanhadores": 462537,
         "valorPremio": 7.0
       }
     ],
@@ -167,19 +135,19 @@
     "localSorteio": "ESPA\u00c7O DA SORTE",
     "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
     "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "numero": 3627,
-    "numeroConcursoAnterior": 3626,
-    "numeroConcursoFinal_0_5": 3630,
-    "numeroConcursoProximo": 3628,
+    "numero": 3776,
+    "numeroConcursoAnterior": 3775,
+    "numeroConcursoFinal_0_5": 3780,
+    "numeroConcursoProximo": 3777,
     "numeroJogo": 8,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "LOTOFACIL",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 54166651.0,
-    "valorAcumuladoConcurso_0_5": 2720115.0,
-    "valorAcumuladoConcursoEspecial": 76339340.12,
+    "valorArrecadado": 18923191.0,
+    "valorAcumuladoConcurso_0_5": 1644824.4,
+    "valorAcumuladoConcursoEspecial": 153544253.23,
     "valorAcumuladoProximoConcurso": 0.0,
     "valorEstimadoProximoConcurso": 2000000.0,
     "valorSaldoReservaGarantidora": 0.0,
