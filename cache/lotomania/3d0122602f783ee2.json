@@ -1,12 +1,12 @@
 {
   "cookies": {
-    "__uzmc": "141621355978",
-    "__uzmd": "1789018113"
+    "__uzmc": "385601661372",
+    "__uzmd": "1789018114"
   },
-  "created_at": "2026-09-10T05:28:34.051965+00:00",
-  "elapsed": 0.266548,
+  "created_at": "2026-09-10T05:28:34.415971+00:00",
+  "elapsed": 0.254743,
   "encoding": "utf-8",
-  "expires": "2027-03-09T05:28:34.051935+00:00",
+  "expires": "2027-03-09T05:28:34.415941+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
@@ -16,15 +16,15 @@
     "Date": "Thu, 10 Sep 2026 05:28:34 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=141621355978; HttpOnly; path=/; Expires=Thu, 11-Mar-27 05:28:33 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1789018113; HttpOnly; path=/; Expires=Thu, 11-Mar-27 05:28:33 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=385601661372; HttpOnly; path=/; Expires=Thu, 11-Mar-27 05:28:34 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1789018114; HttpOnly; path=/; Expires=Thu, 11-Mar-27 05:28:34 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "QRO",
-    "X-Azion-Request-Id": "fae3cf8e95849200aebab4e2e632bd62",
+    "X-Azion-Request-Id": "63aa300a62fa2875bbd4cfafa7e954ee",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "052"
+    "XS": "002"
   },
   "reason": "OK",
   "request": {
@@ -32,70 +32,70 @@
       "__uzma": "5fd25b23-e59d-4c77-8337-fa61a68a0622",
       "__uzmb": "1789018108",
       "__uzme": "4199",
-      "__uzmc": "249961041003",
-      "__uzmd": "1789018108"
+      "__uzmc": "141621355978",
+      "__uzmd": "1789018113"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=5fd25b23-e59d-4c77-8337-fa61a68a0622; __uzmb=1789018108; __uzme=4199; __uzmc=249961041003; __uzmd=1789018108",
+      "Cookie": "__uzma=5fd25b23-e59d-4c77-8337-fa61a68a0622; __uzmb=1789018108; __uzme=4199; __uzmc=141621355978; __uzmd=1789018113",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2898"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2972"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2898",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotomania/2972",
   "_decoded_content": {
     "acumulado": true,
-    "dataApuracao": "11/03/2026",
-    "dataProximoConcurso": "13/03/2026",
+    "dataApuracao": "04/09/2026",
+    "dataProximoConcurso": "09/09/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "06",
-      "02",
-      "15",
-      "11",
-      "39",
-      "52",
+      "31",
       "97",
-      "37",
-      "53",
-      "51",
+      "76",
+      "77",
+      "10",
+      "35",
+      "52",
+      "94",
+      "17",
       "45",
-      "20",
-      "59",
-      "28",
-      "79",
-      "04",
-      "73",
-      "62",
-      "00",
-      "75"
+      "41",
+      "21",
+      "16",
+      "84",
+      "89",
+      "06",
+      "33",
+      "38",
+      "92",
+      "51"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "00",
-      "02",
-      "04",
       "06",
-      "11",
-      "15",
-      "20",
-      "28",
-      "37",
-      "39",
+      "10",
+      "16",
+      "17",
+      "21",
+      "31",
+      "33",
+      "35",
+      "38",
+      "41",
       "45",
       "51",
       "52",
-      "53",
-      "59",
-      "62",
-      "73",
-      "75",
-      "79",
+      "76",
+      "77",
+      "84",
+      "89",
+      "92",
+      "94",
       "97"
     ],
     "listaDezenasSegundoSorteio": null,
@@ -110,32 +110,32 @@
       {
         "descricaoFaixa": "19 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 5,
-        "valorPremio": 41760.98
+        "numeroDeGanhadores": 3,
+        "valorPremio": 89087.43
       },
       {
         "descricaoFaixa": "18 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 156,
-        "valorPremio": 1195.08
+        "numeroDeGanhadores": 47,
+        "valorPremio": 3554.02
       },
       {
         "descricaoFaixa": "17 acertos",
         "faixa": 4,
-        "numeroDeGanhadores": 717,
-        "valorPremio": 182.01
+        "numeroDeGanhadores": 486,
+        "valorPremio": 343.7
       },
       {
         "descricaoFaixa": "16 acertos",
         "faixa": 5,
-        "numeroDeGanhadores": 4821,
-        "valorPremio": 27.06
+        "numeroDeGanhadores": 2868,
+        "valorPremio": 58.24
       },
       {
         "descricaoFaixa": "15 acertos",
         "faixa": 6,
-        "numeroDeGanhadores": 13211,
-        "valorPremio": 9.87
+        "numeroDeGanhadores": 13135,
+        "valorPremio": 12.71
       },
       {
         "descricaoFaixa": "0 acertos",
@@ -148,21 +148,21 @@
     "localSorteio": "ESPA\u00c7O DA SORTE",
     "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
     "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "numero": 2898,
-    "numeroConcursoAnterior": 2897,
+    "numero": 2972,
+    "numeroConcursoAnterior": 2971,
     "numeroConcursoFinal_0_5": 0,
-    "numeroConcursoProximo": 2899,
+    "numeroConcursoProximo": 2973,
     "numeroJogo": 16,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "LOTOMANIA",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 4257432.0,
+    "valorArrecadado": 5449350.0,
     "valorAcumuladoConcurso_0_5": 0.0,
     "valorAcumuladoConcursoEspecial": 0.0,
-    "valorAcumuladoProximoConcurso": 2637945.28,
-    "valorEstimadoProximoConcurso": 3300000.0,
+    "valorAcumuladoProximoConcurso": 3696814.38,
+    "valorEstimadoProximoConcurso": 5000000.0,
     "valorSaldoReservaGarantidora": 0.0,
     "valorTotalPremioFaixaUm": 0.0
   }
