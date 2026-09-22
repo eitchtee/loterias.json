@@ -1,46 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "858866773767",
-    "__uzmd": "1774496652"
+    "__uzmc": "727386789478",
+    "__uzmd": "1790055693"
   },
-  "created_at": "2026-03-26T03:44:12.290695+00:00",
-  "elapsed": 0.194303,
+  "created_at": "2026-09-22T05:41:33.411156+00:00",
+  "elapsed": 0.22157,
   "encoding": "utf-8",
-  "expires": "2026-09-22T03:44:12.290630+00:00",
+  "expires": "2027-03-21T05:41:33.411128+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Thu, 26 Mar 2026 03:44:12 GMT",
+    "Date": "Tue, 22 Sep 2026 05:41:33 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=858866773767; HttpOnly; path=/; Expires=Thu, 24-Sep-26 03:44:12 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1774496652; HttpOnly; path=/; Expires=Thu, 24-Sep-26 03:44:12 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=727386789478; HttpOnly; path=/; Expires=Tue, 23-Mar-27 05:41:33 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790055693; HttpOnly; path=/; Expires=Tue, 23-Mar-27 05:41:33 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "08a435a37e3dfdf9fadc16195b0b4e0b",
+    "X-Azion-Request-Id": "f50a5c5674019769a4401a413ce15225",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "052"
+    "xS": "006c"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "6bb88b7b-bada-43c0-bc84-21df5fa217dd",
-      "__uzmb": "1774496639",
-      "__uzme": "9887",
-      "__uzmc": "318126449036",
-      "__uzmd": "1774496651"
+      "__uzma": "3718ff24-e4d9-456e-8001-f6730711a805",
+      "__uzmb": "1790055679",
+      "__uzme": "5061",
+      "__uzmc": "519476471978",
+      "__uzmd": "1790055692"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=6bb88b7b-bada-43c0-bc84-21df5fa217dd; __uzmb=1774496639; __uzme=9887; __uzmc=318126449036; __uzmd=1774496651",
-      "User-Agent": "python-requests/2.33.0"
+      "Cookie": "__uzma=3718ff24-e4d9-456e-8001-f6730711a805; __uzmb=1790055679; __uzme=5061; __uzmc=519476471978; __uzmd=1790055692",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6051"
@@ -50,7 +50,7 @@
   "_decoded_content": {
     "acumulado": false,
     "dataApuracao": "21/03/2026",
-    "dataProximoConcurso": "",
+    "dataProximoConcurso": "25/03/2026",
     "dezenasSorteadasOrdemSorteio": [
       "056449",
       "024784",
