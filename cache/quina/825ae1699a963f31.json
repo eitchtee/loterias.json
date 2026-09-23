@@ -1,12 +1,12 @@
 {
   "cookies": {
-    "__uzmc": "623621369765",
-    "__uzmd": "1790141288"
+    "__uzmc": "446171663503",
+    "__uzmd": "1790141289"
   },
-  "created_at": "2026-09-23T05:28:09.044025+00:00",
-  "elapsed": 0.20729,
+  "created_at": "2026-09-23T05:28:09.508778+00:00",
+  "elapsed": 0.243078,
   "encoding": "utf-8",
-  "expires": "2027-03-22T05:28:09.043996+00:00",
+  "expires": "2027-03-22T05:28:09.508752+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
@@ -16,11 +16,11 @@
     "Date": "Wed, 23 Sep 2026 05:28:09 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=623621369765; HttpOnly; path=/; Expires=Wed, 24-Mar-27 05:28:08 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790141288; HttpOnly; path=/; Expires=Wed, 24-Mar-27 05:28:08 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=446171663503; HttpOnly; path=/; Expires=Wed, 24-Mar-27 05:28:09 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790141289; HttpOnly; path=/; Expires=Wed, 24-Mar-27 05:28:09 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "149de43bdfd5cb01019e6fe481401bc2",
+    "X-Azion-Request-Id": "b8fe67f493e639dd965a720ea31cc1f1",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
@@ -32,41 +32,41 @@
       "__uzma": "83c0df82-0163-4f16-bf69-e18bb7628e34",
       "__uzmb": "1790141277",
       "__uzme": "3723",
-      "__uzmc": "435951038515",
-      "__uzmd": "1790141277"
+      "__uzmc": "623621369765",
+      "__uzmd": "1790141288"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=83c0df82-0163-4f16-bf69-e18bb7628e34; __uzmb=1790141277; __uzme=3723; __uzmc=435951038515; __uzmd=1790141277",
+      "Cookie": "__uzma=83c0df82-0163-4f16-bf69-e18bb7628e34; __uzmb=1790141277; __uzme=3723; __uzmc=623621369765; __uzmd=1790141288",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6985"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7123"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/6985",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7123",
   "_decoded_content": {
     "acumulado": true,
-    "dataApuracao": "25/03/2026",
-    "dataProximoConcurso": "26/03/2026",
+    "dataApuracao": "21/09/2026",
+    "dataProximoConcurso": "22/09/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "43",
-      "73",
-      "39",
-      "04",
-      "09"
+      "42",
+      "19",
+      "60",
+      "53",
+      "14"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "04",
-      "09",
-      "39",
-      "43",
-      "73"
+      "14",
+      "19",
+      "42",
+      "53",
+      "60"
     ],
     "listaDezenasSegundoSorteio": null,
     "listaMunicipioUFGanhadores": [],
@@ -80,41 +80,41 @@
       {
         "descricaoFaixa": "4 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 36,
-        "valorPremio": 10271.78
+        "numeroDeGanhadores": 31,
+        "valorPremio": 8316.71
       },
       {
         "descricaoFaixa": "3 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 3098,
-        "valorPremio": 113.67
+        "numeroDeGanhadores": 2300,
+        "valorPremio": 106.75
       },
       {
         "descricaoFaixa": "2 acertos",
         "faixa": 4,
-        "numeroDeGanhadores": 80705,
-        "valorPremio": 4.36
+        "numeroDeGanhadores": 57326,
+        "valorPremio": 4.28
       }
     ],
     "listaResultadoEquipeEsportiva": null,
     "localSorteio": "ESPA\u00c7O DA SORTE",
     "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
     "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "numero": 6985,
-    "numeroConcursoAnterior": 6984,
-    "numeroConcursoFinal_0_5": 6995,
-    "numeroConcursoProximo": 6986,
+    "numero": 7123,
+    "numeroConcursoAnterior": 7122,
+    "numeroConcursoFinal_0_5": 7125,
+    "numeroConcursoProximo": 7124,
     "numeroJogo": 3,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "QUINA",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 8042373.0,
-    "valorAcumuladoConcurso_0_5": 369784.29,
-    "valorAcumuladoConcursoEspecial": 100801094.31,
-    "valorAcumuladoProximoConcurso": 6349459.6,
-    "valorEstimadoProximoConcurso": 7300000.0,
+    "valorArrecadado": 5607240.0,
+    "valorAcumuladoConcurso_0_5": 4174470.86,
+    "valorAcumuladoConcursoEspecial": 31679508.92,
+    "valorAcumuladoProximoConcurso": 1212049.45,
+    "valorEstimadoProximoConcurso": 2000000.0,
     "valorSaldoReservaGarantidora": 0.0,
     "valorTotalPremioFaixaUm": 0.0
   }
