@@ -1,12 +1,12 @@
 {
   "cookies": {
-    "__uzmc": "107301391357",
-    "__uzmd": "1790837029"
+    "__uzmc": "489771677437",
+    "__uzmd": "1790837030"
   },
-  "created_at": "2026-10-01T06:43:50.170059+00:00",
-  "elapsed": 0.238495,
+  "created_at": "2026-10-01T06:43:50.449532+00:00",
+  "elapsed": 0.218711,
   "encoding": "utf-8",
-  "expires": "2027-03-30T06:43:50.170035+00:00",
+  "expires": "2027-03-30T06:43:50.449508+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
@@ -16,15 +16,15 @@
     "Date": "Thu, 01 Oct 2026 06:43:50 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=107301391357; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:43:49 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790837029; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:43:49 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=489771677437; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:43:50 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790837030; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:43:50 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "e1400d55403fa8f5a35db14df37969ad",
+    "X-Azion-Request-Id": "433f24fd8fb8c2fe482ab8237be76912",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "XS": "002"
+    "xS": "052"
   },
   "reason": "OK",
   "request": {
@@ -32,49 +32,49 @@
       "__uzma": "b948b05f-3de6-4b2f-8dce-cc29fac51df9",
       "__uzmb": "1790837028",
       "__uzme": "2159",
-      "__uzmc": "306381036327",
-      "__uzmd": "1790837028"
+      "__uzmc": "107301391357",
+      "__uzmd": "1790837029"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=b948b05f-3de6-4b2f-8dce-cc29fac51df9; __uzmb=1790837028; __uzme=2159; __uzmc=306381036327; __uzmd=1790837028",
+      "Cookie": "__uzma=b948b05f-3de6-4b2f-8dce-cc29fac51df9; __uzmb=1790837028; __uzme=2159; __uzmc=107301391357; __uzmd=1790837029",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/341"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/392"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/341",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/392",
   "_decoded_content": {
     "trevosSorteados": [
-      "2",
-      "5"
+      "3",
+      "6"
     ],
     "acumulado": true,
-    "dataApuracao": "28/03/2026",
-    "dataProximoConcurso": "01/04/2026",
+    "dataApuracao": "23/09/2026",
+    "dataProximoConcurso": "27/09/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "21",
-      "50",
-      "18",
-      "41",
+      "12",
+      "45",
+      "33",
       "38",
-      "01",
+      "03",
       "05",
-      "02"
+      "03",
+      "06"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "01",
-      "18",
-      "21",
+      "03",
+      "05",
+      "12",
+      "33",
       "38",
-      "41",
-      "50"
+      "45"
     ],
     "listaDezenasSegundoSorteio": null,
     "listaMunicipioUFGanhadores": [],
@@ -88,55 +88,55 @@
       {
         "descricaoFaixa": "6 acertos + 1 ou nenhum trevo",
         "faixa": 2,
-        "numeroDeGanhadores": 0,
-        "valorPremio": 0.0
+        "numeroDeGanhadores": 1,
+        "valorPremio": 192061.78
       },
       {
         "descricaoFaixa": "5 acertos + 2 trevos",
         "faixa": 3,
         "numeroDeGanhadores": 1,
-        "valorPremio": 212595.0
+        "valorPremio": 153649.42
       },
       {
         "descricaoFaixa": "5 acertos + 1 ou nenhum trevo",
         "faixa": 4,
-        "numeroDeGanhadores": 20,
-        "valorPremio": 4724.33
+        "numeroDeGanhadores": 34,
+        "valorPremio": 4519.1
       },
       {
         "descricaoFaixa": "4 acertos + 2 trevos",
         "faixa": 5,
-        "numeroDeGanhadores": 101,
-        "valorPremio": 1002.33
+        "numeroDeGanhadores": 140,
+        "valorPremio": 1175.88
       },
       {
         "descricaoFaixa": "4 acertos + 1 ou nenhum trevo",
         "faixa": 6,
-        "numeroDeGanhadores": 937,
-        "valorPremio": 108.04
+        "numeroDeGanhadores": 1814,
+        "valorPremio": 90.75
       },
       {
         "descricaoFaixa": "3 acertos + 2 trevos",
         "faixa": 7,
-        "numeroDeGanhadores": 1608,
+        "numeroDeGanhadores": 2344,
         "valorPremio": 50.0
       },
       {
         "descricaoFaixa": "3 acertos + 1 trevo",
         "faixa": 8,
-        "numeroDeGanhadores": 9725,
+        "numeroDeGanhadores": 18346,
         "valorPremio": 24.0
       },
       {
         "descricaoFaixa": "2 acertos + 2 trevos",
         "faixa": 9,
-        "numeroDeGanhadores": 10625,
+        "numeroDeGanhadores": 15953,
         "valorPremio": 12.0
       },
       {
         "descricaoFaixa": "2 acertos + 1 trevo",
         "faixa": 10,
-        "numeroDeGanhadores": 66441,
+        "numeroDeGanhadores": 127018,
         "valorPremio": 6.0
       }
     ],
@@ -144,22 +144,22 @@
     "localSorteio": "Espa\u00e7o da Sorte",
     "nomeMunicipioUFSorteio": "SAO PAULO, SP",
     "nomeTimeCoracaoMesSorte": null,
-    "numero": 341,
-    "numeroConcursoAnterior": 340,
+    "numero": 392,
+    "numeroConcursoAnterior": 391,
     "numeroConcursoFinal_0_5": 0,
-    "numeroConcursoProximo": 342,
+    "numeroConcursoProximo": 393,
     "numeroJogo": 9,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "MAIS_MILIONARIA",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 6074946.0,
+    "valorArrecadado": 10227732.0,
     "valorAcumuladoConcurso_0_5": 0.0,
     "valorAcumuladoConcursoEspecial": 0.0,
-    "valorAcumuladoProximoConcurso": 30889586.52,
-    "valorEstimadoProximoConcurso": 33000000.0,
-    "valorSaldoReservaGarantidora": 12546499.53,
-    "valorTotalPremioFaixaUm": 732273.62
+    "valorAcumuladoProximoConcurso": 96433812.06,
+    "valorEstimadoProximoConcurso": 98000000.0,
+    "valorSaldoReservaGarantidora": 4606734.11,
+    "valorTotalPremioFaixaUm": 1190786.75
   }
 }

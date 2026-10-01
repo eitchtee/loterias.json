@@ -34243,5 +34243,33 @@
       "76"
     ],
     "time_do_coracao": "CRB /AL"
+  },
+  {
+    "concurso": 2447,
+    "data": "27/09/2026",
+    "resultado": [
+      "01",
+      "10",
+      "20",
+      "25",
+      "30",
+      "33",
+      "34"
+    ],
+    "time_do_coracao": "SAO PAULO /SP"
+  },
+  {
+    "concurso": 2448,
+    "data": "29/09/2026",
+    "resultado": [
+      "32",
+      "45",
+      "51",
+      "60",
+      "62",
+      "73",
+      "75"
+    ],
+    "time_do_coracao": "INTERNACIONAL /RS"
   }
 ]

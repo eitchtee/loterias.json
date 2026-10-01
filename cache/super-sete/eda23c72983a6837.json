@@ -1,12 +1,12 @@
 {
   "cookies": {
-    "__uzmc": "566271396522",
+    "__uzmc": "849731962434",
     "__uzmd": "1790837053"
   },
-  "created_at": "2026-10-01T06:44:13.228048+00:00",
-  "elapsed": 0.236421,
+  "created_at": "2026-10-01T06:44:13.760709+00:00",
+  "elapsed": 0.215046,
   "encoding": "utf-8",
-  "expires": "2027-03-30T06:44:13.228023+00:00",
+  "expires": "2027-03-30T06:44:13.760667+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
@@ -16,15 +16,15 @@
     "Date": "Thu, 01 Oct 2026 06:44:13 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=566271396522; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:44:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790837053; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:44:13 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=849731962434; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:44:13 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1790837053; HttpOnly; path=/; Expires=Thu, 01-Apr-27 06:44:13 GMT ; Max-Age=15724800; SameSite=Lax",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "b094a46bd16b56898cd40a219d1cfaf1",
+    "X-Azion-Request-Id": "73baa49316f42c8897a3b7348149143f",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "011"
+    "xS": "053"
   },
   "reason": "OK",
   "request": {
@@ -32,45 +32,45 @@
       "__uzma": "a809db5f-6b53-4ca1-93e7-fd485f3a0241",
       "__uzmb": "1790837051",
       "__uzme": "8431",
-      "__uzmc": "846531076091",
-      "__uzmd": "1790837051"
+      "__uzmc": "942471645209",
+      "__uzmd": "1790837053"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=a809db5f-6b53-4ca1-93e7-fd485f3a0241; __uzmb=1790837051; __uzme=8431; __uzmc=846531076091; __uzmd=1790837051",
+      "Cookie": "__uzma=a809db5f-6b53-4ca1-93e7-fd485f3a0241; __uzmb=1790837051; __uzme=8431; __uzmc=942471645209; __uzmd=1790837053",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
-    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/829"
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/904"
   },
   "status_code": 200,
-  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/829",
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/supersete/904",
   "_decoded_content": {
     "acumulado": true,
-    "dataApuracao": "30/03/2026",
-    "dataProximoConcurso": "01/04/2026",
+    "dataApuracao": "28/09/2026",
+    "dataProximoConcurso": "30/09/2026",
     "dezenasSorteadasOrdemSorteio": [
-      "2",
-      "5",
-      "5",
-      "4",
-      "4",
       "3",
-      "5"
+      "8",
+      "1",
+      "0",
+      "3",
+      "4",
+      "6"
     ],
     "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
-      "2",
-      "5",
-      "5",
-      "4",
-      "4",
       "3",
-      "5"
+      "8",
+      "1",
+      "0",
+      "3",
+      "4",
+      "6"
     ],
     "listaDezenasSegundoSorteio": null,
     "listaMunicipioUFGanhadores": [],
@@ -84,25 +84,25 @@
       {
         "descricaoFaixa": "6 acertos",
         "faixa": 2,
-        "numeroDeGanhadores": 3,
-        "valorPremio": 15862.07
+        "numeroDeGanhadores": 1,
+        "valorPremio": 71168.14
       },
       {
         "descricaoFaixa": "5 acertos",
         "faixa": 3,
-        "numeroDeGanhadores": 58,
-        "valorPremio": 1172.07
+        "numeroDeGanhadores": 97,
+        "valorPremio": 1048.13
       },
       {
         "descricaoFaixa": "4 acertos",
         "faixa": 4,
-        "numeroDeGanhadores": 997,
-        "valorPremio": 68.18
+        "numeroDeGanhadores": 1398,
+        "valorPremio": 72.72
       },
       {
         "descricaoFaixa": "3 acertos",
         "faixa": 5,
-        "numeroDeGanhadores": 9979,
+        "numeroDeGanhadores": 12779,
         "valorPremio": 6.0
       }
     ],
@@ -110,22 +110,22 @@
     "localSorteio": "Espa\u00e7o da Sorte",
     "nomeMunicipioUFSorteio": "SAO PAULO, SP",
     "nomeTimeCoracaoMesSorte": null,
-    "numero": 829,
-    "numeroConcursoAnterior": 828,
+    "numero": 904,
+    "numeroConcursoAnterior": 903,
     "numeroConcursoFinal_0_5": 0,
-    "numeroConcursoProximo": 830,
+    "numeroConcursoProximo": 905,
     "numeroJogo": 7,
     "observacao": "",
     "premiacaoContingencia": null,
     "tipoJogo": "SUPER_SETE",
     "tipoPublicacao": 3,
     "ultimoConcurso": true,
-    "valorArrecadado": 1171674.0,
+    "valorArrecadado": 1722918.0,
     "valorAcumuladoConcurso_0_5": 0.0,
     "valorAcumuladoConcursoEspecial": 0.0,
-    "valorAcumuladoProximoConcurso": 4722911.6,
-    "valorEstimadoProximoConcurso": 5000000.0,
+    "valorAcumuladoProximoConcurso": 9379343.84,
+    "valorEstimadoProximoConcurso": 9700000.0,
     "valorSaldoReservaGarantidora": 0.0,
-    "valorTotalPremioFaixaUm": 174486.36
+    "valorTotalPremioFaixaUm": 260954.31
   }
 }
