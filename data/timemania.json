@@ -34355,5 +34355,19 @@
       "79"
     ],
     "time_do_coracao": "FERROVIARIO /CE"
+  },
+  {
+    "concurso": 2455,
+    "data": "15/10/2026",
+    "resultado": [
+      "07",
+      "28",
+      "31",
+      "32",
+      "60",
+      "61",
+      "76"
+    ],
+    "time_do_coracao": "LONDRINA /PR"
   }
 ]
