@@ -1,0 +1,137 @@
+{
+  "cookies": {
+    "__uzmc": "973091399520",
+    "__uzmd": "1792388000"
+  },
+  "created_at": "2026-10-19T05:33:20.461799+00:00",
+  "elapsed": 0.379771,
+  "encoding": "utf-8",
+  "expires": "2027-04-17T05:33:20.461761+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Mon, 19 Oct 2026 05:33:20 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=973091399520; HttpOnly; path=/; Expires=Mon, 19-Apr-27 05:33:20 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1792388000; HttpOnly; path=/; Expires=Mon, 19-Apr-27 05:33:20 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "edb10d3ba1d87f37541507de5cb5d9cf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "006c"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "be3a2c18-2b4b-4c9a-a173-b16149903cba",
+      "__uzmb": "1792387997",
+      "__uzme": "6539",
+      "__uzmc": "916881068459",
+      "__uzmd": "1792387997"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=be3a2c18-2b4b-4c9a-a173-b16149903cba; __uzmb=1792387997; __uzme=6539; __uzmc=916881068459; __uzmd=1792387997",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2455"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/timemania/2455",
+  "_decoded_content": {
+    "acumulado": true,
+    "dataApuracao": "15/10/2026",
+    "dataProximoConcurso": "18/10/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "31",
+      "60",
+      "28",
+      "32",
+      "07",
+      "61",
+      "76"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "07",
+      "28",
+      "31",
+      "32",
+      "60",
+      "61",
+      "76"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "7 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 0,
+        "valorPremio": 0.0
+      },
+      {
+        "descricaoFaixa": "6 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 2,
+        "valorPremio": 86209.27
+      },
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 165,
+        "valorPremio": 1492.8
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 2543,
+        "valorPremio": 10.5
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 5,
+        "numeroDeGanhadores": 25594,
+        "valorPremio": 3.5
+      },
+      {
+        "descricaoFaixa": "Time do Cora\u00e7\u00e3o",
+        "faixa": 6,
+        "numeroDeGanhadores": 7295,
+        "valorPremio": 8.5
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "LONDRINA         /PR",
+    "numero": 2455,
+    "numeroConcursoAnterior": 2454,
+    "numeroConcursoFinal_0_5": 2460,
+    "numeroConcursoProximo": 2456,
+    "numeroJogo": 20,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "TIMEMANIA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 2819698.0,
+    "valorAcumuladoConcurso_0_5": 86209.27,
+    "valorAcumuladoConcursoEspecial": 0.0,
+    "valorAcumuladoProximoConcurso": 20387507.85,
+    "valorEstimadoProximoConcurso": 21000000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
