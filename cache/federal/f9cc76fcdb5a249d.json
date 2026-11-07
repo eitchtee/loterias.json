@@ -1,46 +1,47 @@
 {
   "cookies": {
-    "__uzmc": "603486741478",
-    "__uzmd": "1778475301"
+    "__uzmc": "372746785592",
+    "__uzmd": "1794033872"
   },
-  "created_at": "2026-05-11T04:55:02.183483+00:00",
-  "elapsed": 0.236237,
+  "created_at": "2026-11-07T06:44:32.974805+00:00",
+  "elapsed": 0.276329,
   "encoding": "utf-8",
-  "expires": "2026-11-07T04:55:02.183455+00:00",
+  "expires": "2027-05-06T06:44:32.974793+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Mon, 11 May 2026 04:55:02 GMT",
+    "Date": "Sat, 07 Nov 2026 06:44:32 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=603486741478; HttpOnly; path=/; Expires=Mon, 09-Nov-26 04:55:01 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1778475301; HttpOnly; path=/; Expires=Mon, 09-Nov-26 04:55:01 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=372746785592; HttpOnly; path=/; Expires=Sat, 08-May-27 06:44:32 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1794033872; HttpOnly; path=/; Expires=Sat, 08-May-27 06:44:32 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "ffd1bd4d8ce17a9c178d9e863094f405",
+    "X-Azion-Request-Id": "6d38ee1eb1735b74e3b1ec0a31507e45",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "005c"
+    "xS": "006c"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "dd72bb8e-1f76-4af6-9f3c-219e554f0ff2",
-      "__uzmb": "1778475289",
-      "__uzme": "4926",
-      "__uzmc": "875666466248",
-      "__uzmd": "1778475300"
+      "__uzma": "6828b131-f169-4f12-804f-60eb8ce9500f",
+      "__uzmb": "1794033863",
+      "__uzme": "7343",
+      "__uzmc": "506756432653",
+      "__uzmd": "1794033872"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=dd72bb8e-1f76-4af6-9f3c-219e554f0ff2; __uzmb=1778475289; __uzme=4926; __uzmc=875666466248; __uzmd=1778475300",
-      "User-Agent": "python-requests/2.33.1"
+      "Cookie": "__uzma=6828b131-f169-4f12-804f-60eb8ce9500f; __uzmb=1794033863; __uzme=7343; __uzmc=506756432653; __uzmd=1794033872",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/federal/6063"
@@ -50,7 +51,7 @@
   "_decoded_content": {
     "acumulado": false,
     "dataApuracao": "06/05/2026",
-    "dataProximoConcurso": "",
+    "dataProximoConcurso": "09/05/2026",
     "dezenasSorteadasOrdemSorteio": [
       "049318",
       "042302",
