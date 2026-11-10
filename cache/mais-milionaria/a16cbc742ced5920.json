@@ -1,46 +1,47 @@
 {
   "cookies": {
-    "__uzmc": "302921333231",
-    "__uzmd": "1778733488"
+    "__uzmc": "630801319712",
+    "__uzmd": "1794297357"
   },
-  "created_at": "2026-05-14T04:38:08.766335+00:00",
-  "elapsed": 0.227371,
+  "created_at": "2026-11-10T07:55:57.559208+00:00",
+  "elapsed": 0.441444,
   "encoding": "utf-8",
-  "expires": "2026-11-10T04:38:08.766304+00:00",
+  "expires": "2027-05-09T07:55:57.559179+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Thu, 14 May 2026 04:38:08 GMT",
+    "Date": "Tue, 10 Nov 2026 07:55:57 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=302921333231; HttpOnly; path=/; Expires=Thu, 12-Nov-26 04:38:08 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1778733488; HttpOnly; path=/; Expires=Thu, 12-Nov-26 04:38:08 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=630801319712; HttpOnly; path=/; Expires=Tue, 11-May-27 07:55:57 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1794297357; HttpOnly; path=/; Expires=Tue, 11-May-27 07:55:57 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "ac39881bafab210a7269220c0ddeadbe",
+    "X-Azion-Edge-Location": "SJC",
+    "X-Azion-Request-Id": "83889a74fd2c59aff2d9b1fb8dcb9518",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "005c"
+    "xS": "042"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "5a2743fa-0c22-44f1-bc25-e4b6730a22f5",
-      "__uzmb": "1778733487",
-      "__uzme": "0879",
-      "__uzmc": "674721089931",
-      "__uzmd": "1778733487"
+      "__uzma": "867bc7db-5b66-412a-818e-859d9ae9d519",
+      "__uzmb": "1794297355",
+      "__uzme": "9039",
+      "__uzmc": "971561095394",
+      "__uzmd": "1794297355"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=5a2743fa-0c22-44f1-bc25-e4b6730a22f5; __uzmb=1778733487; __uzme=0879; __uzmc=674721089931; __uzmd=1778733487",
-      "User-Agent": "python-requests/2.34.1"
+      "Cookie": "__uzma=867bc7db-5b66-412a-818e-859d9ae9d519; __uzmb=1794297355; __uzme=9039; __uzmc=971561095394; __uzmd=1794297355",
+      "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
     "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/maismilionaria/353"
