@@ -1,45 +1,41 @@
 {
   "cookies": {
-    "__uzmc": "390041314628",
-    "__uzmd": "1779425755"
+    "__uzma": "c479a893-6816-4689-b965-902bc555f673",
+    "__uzmb": "1794989136",
+    "__uzme": "1799",
+    "__uzmc": "142351079213",
+    "__uzmd": "1794989136"
   },
-  "created_at": "2026-05-22T04:55:55.444791+00:00",
-  "elapsed": 0.257087,
+  "created_at": "2026-11-18T08:05:36.880256+00:00",
+  "elapsed": 0.444125,
   "encoding": "utf-8",
-  "expires": "2026-11-18T04:55:55.444764+00:00",
+  "expires": "2027-05-17T08:05:36.880225+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 22 May 2026 04:55:55 GMT",
+    "Date": "Wed, 18 Nov 2026 08:05:36 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=390041314628; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:55:55 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1779425755; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:55:55 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzma=c479a893-6816-4689-b965-902bc555f673; HttpOnly; path=/; Expires=Wed, 19-May-27 08:05:36 GMT; Max-Age=15724800; SameSite=Lax, __uzmb=1794989136; HttpOnly; path=/; Expires=Wed, 19-May-27 08:05:36 GMT; Max-Age=15724800; SameSite=Lax, __uzme=1799; HttpOnly; path=/; Expires=Wed, 19-May-27 08:05:36 GMT; Max-Age=15724800; SameSite=Lax, __uzmc=142351079213; HttpOnly; path=/; Expires=Wed, 19-May-27 08:05:36 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1794989136; HttpOnly; path=/; Expires=Wed, 19-May-27 08:05:36 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "SEA",
-    "X-Azion-Request-Id": "01bfb2f5f0091a5628768f28d925b5dc",
+    "X-Azion-Edge-Location": "EWR",
+    "X-Azion-Request-Id": "56ed5e1bf55662268ea4e66afa6d65ab",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "001"
+    "xS": "006c"
   },
   "reason": "OK",
   "request": {
-    "cookies": {
-      "__uzma": "4c2e5337-d300-4922-9bc5-cd25d09fa26c",
-      "__uzmb": "1779425753",
-      "__uzme": "9383",
-      "__uzmc": "852241080974",
-      "__uzmd": "1779425753"
-    },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=4c2e5337-d300-4922-9bc5-cd25d09fa26c; __uzmb=1779425753; __uzme=9383; __uzmc=852241080974; __uzmd=1779425753",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",

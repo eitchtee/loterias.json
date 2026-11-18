@@ -1,45 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "479363171229",
-    "__uzmd": "1779425806"
+    "__uzmc": "271613197762",
+    "__uzmd": "1794989175"
   },
-  "created_at": "2026-05-22T04:56:47.197842+00:00",
-  "elapsed": 0.266007,
+  "created_at": "2026-11-18T08:06:15.709613+00:00",
+  "elapsed": 0.238094,
   "encoding": "utf-8",
-  "expires": "2026-11-18T04:56:47.197817+00:00",
+  "expires": "2027-05-17T08:06:15.709589+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Fri, 22 May 2026 04:56:47 GMT",
+    "Date": "Wed, 18 Nov 2026 08:06:15 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=479363171229; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:56:46 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1779425806; HttpOnly; path=/; Expires=Fri, 20-Nov-26 04:56:46 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=271613197762; HttpOnly; path=/; Expires=Wed, 19-May-27 08:06:15 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1794989175; HttpOnly; path=/; Expires=Wed, 19-May-27 08:06:15 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
-    "X-Azion-Edge-Location": "SEA",
-    "X-Azion-Request-Id": "e36440b30e5c93a706d95f0d7f054012",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "507dd27d38b5e8866f9af9457ce7e367",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "054"
+    "xS": "001"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "029a67a1-88b0-40e5-9d01-e77a49f19322",
-      "__uzmb": "1779425804",
-      "__uzme": "2417",
-      "__uzmc": "823532886660",
-      "__uzmd": "1779425806"
+      "__uzma": "2fae9f32-5dbd-470a-af53-d11621a69a60",
+      "__uzmb": "1794989173",
+      "__uzme": "1427",
+      "__uzmc": "271612897762",
+      "__uzmd": "1794989175"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=029a67a1-88b0-40e5-9d01-e77a49f19322; __uzmb=1779425804; __uzme=2417; __uzmc=823532886660; __uzmd=1779425806",
+      "Cookie": "__uzma=2fae9f32-5dbd-470a-af53-d11621a69a60; __uzmb=1794989173; __uzme=1427; __uzmc=271612897762; __uzmd=1794989175",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
@@ -60,7 +61,7 @@
       "71",
       "38"
     ],
-    "exibirDetalhamentoPorCidade": true,
+    "exibirDetalhamentoPorCidade": false,
     "id": null,
     "indicadorConcursoEspecial": 1,
     "listaDezenas": [
