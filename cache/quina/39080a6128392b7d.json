@@ -1,0 +1,131 @@
+{
+  "cookies": {
+    "__uzmc": "673321671898",
+    "__uzmd": "1795076083"
+  },
+  "created_at": "2026-11-19T08:14:43.417856+00:00",
+  "elapsed": 0.240971,
+  "encoding": "utf-8",
+  "expires": "2027-05-18T08:14:43.417827+00:00",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Thu, 19 Nov 2026 08:14:43 GMT",
+    "Expires": "-1",
+    "Pragma": "no-cache",
+    "Set-Cookie": "__uzmc=673321671898; HttpOnly; path=/; Expires=Thu, 20-May-27 08:14:43 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1795076083; HttpOnly; path=/; Expires=Thu, 20-May-27 08:14:43 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Azion-Edge-Location": "IAD",
+    "X-Azion-Request-Id": "211096684f1a2f60b098d6b65c527c1f",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "deny",
+    "X-XSS-Protection": "1; mode=block",
+    "xS": "054"
+  },
+  "reason": "OK",
+  "request": {
+    "cookies": {
+      "__uzma": "4ce70da3-bf59-4d24-97cf-9639dd603fee",
+      "__uzmb": "1795076072",
+      "__uzme": "8175",
+      "__uzmc": "233971348716",
+      "__uzmd": "1795076082"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, zstd",
+      "Connection": "keep-alive",
+      "Cookie": "__uzma=4ce70da3-bf59-4d24-97cf-9639dd603fee; __uzmb=1795076072; __uzme=8175; __uzmc=233971348716; __uzmd=1795076082",
+      "User-Agent": "python-requests/2.34.2"
+    },
+    "method": "GET",
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7170"
+  },
+  "status_code": 200,
+  "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/quina/7170",
+  "_decoded_content": {
+    "acumulado": false,
+    "dataApuracao": "17/11/2026",
+    "dataProximoConcurso": "18/11/2026",
+    "dezenasSorteadasOrdemSorteio": [
+      "53",
+      "19",
+      "11",
+      "07",
+      "03"
+    ],
+    "exibirDetalhamentoPorCidade": false,
+    "id": null,
+    "indicadorConcursoEspecial": 1,
+    "listaDezenas": [
+      "03",
+      "07",
+      "11",
+      "19",
+      "53"
+    ],
+    "listaDezenasSegundoSorteio": null,
+    "listaMunicipioUFGanhadores": [
+      {
+        "ganhadores": 1,
+        "municipio": "SAO JOSE DE RIBAMAR",
+        "nomeFatansiaUL": "",
+        "posicao": 1,
+        "serie": "",
+        "uf": "MA"
+      }
+    ],
+    "listaRateioPremio": [
+      {
+        "descricaoFaixa": "5 acertos",
+        "faixa": 1,
+        "numeroDeGanhadores": 1,
+        "valorPremio": 14511338.5
+      },
+      {
+        "descricaoFaixa": "4 acertos",
+        "faixa": 2,
+        "numeroDeGanhadores": 228,
+        "valorPremio": 2220.5
+      },
+      {
+        "descricaoFaixa": "3 acertos",
+        "faixa": 3,
+        "numeroDeGanhadores": 10665,
+        "valorPremio": 45.21
+      },
+      {
+        "descricaoFaixa": "2 acertos",
+        "faixa": 4,
+        "numeroDeGanhadores": 164957,
+        "valorPremio": 2.92
+      }
+    ],
+    "listaResultadoEquipeEsportiva": null,
+    "localSorteio": "ESPA\u00c7O DA SORTE",
+    "nomeMunicipioUFSorteio": "S\u00c3O PAULO, SP",
+    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "numero": 7170,
+    "numeroConcursoAnterior": 7169,
+    "numeroConcursoFinal_0_5": 7175,
+    "numeroConcursoProximo": 7171,
+    "numeroJogo": 3,
+    "observacao": "",
+    "premiacaoContingencia": null,
+    "tipoJogo": "QUINA",
+    "tipoPublicacao": 3,
+    "ultimoConcurso": true,
+    "valorArrecadado": 11010861.0,
+    "valorAcumuladoConcurso_0_5": 2911761.85,
+    "valorAcumuladoConcursoEspecial": 57204872.34,
+    "valorAcumuladoProximoConcurso": 0.0,
+    "valorEstimadoProximoConcurso": 600000.0,
+    "valorSaldoReservaGarantidora": 0.0,
+    "valorTotalPremioFaixaUm": 0.0
+  }
+}
