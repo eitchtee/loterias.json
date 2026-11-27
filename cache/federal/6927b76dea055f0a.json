@@ -1,45 +1,46 @@
 {
   "cookies": {
-    "__uzmc": "840716771088",
-    "__uzmd": "1780204415"
+    "__uzmc": "116336741519",
+    "__uzmd": "1795771172"
   },
-  "created_at": "2026-05-31T05:13:35.532083+00:00",
-  "elapsed": 0.223864,
+  "created_at": "2026-11-27T09:19:32.338551+00:00",
+  "elapsed": 0.209614,
   "encoding": "utf-8",
-  "expires": "2026-11-27T05:13:35.532045+00:00",
+  "expires": "2027-05-26T09:19:32.338522+00:00",
   "headers": {
     "Cache-Control": "no-cache",
     "Connection": "keep-alive",
     "Content-Encoding": "gzip",
     "Content-Type": "application/json",
     "Cross-Origin-Opener-Policy": "same-origin",
-    "Date": "Sun, 31 May 2026 05:13:35 GMT",
+    "Date": "Fri, 27 Nov 2026 09:19:32 GMT",
     "Expires": "-1",
     "Pragma": "no-cache",
-    "Set-Cookie": "__uzmc=840716771088; HttpOnly; path=/; Expires=Sun, 29-Nov-26 05:13:35 GMT ; Max-Age=15724800; SameSite=Lax, __uzmd=1780204415; HttpOnly; path=/; Expires=Sun, 29-Nov-26 05:13:35 GMT ; Max-Age=15724800; SameSite=Lax",
+    "Set-Cookie": "__uzmc=116336741519; HttpOnly; path=/; Expires=Fri, 28-May-27 09:19:32 GMT; Max-Age=15724800; SameSite=Lax, __uzmd=1795771172; HttpOnly; path=/; Expires=Fri, 28-May-27 09:19:32 GMT; Max-Age=15724800; SameSite=Lax",
+    "ShieldSquare-Response": "0",
     "Transfer-Encoding": "chunked",
     "Vary": "Accept-Encoding",
     "X-Azion-Edge-Location": "IAD",
-    "X-Azion-Request-Id": "7462ae86b78542fcfe501a7919824bb1",
+    "X-Azion-Request-Id": "47e58a1d6da7bf02040ff416cef8c941",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "deny",
     "X-XSS-Protection": "1; mode=block",
-    "xS": "042"
+    "xS": "021"
   },
   "reason": "OK",
   "request": {
     "cookies": {
-      "__uzma": "e82d424a-6745-423d-9230-64ff366d8d8c",
-      "__uzmb": "1780204401",
-      "__uzme": "7114",
-      "__uzmc": "963326474450",
-      "__uzmd": "1780204414"
+      "__uzma": "2e47cf75-7a32-4bff-a48f-3bd204999daa",
+      "__uzmb": "1795771161",
+      "__uzme": "6431",
+      "__uzmc": "211046489554",
+      "__uzmd": "1795771171"
     },
     "headers": {
       "Accept": "*/*",
       "Accept-Encoding": "gzip, deflate, zstd",
       "Connection": "keep-alive",
-      "Cookie": "__uzma=e82d424a-6745-423d-9230-64ff366d8d8c; __uzmb=1780204401; __uzme=7114; __uzmc=963326474450; __uzmd=1780204414",
+      "Cookie": "__uzma=2e47cf75-7a32-4bff-a48f-3bd204999daa; __uzmb=1795771161; __uzme=6431; __uzmc=211046489554; __uzmd=1795771171",
       "User-Agent": "python-requests/2.34.2"
     },
     "method": "GET",
@@ -50,7 +51,7 @@
   "_decoded_content": {
     "acumulado": false,
     "dataApuracao": "27/05/2026",
-    "dataProximoConcurso": "",
+    "dataProximoConcurso": "30/05/2026",
     "dezenasSorteadasOrdemSorteio": [
       "074090",
       "040524",
@@ -97,7 +98,7 @@
       {
         "ganhadores": 0,
         "municipio": "CAMPINAS",
-        "nomeFatansiaUL": "PORTAL DO CAMBUI LOTERIAS",
+        "nomeFatansiaUL": "CAMPINAS DA SORTE LOTERIAS - CAMBUI",
         "posicao": 3,
         "serie": "A",
         "uf": "SP"
